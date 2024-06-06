@@ -1,0 +1,6 @@
+Time: 17/09/2023 12:08:17 AM
+Message: Exception on OnGetCheckImages - System.UriFormatException: Invalid URI: The URI is empty.
+   at System.Uri.CreateThis(String uri, Boolean dontEscape, UriKind uriKind, UriCreationOptions& creationOptions)
+   at System.Uri..ctor(String uriString)
+   at IBCS_Core_Web_Portal.Pages.Marking.CityboardModel.OnGetCheckImages(String hostId) in D:\Ali Raza\IBCS Core Web Portal\IBCS Core Web Portal\Pages\Scoreboard\Cityboard.cshtml.cs:line 533
+

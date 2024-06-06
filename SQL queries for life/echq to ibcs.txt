@@ -1,0 +1,120 @@
+INSERT INTO [dbo].[tbl_ChequeIssue]
+           ([UserId]
+           ,[UserAccountID]
+           ,[BeneficiaryID]
+           ,[AccountNo]
+           ,[ChequeDate]
+           ,[ChequeNo]
+           ,[Amount]
+           ,[AmountInWord]
+           ,[PaymentDetails]
+           ,[Purpose]
+           ,[Status])
+
+1	4	4	10	6666666666666	27/05/2022	7000003	6000.00	SIX THOUSAND  RUPEES ONLY.	HgGsgs	Donation	4
+2	4	4	11	6666666666666	29/05/2022	7000004	6000000.00	SIX MILLION  RUPEES ONLY.	Test	Education	4
+3	1	1	5	Pl12345677891010202	28/05/2022	7000007	10000.00	TEN THOUSAND  RUPEES ONLY.	Gavavv	Donation	4
+
+
+
+
+----------------------------------------------
+
+
+
+select * from tbl_ChequeIssue
+
+	   [hostID] autogenerate
+
+      ,[ProID] 
+      ,[capturedate] - ChequeDate (datetime)
+      ,[runno] - hardcode
+      ,[batchno]
+      ,[siteid]
+      ,[sorterno]
+      ,[dinno]
+      ,[senderbank] - from MICR
+      ,[senderbranch] - from MICR
+      ,[receiverbank]
+      ,[receiverbranch]
+      ,[chqno] - ChequeNo
+      ,[accno] - AccountNo
+      ,[amt] - Amount
+      ,[trancode] - from MICR
+      ,[onus]
+      ,[idxno]
+      ,[cycleno]
+      ,[hosttime]
+      ,[ffilepointer]
+      ,[ffilesize]
+      ,[bfilepointer]
+      ,[bfilesize]
+      ,[HostCoverID]
+      ,[NonPrime]
+      ,[UVfilepointer]
+      ,[UVfilesize]
+      ,[FakeTag]
+      ,[Undersize_Image]
+      ,[Folded_or_Torn_Document_Corners]
+      ,[Folded_or_Torn_Document_Edges]
+      ,[Framing_Error]
+      ,[Document_Skew]
+      ,[Oversize_Image]
+      ,[Piggy_Back]
+      ,[Image_Too_Light]
+      ,[Image_Too_Dark]
+      ,[Horizontal_Streaks]
+      ,[Below_Minimum_Compressed_Image_Size]
+      ,[Above_Maximum_Compressed_Image_Size]
+      ,[Spot_Noise]
+      ,[Front_Rear_Dimension_Mismatch]
+      ,[Carbon_Strip]
+      ,[Out_of_Focus]
+      ,[IQATag]
+      ,[barcodeMatch]
+      ,[UVStr]
+      ,[Duplicate]
+      ,[Average_Amount]
+      ,[Clg_Chq_Count]
+      ,[MICR_Present]
+      ,[STD_Non_STD]
+      ,[Water_Mark]
+      ,[Status]
+      ,[ReasonID]
+      ,[Reason]
+      ,[TruncTime]
+      ,[TruncBy]
+      ,[Settled]
+      ,[SetTime]
+      ,[SetBy]
+      ,[AuthBy]
+      ,[AuthDateTime]
+      ,[isAuth]
+      ,[Rtn_Chq_Count]
+      ,[ReasonID2]
+      ,[Reason2]
+      ,[ReasonID3]
+      ,[Reason3]
+      ,[Comment1]
+      ,[Comment2]
+      ,[Comment3]
+      ,[isDeffer]
+      ,[Comment1By]
+      ,[Comment2By]
+      ,[Comment3By]
+      ,[Comment1Date]
+      ,[Comment2Date]
+      ,[Comment3Date]
+      ,[bDownload]
+
+
+	  [ProID]
+      ,[Processdate]
+      ,[imagefile]
+      ,[UserLogID]
+      ,[CycleNo]
+      ,[CityID]
+      ,[ToCityID]
+      ,[Startdatetime]
+      ,[Finishdatetime]
+      ,[IsExported]

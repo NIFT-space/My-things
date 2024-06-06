@@ -1,0 +1,318 @@
+09/17/2023 16:21:10 :|ExecuteQuery :: sp_get_Inst_UserID '1' , '999': error : System.Data.SqlClient.SqlException (0x80131904): Timeout expired.  The timeout period elapsed prior to completion of the operation or the server is not responding.
+ ---> System.ComponentModel.Win32Exception (258): Unknown error 258
+   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlDataReader.TryConsumeMetaData()
+   at System.Data.SqlClient.SqlDataReader.get_MetaData()
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, SqlDataReader ds)
+   at System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.FillInternal(DataSet dataset, DataTable[] datatables, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.Fill(DataSet dataSet, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.Fill(DataSet dataSet)
+   at IBCS_API.DAL.DBFactory.ExecuteQuery(String sql) in D:\Ali Raza\Marium\IBCS\IBCS portal 28062023\IBCS Portal\IBCS_API\IBCS_API\DAL\DBFactory.cs:line 70
+ClientConnectionId:a0cf4fb1-50ba-408c-87f0-d82046188e5c
+Error Number:-2,State:0,Class:11
+09/17/2023 16:27:10 :|ExecuteQuery :: sp_get_Inst_UserID '1' , '999': error : System.Data.SqlClient.SqlException (0x80131904): Timeout expired.  The timeout period elapsed prior to completion of the operation or the server is not responding.
+ ---> System.ComponentModel.Win32Exception (258): Unknown error 258
+   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlDataReader.TryConsumeMetaData()
+   at System.Data.SqlClient.SqlDataReader.get_MetaData()
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, SqlDataReader ds)
+   at System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.FillInternal(DataSet dataset, DataTable[] datatables, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.Fill(DataSet dataSet, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.Fill(DataSet dataSet)
+   at IBCS_API.DAL.DBFactory.ExecuteQuery(String sql) in D:\Ali Raza\Marium\IBCS\IBCS portal 28062023\IBCS Portal\IBCS_API\IBCS_API\DAL\DBFactory.cs:line 70
+ClientConnectionId:b353bb2e-3a21-4aec-af89-4fe272990c45
+Error Number:-2,State:0,Class:11
+09/17/2023 16:34:39 :|ExecuteQuery :: sp_get_Inst_UserID '1' , '999': error : System.Data.SqlClient.SqlException (0x80131904): Timeout expired.  The timeout period elapsed prior to completion of the operation or the server is not responding.
+ ---> System.ComponentModel.Win32Exception (258): Unknown error 258
+   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlDataReader.TryConsumeMetaData()
+   at System.Data.SqlClient.SqlDataReader.get_MetaData()
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, SqlDataReader ds)
+   at System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.FillInternal(DataSet dataset, DataTable[] datatables, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.Fill(DataSet dataSet, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.Fill(DataSet dataSet)
+   at IBCS_API.DAL.DBFactory.ExecuteQuery(String sql) in D:\Ali Raza\Marium\IBCS\IBCS portal 28062023\IBCS Portal\IBCS_API\IBCS_API\DAL\DBFactory.cs:line 70
+ClientConnectionId:6596cd51-0ac6-494f-b63f-743e1628e862
+Error Number:-2,State:0,Class:11
+09/17/2023 16:35:34 :|ExecuteQuery :: sp_get_Inst_UserID '1' , '999': error : System.Data.SqlClient.SqlException (0x80131904): Timeout expired.  The timeout period elapsed prior to completion of the operation or the server is not responding.
+ ---> System.ComponentModel.Win32Exception (258): Unknown error 258
+   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlDataReader.TryConsumeMetaData()
+   at System.Data.SqlClient.SqlDataReader.get_MetaData()
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, SqlDataReader ds)
+   at System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.FillInternal(DataSet dataset, DataTable[] datatables, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.Fill(DataSet dataSet, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.Fill(DataSet dataSet)
+   at IBCS_API.DAL.DBFactory.ExecuteQuery(String sql) in D:\Ali Raza\Marium\IBCS\IBCS portal 28062023\IBCS Portal\IBCS_API\IBCS_API\DAL\DBFactory.cs:line 70
+ClientConnectionId:6596cd51-0ac6-494f-b63f-743e1628e862
+Error Number:-2,State:0,Class:11
+09/17/2023 16:36:26 :|ExecuteQuery :: sp_get_Inst_UserID '1' , '999': error : System.Data.SqlClient.SqlException (0x80131904): Timeout expired.  The timeout period elapsed prior to completion of the operation or the server is not responding.
+ ---> System.ComponentModel.Win32Exception (258): Unknown error 258
+   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlDataReader.TryConsumeMetaData()
+   at System.Data.SqlClient.SqlDataReader.get_MetaData()
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, SqlDataReader ds)
+   at System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.FillInternal(DataSet dataset, DataTable[] datatables, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.Fill(DataSet dataSet, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.Fill(DataSet dataSet)
+   at IBCS_API.DAL.DBFactory.ExecuteQuery(String sql) in D:\Ali Raza\Marium\IBCS\IBCS portal 28062023\IBCS Portal\IBCS_API\IBCS_API\DAL\DBFactory.cs:line 70
+ClientConnectionId:6596cd51-0ac6-494f-b63f-743e1628e862
+Error Number:-2,State:0,Class:11
+09/17/2023 16:39:39 :|ExecuteQuery :: sp_get_Inst_UserID '1' , '999': error : System.Data.SqlClient.SqlException (0x80131904): Timeout expired.  The timeout period elapsed prior to completion of the operation or the server is not responding.
+ ---> System.ComponentModel.Win32Exception (258): Unknown error 258
+   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlDataReader.TryConsumeMetaData()
+   at System.Data.SqlClient.SqlDataReader.get_MetaData()
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, SqlDataReader ds)
+   at System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.FillInternal(DataSet dataset, DataTable[] datatables, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.Fill(DataSet dataSet, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.Fill(DataSet dataSet)
+   at IBCS_API.DAL.DBFactory.ExecuteQuery(String sql) in D:\Ali Raza\Marium\IBCS\IBCS portal 28062023\IBCS Portal\IBCS_API\IBCS_API\DAL\DBFactory.cs:line 70
+ClientConnectionId:4a48a922-6e12-42dd-8f28-a8f029b4bf1f
+Error Number:-2,State:0,Class:11
+09/17/2023 16:42:07 :|ExecuteQuery :: sp_get_Inst_UserID '1' , '999': error : System.Data.SqlClient.SqlException (0x80131904): Timeout expired.  The timeout period elapsed prior to completion of the operation or the server is not responding.
+ ---> System.ComponentModel.Win32Exception (258): Unknown error 258
+   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlDataReader.TryConsumeMetaData()
+   at System.Data.SqlClient.SqlDataReader.get_MetaData()
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, SqlDataReader ds)
+   at System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.FillInternal(DataSet dataset, DataTable[] datatables, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.Fill(DataSet dataSet, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.Fill(DataSet dataSet)
+   at IBCS_API.DAL.DBFactory.ExecuteQuery(String sql) in D:\Ali Raza\Marium\IBCS\IBCS portal 28062023\IBCS Portal\IBCS_API\IBCS_API\DAL\DBFactory.cs:line 70
+ClientConnectionId:4a48a922-6e12-42dd-8f28-a8f029b4bf1f
+Error Number:-2,State:0,Class:11
+09/17/2023 16:45:51 :|ExecuteQuery ::  Select * from vTransactionwise ('2023-09-15 00:00:00',62): error : System.Data.SqlClient.SqlException (0x80131904): Timeout expired.  The timeout period elapsed prior to completion of the operation or the server is not responding.
+ ---> System.ComponentModel.Win32Exception (258): Unknown error 258
+   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlDataReader.TryConsumeMetaData()
+   at System.Data.SqlClient.SqlDataReader.get_MetaData()
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, SqlDataReader ds)
+   at System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.FillInternal(DataSet dataset, DataTable[] datatables, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.Fill(DataSet dataSet, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.Fill(DataSet dataSet)
+   at IBCS_API.DAL.DBFactory.ExecuteQuery(String sql) in D:\Ali Raza\Marium\IBCS\IBCS portal 28062023\IBCS Portal\IBCS_API\IBCS_API\DAL\DBFactory.cs:line 70
+ClientConnectionId:e9622449-0557-47b9-9cd6-e87724c73dc7
+Error Number:-2,State:0,Class:11
+09/17/2023 16:46:12 :|ExecuteQuery ::  Select * from vNetScore_Pakwise ('2023-09-15 00:00:00',62): error : System.Data.SqlClient.SqlException (0x80131904): A connection was successfully established with the server, but then an error occurred during the pre-login handshake. (provider: SSL Provider, error: 31 - Encryption(ssl/tls) handshake failed)
+ ---> System.IO.EndOfStreamException: End of stream reached
+   at System.Data.SqlClient.SNI.SslOverTdsStream.ReadInternal(Byte[] buffer, Int32 offset, Int32 count, CancellationToken token, Boolean async)
+   at System.Data.SqlClient.SNI.SslOverTdsStream.Read(Byte[] buffer, Int32 offset, Int32 count)
+   at System.IO.Stream.Read(Span`1 buffer)
+   at System.Net.Security.SslStream.EnsureFullTlsFrameAsync[TIOAdapter](CancellationToken cancellationToken)
+   at System.Runtime.CompilerServices.PoolingAsyncValueTaskMethodBuilder`1.StateMachineBox`1.System.Threading.Tasks.Sources.IValueTaskSource<TResult>.GetResult(Int16 token)
+   at System.Net.Security.SslStream.ReceiveBlobAsync[TIOAdapter](CancellationToken cancellationToken)
+   at System.Net.Security.SslStream.ForceAuthenticationAsync[TIOAdapter](Boolean receiveFirst, Byte[] reAuthenticationData, CancellationToken cancellationToken)
+   at System.Net.Security.SslStream.AuthenticateAsClient(SslClientAuthenticationOptions sslClientAuthenticationOptions)
+   at System.Data.SqlClient.SNI.SNITCPHandle.EnableSsl(UInt32 options)
+   at System.Data.SqlClient.SNI.SNIProxy.EnableSsl(SNIHandle handle, UInt32 options)
+   at System.Data.SqlClient.SqlInternalConnectionTds..ctor(DbConnectionPoolIdentity identity, SqlConnectionString connectionOptions, SqlCredential credential, Object providerInfo, String newPassword, SecureString newSecurePassword, Boolean redirectedUserInstance, SqlConnectionString userConnectionOptions, SessionData reconnectSessionData, Boolean applyTransientFaultHandling, String accessToken)
+   at System.Data.SqlClient.SqlConnectionFactory.CreateConnection(DbConnectionOptions options, DbConnectionPoolKey poolKey, Object poolGroupProviderInfo, DbConnectionPool pool, DbConnection owningConnection, DbConnectionOptions userOptions)
+   at System.Data.ProviderBase.DbConnectionFactory.CreatePooledConnection(DbConnectionPool pool, DbConnection owningObject, DbConnectionOptions options, DbConnectionPoolKey poolKey, DbConnectionOptions userOptions)
+   at System.Data.ProviderBase.DbConnectionPool.CreateObject(DbConnection owningObject, DbConnectionOptions userOptions, DbConnectionInternal oldConnection)
+   at System.Data.ProviderBase.DbConnectionPool.UserCreateRequest(DbConnection owningObject, DbConnectionOptions userOptions, DbConnectionInternal oldConnection)
+   at System.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, UInt32 waitForMultipleObjectsTimeout, Boolean allowCreate, Boolean onlyOneCheckConnection, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   at System.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   at System.Data.ProviderBase.DbConnectionFactory.TryGetConnection(DbConnection owningConnection, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal oldConnection, DbConnectionInternal& connection)
+   at System.Data.ProviderBase.DbConnectionInternal.TryOpenConnectionInternal(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   at System.Data.SqlClient.SqlConnection.TryOpen(TaskCompletionSource`1 retry)
+   at System.Data.SqlClient.SqlConnection.Open()
+   at System.Data.Common.DbDataAdapter.FillInternal(DataSet dataset, DataTable[] datatables, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.Fill(DataSet dataSet, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.Fill(DataSet dataSet)
+   at IBCS_API.DAL.DBFactory.ExecuteQuery(String sql) in D:\Ali Raza\Marium\IBCS\IBCS portal 28062023\IBCS Portal\IBCS_API\IBCS_API\DAL\DBFactory.cs:line 70
+ClientConnectionId:8acf8d5a-8057-4cde-bca9-bcf350129396
+09/17/2023 16:46:25 :|ExecuteQuery ::  Select * from vTransactionwise ('2023-09-15 00:00:00',62): error : System.Data.SqlClient.SqlException (0x80131904): Timeout expired.  The timeout period elapsed prior to completion of the operation or the server is not responding.
+ ---> System.ComponentModel.Win32Exception (258): Unknown error 258
+   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlDataReader.TryConsumeMetaData()
+   at System.Data.SqlClient.SqlDataReader.get_MetaData()
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, SqlDataReader ds)
+   at System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.FillInternal(DataSet dataset, DataTable[] datatables, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.Fill(DataSet dataSet, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.Fill(DataSet dataSet)
+   at IBCS_API.DAL.DBFactory.ExecuteQuery(String sql) in D:\Ali Raza\Marium\IBCS\IBCS portal 28062023\IBCS Portal\IBCS_API\IBCS_API\DAL\DBFactory.cs:line 70
+ClientConnectionId:e9622449-0557-47b9-9cd6-e87724c73dc7
+Error Number:-2,State:0,Class:11
+09/17/2023 16:48:03 :|ExecuteQuery :: sp_get_Inst_UserID '26894' , '62': error : System.Data.SqlClient.SqlException (0x80131904): A transport-level error has occurred when receiving results from the server. (provider: TCP Provider, error: 35 - An internal exception was caught)
+ ---> System.IO.IOException: Unable to read data from the transport connection: Connection reset by peer.
+ ---> System.Net.Sockets.SocketException (104): Connection reset by peer
+   at System.Net.Sockets.NetworkStream.Read(Byte[] buffer, Int32 offset, Int32 count)
+   --- End of inner exception stack trace ---
+   at System.Net.Sockets.NetworkStream.Read(Byte[] buffer, Int32 offset, Int32 count)
+   at System.Data.SqlClient.SNI.SNITCPHandle.Receive(SNIPacket& packet, Int32 timeoutInMilliseconds)
+   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParserStateObject.ThrowExceptionAndWarning(Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParserStateObject.ReadSniError(TdsParserStateObject stateObj, UInt32 error)
+   at System.Data.SqlClient.TdsParserStateObject.ReadSniSyncOverAsync()
+   at System.Data.SqlClient.TdsParserStateObject.TryReadNetworkPacket()
+   at System.Data.SqlClient.TdsParserStateObject.TryPrepareBuffer()
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlDataReader.TryConsumeMetaData()
+   at System.Data.SqlClient.SqlDataReader.get_MetaData()
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, SqlDataReader ds)
+   at System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.FillInternal(DataSet dataset, DataTable[] datatables, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.Fill(DataSet dataSet, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.Fill(DataSet dataSet)
+   at IBCS_API.DAL.DBFactory.ExecuteQuery(String sql) in D:\Ali Raza\Marium\IBCS\IBCS portal 28062023\IBCS Portal\IBCS_API\IBCS_API\DAL\DBFactory.cs:line 70
+ClientConnectionId:0fe11801-d717-480d-89fc-9d598cf768d9
+09/17/2023 16:48:03 :|ExecuteQuery :: sp_get_Cities_UserID '26894': error : System.Data.SqlClient.SqlException (0x80131904): A transport-level error has occurred when receiving results from the server. (provider: TCP Provider, error: 35 - An internal exception was caught)
+ ---> System.IO.IOException: Unable to read data from the transport connection: Connection reset by peer.
+ ---> System.Net.Sockets.SocketException (104): Connection reset by peer
+   at System.Net.Sockets.NetworkStream.Read(Byte[] buffer, Int32 offset, Int32 count)
+   --- End of inner exception stack trace ---
+   at System.Net.Sockets.NetworkStream.Read(Byte[] buffer, Int32 offset, Int32 count)
+   at System.Data.SqlClient.SNI.SNITCPHandle.Receive(SNIPacket& packet, Int32 timeoutInMilliseconds)
+   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParserStateObject.ThrowExceptionAndWarning(Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParserStateObject.ReadSniError(TdsParserStateObject stateObj, UInt32 error)
+   at System.Data.SqlClient.TdsParserStateObject.ReadSniSyncOverAsync()
+   at System.Data.SqlClient.TdsParserStateObject.TryReadNetworkPacket()
+   at System.Data.SqlClient.TdsParserStateObject.TryPrepareBuffer()
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlDataReader.TryConsumeMetaData()
+   at System.Data.SqlClient.SqlDataReader.get_MetaData()
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, SqlDataReader ds)
+   at System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.FillInternal(DataSet dataset, DataTable[] datatables, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.Fill(DataSet dataSet, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.Fill(DataSet dataSet)
+   at IBCS_API.DAL.DBFactory.ExecuteQuery(String sql) in D:\Ali Raza\Marium\IBCS\IBCS portal 28062023\IBCS Portal\IBCS_API\IBCS_API\DAL\DBFactory.cs:line 70
+ClientConnectionId:5340602d-1ba5-4bb9-80bb-ef72102e3f5d
+09/17/2023 16:48:14 :|ExecuteQuery :: sp_get_CycleReturn : error : System.Data.SqlClient.SqlException (0x80131904): A connection was successfully established with the server, but then an error occurred during the pre-login handshake. (provider: TCP Provider, error: 35 - An internal exception was caught)
+ ---> System.IO.IOException: Unable to read data from the transport connection: Connection reset by peer.
+ ---> System.Net.Sockets.SocketException (104): Connection reset by peer
+   at System.Net.Sockets.NetworkStream.Read(Byte[] buffer, Int32 offset, Int32 count)
+   --- End of inner exception stack trace ---
+   at System.Net.Sockets.NetworkStream.Read(Byte[] buffer, Int32 offset, Int32 count)
+   at System.Data.SqlClient.SNI.SNITCPHandle.Receive(SNIPacket& packet, Int32 timeoutInMilliseconds)
+   at System.Data.SqlClient.SqlInternalConnectionTds..ctor(DbConnectionPoolIdentity identity, SqlConnectionString connectionOptions, SqlCredential credential, Object providerInfo, String newPassword, SecureString newSecurePassword, Boolean redirectedUserInstance, SqlConnectionString userConnectionOptions, SessionData reconnectSessionData, Boolean applyTransientFaultHandling, String accessToken)
+   at System.Data.SqlClient.SqlConnectionFactory.CreateConnection(DbConnectionOptions options, DbConnectionPoolKey poolKey, Object poolGroupProviderInfo, DbConnectionPool pool, DbConnection owningConnection, DbConnectionOptions userOptions)
+   at System.Data.ProviderBase.DbConnectionFactory.CreatePooledConnection(DbConnectionPool pool, DbConnection owningObject, DbConnectionOptions options, DbConnectionPoolKey poolKey, DbConnectionOptions userOptions)
+   at System.Data.ProviderBase.DbConnectionPool.CreateObject(DbConnection owningObject, DbConnectionOptions userOptions, DbConnectionInternal oldConnection)
+   at System.Data.ProviderBase.DbConnectionPool.UserCreateRequest(DbConnection owningObject, DbConnectionOptions userOptions, DbConnectionInternal oldConnection)
+   at System.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, UInt32 waitForMultipleObjectsTimeout, Boolean allowCreate, Boolean onlyOneCheckConnection, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   at System.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   at System.Data.ProviderBase.DbConnectionFactory.TryGetConnection(DbConnection owningConnection, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal oldConnection, DbConnectionInternal& connection)
+   at System.Data.ProviderBase.DbConnectionInternal.TryOpenConnectionInternal(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   at System.Data.SqlClient.SqlConnection.TryOpen(TaskCompletionSource`1 retry)
+   at System.Data.SqlClient.SqlConnection.Open()
+   at System.Data.Common.DbDataAdapter.FillInternal(DataSet dataset, DataTable[] datatables, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.Fill(DataSet dataSet, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.Fill(DataSet dataSet)
+   at IBCS_API.DAL.DBFactory.ExecuteQuery(String sql) in D:\Ali Raza\Marium\IBCS\IBCS portal 28062023\IBCS Portal\IBCS_API\IBCS_API\DAL\DBFactory.cs:line 70
+ClientConnectionId:0593062b-acae-4d74-b251-1d0d67795122
+09/17/2023 16:48:14 :|ExecuteQuery :: sp_BkAdvice_get_Report_Files 26894, 50, 2, '2023-09-13 00:00:00', '2023-09-13 23:59:00', 62 , 'df%': error : System.Data.SqlClient.SqlException (0x80131904): A connection was successfully established with the server, but then an error occurred during the pre-login handshake. (provider: TCP Provider, error: 35 - An internal exception was caught)
+ ---> System.IO.IOException: Unable to read data from the transport connection: Connection reset by peer.
+ ---> System.Net.Sockets.SocketException (104): Connection reset by peer
+   at System.Net.Sockets.NetworkStream.Read(Byte[] buffer, Int32 offset, Int32 count)
+   --- End of inner exception stack trace ---
+   at System.Net.Sockets.NetworkStream.Read(Byte[] buffer, Int32 offset, Int32 count)
+   at System.Data.SqlClient.SNI.SNITCPHandle.Receive(SNIPacket& packet, Int32 timeoutInMilliseconds)
+   at System.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, UInt32 waitForMultipleObjectsTimeout, Boolean allowCreate, Boolean onlyOneCheckConnection, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   at System.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   at System.Data.ProviderBase.DbConnectionFactory.TryGetConnection(DbConnection owningConnection, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal oldConnection, DbConnectionInternal& connection)
+   at System.Data.ProviderBase.DbConnectionInternal.TryOpenConnectionInternal(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   at System.Data.SqlClient.SqlConnection.TryOpen(TaskCompletionSource`1 retry)
+   at System.Data.SqlClient.SqlConnection.Open()
+   at System.Data.Common.DbDataAdapter.FillInternal(DataSet dataset, DataTable[] datatables, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.Fill(DataSet dataSet, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.Fill(DataSet dataSet)
+   at IBCS_API.DAL.DBFactory.ExecuteQuery(String sql) in D:\Ali Raza\Marium\IBCS\IBCS portal 28062023\IBCS Portal\IBCS_API\IBCS_API\DAL\DBFactory.cs:line 70
+ClientConnectionId:0593062b-acae-4d74-b251-1d0d67795122
+09/17/2023 16:49:00 :|ExecuteQuery :: sp_vTransactionwiseInward '2023-09-15 00:00:00','62','1','5','10' : error : System.Data.SqlClient.SqlException (0x80131904): A transport-level error has occurred when receiving results from the server. (provider: TCP Provider, error: 35 - An internal exception was caught)
+ ---> System.IO.IOException: Unable to read data from the transport connection: Connection reset by peer.
+ ---> System.Net.Sockets.SocketException (104): Connection reset by peer
+   at System.Net.Sockets.NetworkStream.Read(Byte[] buffer, Int32 offset, Int32 count)
+   --- End of inner exception stack trace ---
+   at System.Net.Sockets.NetworkStream.Read(Byte[] buffer, Int32 offset, Int32 count)
+   at System.Data.SqlClient.SNI.SNITCPHandle.Receive(SNIPacket& packet, Int32 timeoutInMilliseconds)
+   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParserStateObject.ThrowExceptionAndWarning(Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParserStateObject.ReadSniError(TdsParserStateObject stateObj, UInt32 error)
+   at System.Data.SqlClient.TdsParserStateObject.ReadSniSyncOverAsync()
+   at System.Data.SqlClient.TdsParserStateObject.TryReadNetworkPacket()
+   at System.Data.SqlClient.TdsParserStateObject.TryPrepareBuffer()
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlDataReader.TryConsumeMetaData()
+   at System.Data.SqlClient.SqlDataReader.get_MetaData()
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, SqlDataReader ds)
+   at System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.FillInternal(DataSet dataset, DataTable[] datatables, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.Fill(DataSet dataSet, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.Fill(DataSet dataSet)
+   at IBCS_API.DAL.DBFactory.ExecuteQuery(String sql) in D:\Ali Raza\Marium\IBCS\IBCS portal 28062023\IBCS Portal\IBCS_API\IBCS_API\DAL\DBFactory.cs:line 70
+ClientConnectionId:e9622449-0557-47b9-9cd6-e87724c73dc7
+09/17/2023 17:23:34 :|Marking/Inwardauthorization/LoadDataFromDB :: : error Exception : System.OverflowException: Value was either too large or too small for an Int32.
+   at System.Decimal.ToInt32(Decimal d)
+   at System.Decimal.System.IConvertible.ToInt32(IFormatProvider provider)
+   at IBCS_API.DAL.DBFactoryImgSer.getLoadDataFromDB(LoadDataDBRequest req) in D:\Ali Raza\Marium\IBCS\IBCS portal 28062023\IBCS Portal\IBCS_API\IBCS_API\DAL\DBFactoryImgSer.cs:line 464
+   at IBCS_API.Controllers.Marking.InwardauthorizationController.LoadDataFromDB(LoadDataDBRequest req) in D:\Ali Raza\Marium\IBCS\IBCS portal 28062023\IBCS Portal\IBCS_API\IBCS_API\Controllers\Marking\InwardauthorizationController.cs:line 119
+09/17/2023 17:23:36 :|Marking/Inwardauthorization/LoadDataFromDB :: : error Exception : System.OverflowException: Value was either too large or too small for an Int32.
+   at System.Decimal.ToInt32(Decimal d)
+   at System.Decimal.System.IConvertible.ToInt32(IFormatProvider provider)
+   at IBCS_API.DAL.DBFactoryImgSer.getLoadDataFromDB(LoadDataDBRequest req) in D:\Ali Raza\Marium\IBCS\IBCS portal 28062023\IBCS Portal\IBCS_API\IBCS_API\DAL\DBFactoryImgSer.cs:line 464
+   at IBCS_API.Controllers.Marking.InwardauthorizationController.LoadDataFromDB(LoadDataDBRequest req) in D:\Ali Raza\Marium\IBCS\IBCS portal 28062023\IBCS Portal\IBCS_API\IBCS_API\Controllers\Marking\InwardauthorizationController.cs:line 119
+09/17/2023 17:24:31 :|Marking/Inwardauthorization/LoadDataFromDB :: : error Exception : System.OverflowException: Value was either too large or too small for an Int32.
+   at System.Decimal.ToInt32(Decimal d)
+   at System.Decimal.System.IConvertible.ToInt32(IFormatProvider provider)
+   at IBCS_API.DAL.DBFactoryImgSer.getLoadDataFromDB(LoadDataDBRequest req) in D:\Ali Raza\Marium\IBCS\IBCS portal 28062023\IBCS Portal\IBCS_API\IBCS_API\DAL\DBFactoryImgSer.cs:line 464
+   at IBCS_API.Controllers.Marking.InwardauthorizationController.LoadDataFromDB(LoadDataDBRequest req) in D:\Ali Raza\Marium\IBCS\IBCS portal 28062023\IBCS Portal\IBCS_API\IBCS_API\Controllers\Marking\InwardauthorizationController.cs:line 119
+09/17/2023 17:24:38 :|Marking/Inwardauthorization/LoadDataFromDB :: : error Exception : System.OverflowException: Value was either too large or too small for an Int32.
+   at System.Decimal.ToInt32(Decimal d)
+   at System.Decimal.System.IConvertible.ToInt32(IFormatProvider provider)
+   at IBCS_API.DAL.DBFactoryImgSer.getLoadDataFromDB(LoadDataDBRequest req) in D:\Ali Raza\Marium\IBCS\IBCS portal 28062023\IBCS Portal\IBCS_API\IBCS_API\DAL\DBFactoryImgSer.cs:line 464
+   at IBCS_API.Controllers.Marking.InwardauthorizationController.LoadDataFromDB(LoadDataDBRequest req) in D:\Ali Raza\Marium\IBCS\IBCS portal 28062023\IBCS Portal\IBCS_API\IBCS_API\Controllers\Marking\InwardauthorizationController.cs:line 119
+09/17/2023 17:24:40 :|Marking/Inwardauthorization/LoadDataFromDB :: : error Exception : System.OverflowException: Value was either too large or too small for an Int32.
+   at System.Decimal.ToInt32(Decimal d)
+   at System.Decimal.System.IConvertible.ToInt32(IFormatProvider provider)
+   at IBCS_API.DAL.DBFactoryImgSer.getLoadDataFromDB(LoadDataDBRequest req) in D:\Ali Raza\Marium\IBCS\IBCS portal 28062023\IBCS Portal\IBCS_API\IBCS_API\DAL\DBFactoryImgSer.cs:line 464
+   at IBCS_API.Controllers.Marking.InwardauthorizationController.LoadDataFromDB(LoadDataDBRequest req) in D:\Ali Raza\Marium\IBCS\IBCS portal 28062023\IBCS Portal\IBCS_API\IBCS_API\Controllers\Marking\InwardauthorizationController.cs:line 119
+09/17/2023 17:24:40 :|Marking/Inwardauthorization/LoadDataFromDB :: : error Exception : System.OverflowException: Value was either too large or too small for an Int32.
+   at System.Decimal.ToInt32(Decimal d)
+   at System.Decimal.System.IConvertible.ToInt32(IFormatProvider provider)
+   at IBCS_API.DAL.DBFactoryImgSer.getLoadDataFromDB(LoadDataDBRequest req) in D:\Ali Raza\Marium\IBCS\IBCS portal 28062023\IBCS Portal\IBCS_API\IBCS_API\DAL\DBFactoryImgSer.cs:line 464
+   at IBCS_API.Controllers.Marking.InwardauthorizationController.LoadDataFromDB(LoadDataDBRequest req) in D:\Ali Raza\Marium\IBCS\IBCS portal 28062023\IBCS Portal\IBCS_API\IBCS_API\Controllers\Marking\InwardauthorizationController.cs:line 119

@@ -1,0 +1,34 @@
+Angular Interview
+
+1- Components App-component / Directives add behaviour to an existing DOM element or an existing component instance.
+2- NgModules are containers that reserve a block of code to an application domain or a workflow.
+3- Filters are used to format an expression and present it to the user
+date - Format a date to a specified format.
+filter - Select a subset of items from an array.
+Json - Format an object to a JSON string.
+limitTo -  Limits an array/string, into a specified number of elements/characters.
+lowercase - Format a string to lowercase.
+
+4- View encapsulation defines whether the template and styles defined within the component can affect the whole application or vice versa.
+Emulated - styles from the main HTML propagate to the component.
+Native - styles from the main HTML do not propagate to the component. 
+None - styles from the component propagate back to the main HTML and therefore are visible to all components on the page.
+
+5- String Interpolation is a one-way data-binding technique that outputs the data from TypeScript code to HTML view. It is denoted using double curly braces. This template expression helps display the data from the component to the view. 
+{{ data }}
+
+6- @Component" decorator. The decorato’s purpose is to accept a metadata object that provides relevant information about the component
+
+7- Promises and Observables in Angular (subscribe() method)... How to call promise
+
+8- How do you share data between components in Angular
+To share data between components, simply use the setData() and getData() methods:
+this.myDataService.setData('some data');
+const data = this.myDataService.getData();
+
+9- Explain components, modules and services in Angular.
+
+
+
+
+

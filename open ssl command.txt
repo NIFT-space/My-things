@@ -1,0 +1,17 @@
+
+To out put private key
+openssl pkcs12 -in "D:\IBCS ssl config\ibcs.nift.pk_23-24.pfx" -out "D:\IBCS ssl config\ibcs.nift.pk_23-24.key" -nodes -nocerts
+
+To out put public key
+openssl pkcs12 -in "D:\IBCS ssl config\ibcs.nift.pk_23-24.pfx" -out "D:\IBCS ssl config\ibcs_nift_23-24.pem" -nodes -nokeys
+
+<style>
+    .hide {
+        display: none;
+    }
+</style>
+<div id="div_msg" class="card bg-danger text-white shadow hide">
+    <div class="card-body">
+        <label id="msg"></label>
+    </div>
+</div>

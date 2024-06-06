@@ -1,0 +1,8 @@
+Time: 16/09/2023 03:10:40 PM
+Message: The input string '1/1/1900 12:00:00 AM' was not in a correct format.Couldn't store <1/1/1900 12:00:00 AM> in ReasonID Column.  Expected type is Int32.
+Source: System.Data.Common
+Stack:    at System.Data.DataColumn.set_Item(Int32 record, Object value)
+   at System.Data.DataTable.NewRecordFromArray(Object[] value)
+   at System.Data.DataRowCollection.Add(Object[] values)
+   at IBCS_Core_Web_Portal.Pages.Marking.InwardmarkingModel.GetFiles(String DDL_Bank, String DDL_City, String DDL_Cycle, String DDL_Branch) in D:\Ali Raza\IBCS Core Web Portal\IBCS Core Web Portal\Pages\Marking\Inwardmarking.cshtml.cs:line 613
+

@@ -1,0 +1,15 @@
+APIs
+1- login 
+      - request with db including username , password
+      - response with true false
+      - if response true return user details including bankcode , branch code, account number
+
+2- Cheque Details
+      - Request with simple query including condition with account number , bankcode, branchcode
+      - response includes top 10 cheque transactions
+      - Including cheque no, account no, amount, bank branch, process date, cityid, reason, iqa params, micr elements etc
+
+3- Cheque image
+      - Request with bank, branch, acc no
+      - Response with 3 images front, back, UV
+      - Return images in the form of base64string

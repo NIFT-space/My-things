@@ -1,0 +1,57 @@
+Time: 30/08/2023 12:35:20 PM
+Message: Image ID is  :159697
+
+Time: 30/08/2023 12:35:20 PM
+Message: Image file details  :/home/H/Optima/Optimanew/Panini_20230818_220.bin - 95168537 - 44329
+
+Time: 30/08/2023 12:35:20 PM
+Message: Image to be opened
+
+Time: 30/08/2023 12:35:20 PM
+Message: Exception occured : System.IO.DirectoryNotFoundException: Could not find a part of the path '/home/H/Optima/Optimanew/Panini_20230818_220.bin'.
+   at Interop.ThrowExceptionForIoErrno(ErrorInfo errorInfo, String path, Boolean isDirError)
+   at Microsoft.Win32.SafeHandles.SafeFileHandle.Open(String path, OpenFlags flags, Int32 mode, Func`4 createOpenException)
+   at Microsoft.Win32.SafeHandles.SafeFileHandle.Open(String fullPath, FileMode mode, FileAccess access, FileShare share, FileOptions options, Int64 preallocationSize, UnixFileMode openPermissions, Int64& fileLength, UnixFileMode& filePermissions, Func`4 createOpenException)
+   at System.IO.Strategies.OSFileStreamStrategy..ctor(String path, FileMode mode, FileAccess access, FileShare share, FileOptions options, Int64 preallocationSize, Nullable`1 unixCreateMode)
+   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize, FileOptions options, Int64 preallocationSize)
+   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access)
+   at IBCS_API.DAL.DBFactoryImgSer.GetImage(Int32 bFront, String imageid) in D:\Ali Raza backup\Marium\IBCS\IBCS portal 28062023\IBCS Portal\IBCS_API\IBCS_API\DAL\DBFactoryImgSer.cs:line 67
+
+Time: 30/08/2023 12:35:20 PM
+Message: Image ID is  :159697
+
+Time: 30/08/2023 12:35:20 PM
+Message: Image file details  :/home/H/Optima/Optimanew/Panini_20230818_220.bin - 95212866 - 28930
+
+Time: 30/08/2023 12:35:20 PM
+Message: Image to be opened
+
+Time: 30/08/2023 12:35:20 PM
+Message: Exception occured : System.IO.DirectoryNotFoundException: Could not find a part of the path '/home/H/Optima/Optimanew/Panini_20230818_220.bin'.
+   at Interop.ThrowExceptionForIoErrno(ErrorInfo errorInfo, String path, Boolean isDirError)
+   at Microsoft.Win32.SafeHandles.SafeFileHandle.Open(String path, OpenFlags flags, Int32 mode, Func`4 createOpenException)
+   at Microsoft.Win32.SafeHandles.SafeFileHandle.Open(String fullPath, FileMode mode, FileAccess access, FileShare share, FileOptions options, Int64 preallocationSize, UnixFileMode openPermissions, Int64& fileLength, UnixFileMode& filePermissions, Func`4 createOpenException)
+   at System.IO.Strategies.OSFileStreamStrategy..ctor(String path, FileMode mode, FileAccess access, FileShare share, FileOptions options, Int64 preallocationSize, Nullable`1 unixCreateMode)
+   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize, FileOptions options, Int64 preallocationSize)
+   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access)
+   at IBCS_API.DAL.DBFactoryImgSer.GetImage(Int32 bFront, String imageid) in D:\Ali Raza backup\Marium\IBCS\IBCS portal 28062023\IBCS Portal\IBCS_API\IBCS_API\DAL\DBFactoryImgSer.cs:line 67
+
+Time: 30/08/2023 12:35:20 PM
+Message: Image ID is  :159697
+
+Time: 30/08/2023 12:35:20 PM
+Message: Image file details  :/home/H/Optima/Optimanew/Panini_20230818_220.bin - 95241796 - 43585
+
+Time: 30/08/2023 12:35:20 PM
+Message: Image to be opened
+
+Time: 30/08/2023 12:35:20 PM
+Message: Exception occured : System.IO.DirectoryNotFoundException: Could not find a part of the path '/home/H/Optima/Optimanew/Panini_20230818_220.bin'.
+   at Interop.ThrowExceptionForIoErrno(ErrorInfo errorInfo, String path, Boolean isDirError)
+   at Microsoft.Win32.SafeHandles.SafeFileHandle.Open(String path, OpenFlags flags, Int32 mode, Func`4 createOpenException)
+   at Microsoft.Win32.SafeHandles.SafeFileHandle.Open(String fullPath, FileMode mode, FileAccess access, FileShare share, FileOptions options, Int64 preallocationSize, UnixFileMode openPermissions, Int64& fileLength, UnixFileMode& filePermissions, Func`4 createOpenException)
+   at System.IO.Strategies.OSFileStreamStrategy..ctor(String path, FileMode mode, FileAccess access, FileShare share, FileOptions options, Int64 preallocationSize, Nullable`1 unixCreateMode)
+   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize, FileOptions options, Int64 preallocationSize)
+   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access)
+   at IBCS_API.DAL.DBFactoryImgSer.GetImage(Int32 bFront, String imageid) in D:\Ali Raza backup\Marium\IBCS\IBCS portal 28062023\IBCS Portal\IBCS_API\IBCS_API\DAL\DBFactoryImgSer.cs:line 67
+

@@ -1,0 +1,219 @@
+#N!ft@1997!bc$
+
+
+1- Cityboard bugs...done
+2- bank email page new design ....done testing
+3- loader..done
+4- reports issue....done dongle report left...done
+5- complaint mngt....done
+6- login working...done
+7- Filter work in all pages
+8- Isdeffer work in inward marking page....done
+9- iscycle close work in marking and auth...done
+10- Cycle time page....done
+11- Isallowed user on everypage...done
+12- online return marking allowing return of previous date...done
+13- upon removing of dongle IBCS not expired...umair kayani issue
+14- Show clearing data on front page....done
+15- Comments section in complaint
+16- API development for getting images from Bin file.....done
+17- Print button working....done
+18- 
+
+19- Intercity dont include cycles...done
+20- Replace notallowed with sessionexpire in everypage....done
+
+21- Change connection string to encrypted...done
+22- export button issue...done
+23- new changes in showing clearing cycles...done
+24- print button fix...done
+25- Authorization prompt alert issue...done
+
+26- Ticker on home page configuration....done
+27- Complex password implementation on setting password...done
+28- Calendar should be set on clearing date textbox...done
+29- IsPanPak User
+30- Allowing to mark return from previous date...done
+31- Maker & Authorizer cannot be same bug... done
+32- Clearing date issue still not sorted/aligned
+33- Maker authorizer comments working...done
+34- CRL procedure to be set...pending
+35- Deployment document...done
+36- Bring on desi logs in API proj....done
+37- Tracer log N/A
+38- Get string formatting in cheque no and account no...done
+39- Authorization summary issue when awaiting auth is null
+40- Window scroll on every alert message
+41- Version mentioning in app settings...done
+42- First scoreboard import excel file for zia Sb...done
+
+no media type formatter available to read
+updaterejectallresponse
+updaterejectdbresponse 1127
+updateunauthorizeallresponse 1193
+inward auth 1258
+
+Atif work to do
+1- Change filter design....done
+2- Fix code to select active menu in the sidebar menu...done
+3- Ticker should be running on full side to side....done
+4- Complaint management comments tab...done
+5- Branchboard design addition for summary...done
+
+inwardmaring
+a column name hostid already belongs to this table
+611
+
+
+DB work:
+1- alter sp_GetQuery
+
+1- alter [sp_get_Bank_Email_Report]
+
+
+1- vtransactionwise function updated
+2- sp_authorizeall NEW
+
+
+1- CHeck db inst table and branches able without code
+2- Remove 1 from Pay....done
+3- comp mngt check recepient list....done
+4- create a job to active inactive deffer reason
+5- 
+
+things to do:
+1- Not ok iqa details in red...done
+2- image hover black...done
+3- iw ow issue....done
+4- filters selection out...done
+5- Scoreboard cheque details..done
+
+Changes 
+1- Function changed vtransactionwise
+2- IBCSApi proj
+3- IBCS web
+'9/8/2023 6:59:33 PM' 
+
+------LINUX COMMANDS--------
+/usr/sbin/setsebool httpd_can_network_connect 1
+firewall-cmd --permanent --add-port=80/tcp
+firewall-cmd --reload
+
+semanage port -l | grep http_port_t
+semanage port -a -t http_port_t -p tcp 6003
+
+sudo netstat | grep apache
+
+journalctl -f
+
+----------------------------------
+
+
+
+ REPLICATE('0',3-LEN(CityID))+ CAST(CityID AS varchar) 
+semanage
+!bcs@1995
+
+deployment document
+1- purpose
+2- prereq
+3- process
+4- roleback
+5- successful deployment
+
+
+bDownload
+: 
+"false"
+bUpdated
+: 
+0
+branchName
+: 
+null
+cityName
+: 
+"Faisalabad"
+cycleDesc
+: 
+"Sameday"
+fFormat
+: 
+"Text File"
+fileUpdateDate
+: 
+"29-11-2023"
+fileUpdateTime
+: 
+"1:45PM"
+instName
+: 
+"062-MCB BANK LTD"
+repCreationDate
+: 
+"29-11-2023"
+repDesc
+: 
+"Sub Book Report"
+repId
+: 
+2434127
+repModified
+: 
+"29-11-2023"
+repName
+: 
+"SB06250050112923125535.PDF"
+repPath
+: 
+"SB06250050112923125535.PDF"
+repSize
+: 
+"63.3"
+repType
+: 
+".pdf"
+reploadTime
+: 
+"2023-11-29 13:45:00"
+toCityCode
+: 
+50
+
+
+amount
+: 
+"20000"
+bankID
+: 
+"54"
+bankName
+: 
+"054-HABIB BANK LTD"
+branchID
+: 
+"212"
+branchName
+: 
+"0212-0212 - GHALLA MANDI MAIN BR V"
+cityCode
+: 
+"70"
+cityName
+: 
+"Multan"
+clgType
+: 
+"Inward"
+cycleID
+: 
+"2"
+cycle_desc
+: 
+"Normal"
+items
+: 
+"50"
+iwowid
+: 
+"0"

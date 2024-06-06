@@ -1,0 +1,12 @@
+Time: 18/09/2023 11:21:54 AM
+Message: CERT KEY - 
+
+Time: 18/09/2023 11:21:54 AM
+Message: Certt Subj - 
+
+Time: 18/09/2023 11:21:54 AM
+Message: Seerial null
+
+Time: 18/09/2023 11:21:54 AM
+Message: Failed on GetCertificate
+

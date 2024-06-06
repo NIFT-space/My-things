@@ -1,0 +1,245 @@
+Lifecycle aspnet
+The page life cycle phases are:
+Initialization
+Instantiation of the controls on the page
+Restoration and maintenance of the state
+Execution of the event handler codes
+Page rendering or page load
+
+OOP
+class/object - >> Interfaces>>> 
+A class defines object properties including a valid range of values, and a default value. A class also describes object behavior. An object is a member or an "instance" of a class. 
+
+1- Polymorphism multiple forms of objects etc (method overloading, overriding) yes....
+2- ABstraction (abstract class vs interface)
+3- Inheritance: Code reusability
+3- ENcapsulation: acces modifiers: Protected, private, public / access specifier getter setter
+Static class,partial class, sealed class?? singeleton classes (all objects are of same kind and there is only one point of access) >>> Namespace >>>>>
+4- data structure, tree 
+5- Datatype(int32 vs int64, ) (String: Contains(String), Concat(String, String), Trim(), PadLeft(Int32))
+6- Sealed Class (cannot be derived by any class.)
+7- Collections/Generics ( list vs dictionary, linkedlist)
+8- SQL Tuple (data structure that is used to store sequence of elements.) (To provide easy access and manipulation of data)
+9- Code Obfuscation vs API obfuscation
+10- How to open a file (filewriter, filereader, path, directory)
+11- convert file to byte[] (When the file is converted until then the file will be locked or not?)
+12- A Deadlock is a situation where a process is not able to complete its execution because two or more processes are waiting for each other to finish. This usually occurs in multi-threading.
+13- Async and Await keywords are used to create asynchronous methods in C.
+Asynchronous programming means that the process runs independently of main or other processes.
+give example
+14- A Thread pool is a collection of threads. These threads can be used to perform tasks without disturbing the primary thread. Once the thread completes the task, the thread returns to the pool.
+15- Arithmetic Operators, Relational Operators, logical operators
+16- Constructor destructor , create new instance
+Constructors enable the programmer to set default values, limit instantiation, and write code that is flexible and easy to read
+object is instantiated by using the new operator 
+17- Type Casting implicit explicit, Boxing (Converting value datatype to reference data type) , Unboxing
+
+
+C#
+1- exception handling (runtime error, nullreference exception, indexoutofrange)(Source, message, staacktrace)
+2- try catch finally
+
+
+ASPNET
+what is .netframework
+CLR?? common language runtime....
+ design pattern...
+Managed/Unmanaged Code
+ JIT just-in time compiler /
+
+1- Viewstate... next page avail or not if page refreshed?
+2- Application pools
+3- Which protocol is used to call a webservice
+4- Master page vs asp page
+5- Global. asax is an optional file which is used to handling higher level application events such as Application_Start, Application_End, Session_Start, Session_End etc.
+6- User controls( asp controls and code grouped together to provide common functionality) provides additional re-use flexibility with large scale web projects
+7- UPDATE Panel ( if i want to display a value in textbox without refreshing the whole page)
+two child elements (Content template and triggers)
+8- Validators (requiredfieldvalidator, regex)
+9- MultiView and View controls allow you to divide the content of a page into different groups, displaying only one group at a time
+(The zero-based index of the active View control within a MultiView control. The default is -1, indicating that no view is set as active)
+10- Repeater (repeated items display)
+11- gridview vs repeater
+Razor
+12- Using feature why useds
+
+
+Gridview
+1- Gridview rowcommand
+2- Gridview rowdatabound vs databound
+3- PreRender - It is raised when the page or the control is to be rendered.
+
+SQL weak
+DML, DDL, DQL, DCL
+Functions can't modify anything and must have at least one parameter. They also have to return a result. Stored procedures don't need a parameter, may modify database objects, and don't have to return a result. Stored procedures are used to connect SQL queries in a transaction and to communicate with the outside world
+1- Stored procedures
+2- Indexing (clustered vs non clustered)
+3- Triggers
+4- Joins (outer, inner, self, cross, natural join)(left, right, outter)
+5- sql order of execution (join, where, group by, having, order by, limit , count)
+FROM [MyTable]
+    ON [MyCondition]
+  JOIN [MyJoinedTable]
+ WHERE [...]
+ GROUP BY [...]
+HAVING [...]
+SELECT [...]
+ ORDER BY [...]
+
+6- Having aggreagate functions
+7- SQL cursors
+8-Normalization NF-1NF-2NF-3
+9- Primary key vs Foreign Key vs Unique Key
+10- Union vs UnionAll
+11- Second maximum id in sq query SELECT MAX(SALARY) FROM Employee WHERE SALARY < (SELECT MAX(SALARY) FROM Employee)
+12- SQL subquery
+13- Temporary tables Tempdb
+14- a view is a virtual table based on the result-set of an SQL statement
+15- SQL procedures, a cursor make it possible to define a result set (a set of data rows) and perform complex logic on a row by row basis.
+
+Write a query to get the last record from a table?
+select * from Student where RowID = select max(RowID) from Student;
+
+Show only common records between two tables.
+Select * from Student;
+Intersect
+Select * from StudentA;
+
+Remove duplicate rows from a table
+
+Display monthly Salary of Employee given annual salary.
+
+A table has bank code and branch code 54, 111. Now get leading zeros against bank and branch code accordingly..
+SELECT FORMAT(7, '000');
+Select REPLICATE('0',4-LEN(BranchCode))+CAST(BranchCode AS varchar)
+
+MVC:
+Authorization vs Authentication
+An ORM is an object relational mapping framework. Such a framework can help to reduce the amount of handwritten code in a typical web application. ORM can be used when there are no extreme requirements for performance in an application, but there are some frameworks (e.g., Dapper) which can be used even in high-load systems.
+ASP.NET MVC 5 What basic folders do we have in an ASP.NET project without Areas? What are they for? What subfolders do they have (if applicable)? Which folders are publicly accessible?
+App_Data can be used to store some application’s data.
+App_Start contains configuration classes: RouteConfig, BundleConfig, etc.
+Content is a publicly accessible folder for static files, such as CSS files, images, etc., but not scripts.
+Controllers is a default folder for application controllers.
+Scripts is a publicly accessible folder for JavaScript files.
+Views: The folder contains a folder for every controller, plus a special folder Shared for views used by multiple views/controllers. For example, if we have a controller called HomeController, we will have a Home subfolder here with all the views related to HomeController.
+
+What are the advantages of using IoC containers in an application?
+The main advantages are:
+The lifetime of every object can be managed externally.
+Objects are not responsible for creating services and providing dependencies.
+Changes to a dependency list won’t affect an object using the service.
+The same instance can be shared by several unrelated consumers.
+Services provide contracts, so implementation can be changed in the future.
+
+ASP.NET MVC 5 You have a page with Razor C# syntax. What is the difference between these two methods, RenderAction and RenderPartial? What will they do?
+RenderAction will call an action method of the current controller and render a result inline. In contrast, RenderPartial will render the specified view inline without calling any action method.
+
+What is Area?
+Areas are pieces of an MVC application that do not use the main controllers, actions, and views; rather, they mimic this structure within a specific subfolder in the project directory.
+
+What are NonAction methods in MVC?
+In MVC all public methods have been treated as Actions. So if you are creating a method and if you do not want to use it as an action method then the method has to be decorated with NonAction attribute as shown below:
+
+HTML Helpers are like controls in traditional web forms. But HTML helpers are more lightweight compared to web controls as it does not hold viewstate and events.
+HTML Helpers returns the HTML string which can be directly rendered to HTML page. Custom HTML Helpers also can be created by overriding HtmlHelper class.
+
+Sort the filters in a sequence of their working?
+Answer:
+In sequence, the filters will we as mentioned below :
+Authorization Filters
+Action Filters
+Response Filters
+Exception Filter
+
+
+______________________________________--
+Entity Framework
+
+The performance of ADO.Net is better than entity framework because ADO.Net is directly connected to the data source due to that it gives better performance than entity framework, whereas the performance of entity framework is less as compared to the ADO.Net as entity translate the LINQ queries to SQL first and then process the query.
+
+_____________________________--
+
+WebAPI
+methos of API - HTTP Put
+API testing
+
+GET is only used to request data from a specified resource. Get requests can be cached and bookmarked. It remains in the browser history and haS length restrictions. GET requests should never be used when dealing with sensitive data.
+POST is used to send data to a server to create/update a resource. POST requests are never cached and bookmarked and do not remain in the browser history.
+
+
+1- Return types API
+Void – It will return empty content
+HttpResponseMessage – It will convert the response to an HTTP message.
+IHttpActionResult – internally calls ExecuteAsync to create an HttpResponseMessage
+Other types – You can write the serialized return value into the response body
+2- Routing is pattern matching like in MVC (Can we define ID in routes)
+Config.Routes.MapHttpRoute(
+name: "MyRoute,"//route name
+routeTemplate: "api/{controller}/{action}/{id}",//as you can see "API" is at the beginning.
+defaults: new { id = RouteParameter.Optional });
+
+3- ERROR HANDLING: Several classes are available in Web API to handle errors. They are HttpError, Exception Filters, HttpResponseException, and Registering Exception Filters.
+
+4- Post vs Get
+------------------
+
+1- Create a program for downloading a file from bytes
+2-Find The Smallest And Largest Number In C#
+3- Create and read the last line of a file
+Input number of lines to write in the file
+4- Write a program in C# Sharp to sort a string array in ascending order.
+like word javascript
+
+
+2--------------------------------->>>>>>>
+using System;  
+class Program  
+{  
+static void Main()  
+{  
+int i;  
+int[] a = new int[30]; // Array Declaration in C#  
+Console.Write("Enter the Number of values to find Smallest and Largest Number: ");  
+int n = Convert.ToInt16(Console.ReadLine()); // read the string value and convert it in to integer  
+//Reading the values one by one  
+for (i = 1; i <= n; i++)  
+{  
+Console.Write("Enter the No " + i + ":");  
+a[i] = Convert.ToInt16(Console.ReadLine());  
+}  
+for (i = 1; i <= n; i++)  
+{  
+for (int j = 1; j <= n - 1; j++)  
+{  
+if (a[j] > a[j + 1])  
+{  
+int temp = a[j];  
+a[j] = a[j + 1];  
+a[j + 1] = temp;  
+}  
+}  
+}  
+//Display the Smallest value  
+Console.WriteLine("The smallest Value is "+a[1]);  
+//Display the Biggest Value  
+Console.WriteLine("The Largest Value is " + a[n]);  
+//Waiting for output  
+Console.ReadKey();  
+}  
+}  
+
+Javascript:
+1- Even odd
+2- Reverse string
+3- Value swap without using third variable
+4- Add rows upon clicking plus button in an html page 
+
+
+021111225224
+
+Shahzaib.....
+current:60K
+expected 50-55K
+joining january 1st week
+

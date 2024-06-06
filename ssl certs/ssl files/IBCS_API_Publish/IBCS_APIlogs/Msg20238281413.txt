@@ -1,0 +1,63 @@
+Time: 28/08/2023 02:13:46 PM
+Message: Image ID is  :156937
+
+Time: 28/08/2023 02:13:46 PM
+Message: Image file details  :/root/Documents/images/Panini_20230802_272.bin - 102286567 - 48109
+
+Time: 28/08/2023 02:13:46 PM
+Message: Image to be opened
+
+Time: 28/08/2023 02:13:46 PM
+Message: Exception occured : System.UnauthorizedAccessException: Access to the path '/root/Documents/images/Panini_20230802_272.bin' is denied.
+ ---> System.IO.IOException: Permission denied
+   --- End of inner exception stack trace ---
+   at Interop.ThrowExceptionForIoErrno(ErrorInfo errorInfo, String path, Boolean isDirError)
+   at Microsoft.Win32.SafeHandles.SafeFileHandle.Open(String path, OpenFlags flags, Int32 mode, Func`4 createOpenException)
+   at Microsoft.Win32.SafeHandles.SafeFileHandle.Open(String fullPath, FileMode mode, FileAccess access, FileShare share, FileOptions options, Int64 preallocationSize, UnixFileMode openPermissions, Int64& fileLength, UnixFileMode& filePermissions, Func`4 createOpenException)
+   at System.IO.Strategies.OSFileStreamStrategy..ctor(String path, FileMode mode, FileAccess access, FileShare share, FileOptions options, Int64 preallocationSize, Nullable`1 unixCreateMode)
+   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize, FileOptions options, Int64 preallocationSize)
+   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access)
+   at IBCS_API.DAL.DBFactoryImgSer.GetImage(Int32 bFront, String imageid) in D:\Ali Raza backup\Marium\IBCS\IBCS portal 28062023\IBCS Portal\IBCS_API\IBCS_API\DAL\DBFactoryImgSer.cs:line 67
+
+Time: 28/08/2023 02:13:46 PM
+Message: Image ID is  :156937
+
+Time: 28/08/2023 02:13:46 PM
+Message: Image file details  :/root/Documents/images/Panini_20230802_272.bin - 102334676 - 42453
+
+Time: 28/08/2023 02:13:46 PM
+Message: Image to be opened
+
+Time: 28/08/2023 02:13:46 PM
+Message: Exception occured : System.UnauthorizedAccessException: Access to the path '/root/Documents/images/Panini_20230802_272.bin' is denied.
+ ---> System.IO.IOException: Permission denied
+   --- End of inner exception stack trace ---
+   at Interop.ThrowExceptionForIoErrno(ErrorInfo errorInfo, String path, Boolean isDirError)
+   at Microsoft.Win32.SafeHandles.SafeFileHandle.Open(String path, OpenFlags flags, Int32 mode, Func`4 createOpenException)
+   at Microsoft.Win32.SafeHandles.SafeFileHandle.Open(String fullPath, FileMode mode, FileAccess access, FileShare share, FileOptions options, Int64 preallocationSize, UnixFileMode openPermissions, Int64& fileLength, UnixFileMode& filePermissions, Func`4 createOpenException)
+   at System.IO.Strategies.OSFileStreamStrategy..ctor(String path, FileMode mode, FileAccess access, FileShare share, FileOptions options, Int64 preallocationSize, Nullable`1 unixCreateMode)
+   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize, FileOptions options, Int64 preallocationSize)
+   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access)
+   at IBCS_API.DAL.DBFactoryImgSer.GetImage(Int32 bFront, String imageid) in D:\Ali Raza backup\Marium\IBCS\IBCS portal 28062023\IBCS Portal\IBCS_API\IBCS_API\DAL\DBFactoryImgSer.cs:line 67
+
+Time: 28/08/2023 02:13:46 PM
+Message: Image ID is  :156937
+
+Time: 28/08/2023 02:13:46 PM
+Message: Image file details  :/root/Documents/images/Panini_20230802_272.bin - 102377129 - 42761
+
+Time: 28/08/2023 02:13:46 PM
+Message: Image to be opened
+
+Time: 28/08/2023 02:13:46 PM
+Message: Exception occured : System.UnauthorizedAccessException: Access to the path '/root/Documents/images/Panini_20230802_272.bin' is denied.
+ ---> System.IO.IOException: Permission denied
+   --- End of inner exception stack trace ---
+   at Interop.ThrowExceptionForIoErrno(ErrorInfo errorInfo, String path, Boolean isDirError)
+   at Microsoft.Win32.SafeHandles.SafeFileHandle.Open(String path, OpenFlags flags, Int32 mode, Func`4 createOpenException)
+   at Microsoft.Win32.SafeHandles.SafeFileHandle.Open(String fullPath, FileMode mode, FileAccess access, FileShare share, FileOptions options, Int64 preallocationSize, UnixFileMode openPermissions, Int64& fileLength, UnixFileMode& filePermissions, Func`4 createOpenException)
+   at System.IO.Strategies.OSFileStreamStrategy..ctor(String path, FileMode mode, FileAccess access, FileShare share, FileOptions options, Int64 preallocationSize, Nullable`1 unixCreateMode)
+   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize, FileOptions options, Int64 preallocationSize)
+   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access)
+   at IBCS_API.DAL.DBFactoryImgSer.GetImage(Int32 bFront, String imageid) in D:\Ali Raza backup\Marium\IBCS\IBCS portal 28062023\IBCS Portal\IBCS_API\IBCS_API\DAL\DBFactoryImgSer.cs:line 67
+

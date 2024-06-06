@@ -1,0 +1,6 @@
+Time: 17/09/2023 04:16:12 PM
+Message: Exception on reports - System.FormatException: The input string 'Select City' was not in a correct format.
+   at System.Number.ThrowOverflowOrFormatException(ParsingStatus status, ReadOnlySpan`1 value, TypeCode type)
+   at System.Convert.ToInt32(String value)
+   at IBCS_Core_Web_Portal.Pages.Imagedata.BkAdviceModel.GetFiles(String DDL_Bank, String DDL_City, String DDL_Cycle) in D:\Ali Raza\IBCS Core Web Portal\IBCS Core Web Portal\Pages\Imagedata\BkAdvice.cshtml.cs:line 188
+

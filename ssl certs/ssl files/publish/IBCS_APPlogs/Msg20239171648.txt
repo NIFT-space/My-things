@@ -1,0 +1,4 @@
+Time: 17/09/2023 04:48:03 PM
+Message: Exception on BindCityDD - System.NullReferenceException: Object reference not set to an instance of an object.
+   at IBCS_Core_Web_Portal.Pages.Imagedata.Down_bankdfModel.BindCityDD() in D:\Ali Raza\IBCS Core Web Portal\IBCS Core Web Portal\Pages\Imagedata\Down_bankdf.cshtml.cs:line 134
+

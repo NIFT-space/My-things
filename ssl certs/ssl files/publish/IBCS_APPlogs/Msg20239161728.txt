@@ -1,0 +1,18 @@
+Time: 16/09/2023 05:28:47 PM
+Message: 1st Header - 794036D039B3C65A1847390779B4A36D4EE74F92
+
+Time: 16/09/2023 05:28:47 PM
+Message: 2nd Header - C=PK,L=10,O=National Institutional Facilitation Technologies Pvt Ltd,OU=Operations,OU=Terms of use at www.niftetrust.com/rpa (c)14,OU=Branch ID - 0001,OU=Bank ID - 062,CN=Sana Arif,emailAddress=sana.arif@mcb.com.pk
+
+Time: 16/09/2023 05:28:47 PM
+Message: 794036D039B3C65A1847390779B4A36D4EE74F92
+
+Time: 16/09/2023 05:28:47 PM
+Message: CERT KEY - 794036D039B3C65A1847390779B4A36D4EE74F92
+
+Time: 16/09/2023 05:28:47 PM
+Message: C=PK,L=10,O=National Institutional Facilitation Technologies Pvt Ltd,OU=Operations,OU=Terms of use at www.niftetrust.com/rpa (c)14,OU=Branch ID - 0001,OU=Bank ID - 062,CN=Sana Arif,emailAddress=sana.arif@mcb.com.pk
+
+Time: 16/09/2023 05:28:47 PM
+Message: Success on Dongle Code
+

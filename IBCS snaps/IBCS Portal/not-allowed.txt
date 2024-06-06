@@ -1,0 +1,35 @@
+onclick="openModal();"
+
+<div class="modal" id="myModal">
+					<div class="modal-dialog">
+						<div class="modal-content">
+							<!-- Modal Header -->
+							<div class="modal-header">
+								<span class="close cursor" onclick="closeModal()"><i class="fa-solid fa-xmark"></i></span>
+							</div>
+							<!-- Modal body -->
+							<div class="modal-body text-center">
+								<h3 class="mb-4 font-weight-bold text-danger">System Message</h3>
+								<h4>Sorry you do not have enough permission</h4>
+								<h4>to access this page.</h4>
+								<h4>Contact <span class="font-weight-bold text-danger">NIFT@111 112 222 EXT 247, 277 & 276</span><br>for further details.</h4>
+								<h4>Thank You.</h4>
+							</div>
+							<!-- Modal footer -->
+						</div>
+					</div>
+				</div>
+
+
+.modal {
+    display: none;
+    position: fixed;
+    z-index: 1;
+    padding-top: 150px;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background-color: rgba(0,0,0,0.8);
+}

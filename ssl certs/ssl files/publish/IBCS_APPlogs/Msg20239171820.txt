@@ -1,0 +1,9 @@
+Time: 17/09/2023 06:20:27 PM
+Message: CERT KEY - 60C1F960D6BB22359345581102CB165AB5DF3C25
+
+Time: 17/09/2023 06:20:27 PM
+Message: Certt Subj - C=PK,L=10,O=National Institutional Facilitation Technologies Pvt Ltd,OU=Operations,OU=Terms of use at www.niftetrust.com/rpa (c)14,OU=Branch ID - 0999,OU=Bank ID - 999,CN=Nift Cops,emailAddress=nift.cops@nift.pk
+
+Time: 17/09/2023 06:20:27 PM
+Message: Success on Dongle Code
+

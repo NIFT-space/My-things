@@ -1,0 +1,55 @@
+
+
+select * from Cheques
+order by pdate desc
+
+select * from ImageData
+where pdate = '2022-03-30'
+order by pdate desc
+
+select * from ImageData where seqno=100100155
+and pdate='2022-03-30'
+
+SELECT imagedata FROM ImageData WHERE pdate = '2022-03-30' and seqno=100100052 and imagetype='R'
+
+update ImageData set seqno='100100099' where seqno=100100002 and pdate='2022-03-30'
+
+delete from ImageData
+where seqno =200100005
+and pdate='2022-03-30'
+-----------------------
+
+update vhostnibc
+set Amount='20000', ChequeNo='',TransCode='',AccountNo=''
+where SequenceNo=125100003 
+-- SequenceNo=125100002 
+and Processdate = '2022-04-01'
+
+-----------------------
+
+select * from vhostnibc
+--update vhostnibc
+--set receiverbank = 54
+--,receiverbranch = 786
+where Processdate = '2022-04-01'-- and SequenceNo=125100002
+and cycleno = 51
+and onus = 'D'
+
+select * from vhostnibc
+where Processdate = '2022-04-01'
+and cycleno = 51
+and onus = 'D'
+
+select * from [vCycle]
+
+
+select * from [vCycleClearing]
+
+
+
+select * from CycleEnd
+where cycleno = 51
+and weekdayName = 'fri'
+
+
+

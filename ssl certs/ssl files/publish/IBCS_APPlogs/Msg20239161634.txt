@@ -1,0 +1,6 @@
+Time: 16/09/2023 04:34:07 PM
+Message: Success on Get User Details API
+
+Time: 16/09/2023 04:34:07 PM
+Message: Failed on instName :  - udv instName: 
+

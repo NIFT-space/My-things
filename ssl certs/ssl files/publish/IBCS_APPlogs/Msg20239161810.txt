@@ -1,0 +1,18 @@
+Time: 16/09/2023 06:10:51 PM
+Message: 1st Header - 1E8941E5E6AF69B0BB51EF255E84BA0A2F78D6F5
+
+Time: 16/09/2023 06:10:51 PM
+Message: 2nd Header - C=PK,L=10,O=National Institutional Facilitation Technologies Pvt Ltd,OU=Operations,OU=Terms of use at www.niftetrust.com/rpa (c)14,OU=Branch ID - 0001,OU=Bank ID - 062,CN=Muhammad Ali Tayyab,emailAddress=ali.tayyab@mcb.com.pk
+
+Time: 16/09/2023 06:10:51 PM
+Message: 1E8941E5E6AF69B0BB51EF255E84BA0A2F78D6F5
+
+Time: 16/09/2023 06:10:51 PM
+Message: CERT KEY - 1E8941E5E6AF69B0BB51EF255E84BA0A2F78D6F5
+
+Time: 16/09/2023 06:10:51 PM
+Message: C=PK,L=10,O=National Institutional Facilitation Technologies Pvt Ltd,OU=Operations,OU=Terms of use at www.niftetrust.com/rpa (c)14,OU=Branch ID - 0001,OU=Bank ID - 062,CN=Muhammad Ali Tayyab,emailAddress=ali.tayyab@mcb.com.pk
+
+Time: 16/09/2023 06:10:51 PM
+Message: Success on Dongle Code
+

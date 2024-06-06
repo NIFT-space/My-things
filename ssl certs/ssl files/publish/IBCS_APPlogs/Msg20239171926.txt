@@ -1,0 +1,17 @@
+Time: 17/09/2023 07:26:04 PM
+Message: 1nift.cops@nift.pk999
+
+Time: 17/09/2023 07:26:04 PM
+Message: Success on Get User Details API
+
+Time: 17/09/2023 07:26:04 PM
+Message: Success on PassCred Code - UserID is : 1
+
+Time: 17/09/2023 07:26:14 PM
+Message: Error in GetTab  -System.Data.EvaluateException: Cannot find column [Authorize].
+   at System.Data.NameNode.Bind(DataTable table, List`1 list)
+   at System.Data.BinaryNode.Bind(DataTable table, List`1 list)
+   at System.Data.DataExpression.Bind(DataTable table)
+   at System.Data.DataView.set_RowFilter(String value)
+   at IBCS_Core_Web_Portal.Pages.Marking.InwardauthorizationModel.OnGetClickTab(String Tab, String DDL_Bank, String DDL_City, String DDL_Cycle) in D:\Ali Raza\IBCS Core Web Portal\IBCS Core Web Portal\Pages\Marking\Inwardauthorization.cshtml.cs:line 677
+

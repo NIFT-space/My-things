@@ -1,0 +1,1213 @@
+IBCS tasks
+
+1- Isauth issue in marking and authorization pags....done
+2- Timeout issue -> change showcycleclearing from pageload to buttonclick...done
+3- Error page in auth,marking,summary display on pageload too.....done
+4- Tabish bhai -> change cycleend code, add city parameter in SP (Outward work)
+5- CMS on IBCS copy of ePay cms
+6- Bankemail working for yawer (Emails replication in bankmail same as bankemail2 so that bank CPU could update its own bank user emails)
+7- Bankemail work for tabish bhai add cycle city in Email Logs
+8- IBCS Logwriter Working For email 
+9- IBCS directory issue HTTP error 403 and 404 (Pending)
+
+ECHQ tasks
+
+1- Echq transfer data to imageloader IBCS
+2- Portal Design discussion with Atif
+3- All fonts like NAYPAY
+4- Change Live and UAT databases on server...done
+5- session expiry work 
+
+Bugs
+1- digital chq: history is not displaying inside cheque
+2- digital chq: on chq image back click button black screen is shown...
+3- chqbook: Cannot add new chqbook error message is "please select your bank"
+4- Bene: Issue in 03 (3 is shown on first attempt) and also not shown on load
+5- 
+
+CMS
+
+1- testcases CMS and signoff document
+2- CMS deployment check everything with All rules
+3- Change CMS evidence display to 3 docs
+4- Test email on port 25,
+
+IS Team OWASP discussion
+
+Session1 31-05-2022
+Session2 01-06-2022
+
+
+Ques
+
+1- Portal will be redirected from banks portal?
+2- 
+
+
+
+
+TOP TASKS - 13-06-22
+1- Database duplication in 20.4.166 for echeque2 and LIVE and UAT environment separation...done
+2- NIFT CMS signoff document...left
+3- NIFT CMS deployment with rules on and off..done
+4- Echeque to IBCS data loading....left
+5- Look into MVC core for Portal development....left
+6- Reduce timing of alert messages Echque
+7- UAT changes of IBCS all
+8- Deploy build on Live IBCS
+
+TOP TASKS - 20-06-22
+1- NIFT CMS signoff document...left
+2- NIFT CMS deployment with rules on and off..done
+3- Echeque to IBCS data loading...left
+4- Look into MVC core for Portal development...left
+5- Reduce timing of alert messages Echque.....left
+6- UAT changes of IBCS all....done
+7- Deploy build on Live IBCS....left
+
+TOP TASKS - 21-06-22 , 22-06-2022, 23-06-2022,27-06-2022,28-06-2022
+1- NIFT CMS signoff document...
+2- Echeque to IBCS data loading...
+3- Look into MVC core for Portal development...
+4- Reduce timing of alert messages Echque.....
+5- Deploy build on Live IBCS.... DONE on 164 server
+6- Search library for cropping and filtering image just like camscanner pdf scanner
+7- Open IIS express for my laptop
+8- PR for mobile eCheque...pending
+9- Insert favicon in Live niftCMS...done
+10- Same changes to be deployed on 166 as n 167
+11- Open eCheque App on Wifiexecutive connection
+12- 
+
+29-06-2022, 30-06-2022, 05-07-2022
+1- NIFT CMS signoff document...
+2- Echeque to IBCS data loading...
+3- Look into MVC core for Portal development...
+4- Reduce timing of alert messages Echque.....
+5- Deploy build on Live IBCS.... DONE on 164 server
+6- Same changes to be deployed on 166 as n 167...done
+7- Open eCheque App on Wifiexecutive connection (eCheque is running fast on WiFi rather than mobile network)
+8- Open IIS express for my laptop
+9- Bankemail work for yawer
+10- Bankemail all same as bankemail2...done
+11- Submit PR form for Mac mini m1....done
+12- Take backup of Bmc1 and Bmc2...done TAKE ONE MORE TIME
+13- Provide server details to zia sir...done
+
+06-07-2022
+1- NIFT CMS signoff document...
+2- Echeque to IBCS data loading...
+3- Look into MVC core for Portal development...
+4- Reduce timing of alert messages Echque..... Talha looking into this....
+5- FO 172.16.1.55 image loader -> 172.16.1.56 place web service publishNIBC folder
+6- MOST IMPORTANT turn back bankemail code on zia Sb pc...done
+7- Arsalan Exe for updating odeDB software on Epay server and other servers
+
+28-07-2022
+1- NIFT CMS signoff document...
+2- Echeque to IBCS data loading...
+3- Look into MVC core for Portal development...
+4- ePay onboarding and new work from taimoor DFS
+5- Zubair IS discussion further related to L1 L2 L3 list
+6- Issue in inward marking and branchboard not displaying branches in subcities for CPU user....done for UAT
+7- Create WebAPI that will get path from Reports and then return BYTEARRAY in IBCS
+8- Bankemail issue still pending
+9- Change request for NIFT mobile wifi opening eCheque testing purpose..done with arsalan
+
+
+01-08-2022,02-08-2022
+1- NIFT CMS signoff document...
+2- Echeque to IBCS data loading...
+3- Look into MVC core for Portal development... Check with Jamil doing
+4- ePay onboarding and new work from taimoor DFS
+5- Zubair IS discussion further related to L1 L2 L3 list
+6- Issue in inward marking and branchboard not displaying branches in subcities for CPU user....GET IT LIVE...DONE
+7- Create WebAPI that will get path from Reports and then return BYTEARRAY in IBCS
+8- Bankemail issue still pending...completed from tabish exe NOW TESTING on IBCS....PENDING ON TABISH END FOR SUBCITY ISSUE....
+9- Put complain ibcs code same as ePay cms
+10-Communicate with ByteScout DONE FINDING A NEW READER COMPANY.... WORKING ON LEADTOOLS
+11-Dollar clearing issue change top5 query in top and add if (i == 0) { Session["dt1"] = dr[0].ToString(); } 10 times DONE GET IT LIVE....DONE
+12-Record echeque app video
+13-Create echeque and eclearing logo in high resolution....DONE
+14- Create a change request for webAPI work....DONE
+15- Insert cityname inside gridview in FILEUPLOAD IBCS....DONE
+
+03-08-2022,04-08-2022
+1- NIFT CMS signoff document...
+2- Echeque to IBCS data loading...
+3- Look into MVC core for Portal development... Check with Jamil doing
+4- ePay onboarding and new work from taimoor DFS
+5- Zubair IS discussion further related to L1 L2 L3 list
+6-Create WebAPI that will get path from Reports and then return BYTEARRAY in IBCS
+7-Bankemail issue still pending...completed from tabish exe NOW TESTING on IBCS....PENDING ON TABISH END FOR SUBCITY ISSUE....
+8-Put complain ibcs code same as ePay cms
+9-LEADTOOLS communication for recognition toolkit
+10-Record echeque app video on mobile
+11-Insert cityname inside gridview in FILEUPLOAD IBCS....DONE
+
+05-08-2022
+1- NIFT CMS signoff document...
+2- Echeque to IBCS data loading...
+3- Look into MVC core for Portal development... Check with Jamil doing
+4- ePay onboarding and new work from taimoor DFS
+5- Zubair IS discussion further related to L1 L2 L3 list
+6-Create WebAPI that will get path from Reports and then return BYTEARRAY in IBCS....WORKING
+7-Bankemail issue still pending...completed from tabish exe NOW TESTING on IBCS....PENDING ON TABISH END FOR SUBCITY ISSUE....ALMOST DONE
+8-Put complain ibcs code same as ePay cms
+9-LEADTOOLS communication for recognition toolkit....DISCARDED DUE TO HIGH PRICING
+10-Record echeque app video on mobile
+
+10-08-2022,11-08-2022,12-08-2022........
+1- NIFT CMS signoff document...
+2- Echeque to IBCS data loading...
+3- Look into MVC core for Portal development... Check with Jamil doing
+4- ePay onboarding and new work from taimoor DFS....GIVE TIMELINE FOR COMPLETION OF WORK.....
+5- Zubair IS discussion further related to L1 L2 L3 list
+6-Create WebAPI that will get path from Reports and then return BYTEARRAY in IBCS....WORKING
+7-Bankemail issue still pending...completed from tabish exe NOW TESTING on IBCS....PENDING ON TABISH END FOR SUBCITY ISSUE....ALMOST DONE
+8-Put complain ibcs code same as ePay cms
+9-Record echeque app video on mobile, make  a ppt including steps to create echeque,digital cheque, ibcs etc
+10- Place loader inside inward marking, auth, summary , scoreboard all pages. Dont load gridview if the page is not loaded properly due to connectivity issue.
+
+15-08-2022, 16-08-2022....
+1- NIFT CMS signoff document...
+2- Echeque to IBCS data loading... IMPORTANT//////////////////
+3- Look into MVC core for Portal development... Check with Jamil doing
+4- ePay onboarding and new work from taimoor DFS....GIVE TIMELINE FOR COMPLETION OF WORK.....
+5- Zubair IS discussion further related to L1 L2 L3 list
+6-Create WebAPI that will get path from Reports and then return BYTEARRAY in IBCS....WORKING
+7-Bankemail issue still pending...completed from tabish exe NOW TESTING on IBCS....PENDING ON TABISH END FOR SUBCITY ISSUE....ALMOST DONE
+8-Put complain ibcs code same as ePay cms
+9-Record echeque app video on mobile, make  a ppt including steps to create echeque,digital cheque, ibcs etc....DONE
+10- Place loader inside inward marking, auth, summary , scoreboard all pages. Dont load gridview if the page is not loaded properly due to connectivity issue.
+11- CHECK ERRORs on IBCS portal through logs and fix the pages (Cityboard page done, editrolehubimage, manage cheqbook request history, complaint page,marking,auth,
+
+17-08-2022
+1- NIFT CMS signoff document...
+2- Echeque to IBCS data loading... IMPORTANT//////////////////
+3- Look into MVC core for Portal development... Check with Jamil doing
+4- ePay onboarding and new work from taimoor DFS....GIVE TIMELINE FOR COMPLETION OF WORK.....
+5- Zubair IS discussion further related to L1 L2 L3 list
+6-Create WebAPI that will get path from Reports and then return BYTEARRAY in IBCS....WORKING....TESTING PHASE ON DIFF SERVERS....
+7-Bankemail issue still pending...completed from tabish exe NOW TESTING on IBCS....PENDING ON TABISH END FOR SUBCITY ISSUE....ALMOST DONE
+8-Put complain ibcs code same as ePay cms
+9- Place loader inside inward marking, auth, summary , scoreboard all pages. Dont load gridview if the page is not loaded properly due to connectivity issue.
+10- CHECK ERRORs on IBCS portal through logs and fix the pages (Cityboard page done, editrolehubimage, manage cheqbook request history, complaint page,marking,auth,
+
+18-08-2022,19-08-022
+1- NIFT CMS signoff document...
+2- Echeque to IBCS data loading... IMPORTANT//////////////////
+3- Look into MVC core for Portal development... Check with Jamil doing
+4- ePay onboarding and new work from taimoor DFS....GIVE TIMELINE FOR COMPLETION OF WORK.....
+5- Zubair IS discussion further related to L1 L2 L3 list
+6-Create WebAPI that will get path from Reports and then return BYTEARRAY in IBCS....WORKING....TESTING PHASE ON DIFF SERVERS....
+7-Bankemail issue still pending...completed from tabish exe NOW TESTING on IBCS....PENDING ON TABISH END FOR SUBCITY ISSUE....ALMOST DONE
+8-Put complain ibcs code same as ePay cms
+9- Place loader inside inward marking, auth, summary , scoreboard all pages. Dont load gridview if the page is not loaded properly due to connectivity issue.
+10- CHECK ERRORs on IBCS portal through logs and fix the pages (Cityboard page done, editrolehubimage, manage cheqbook request history, complaint page,marking,auth,
+11- Add chq scoreboard and positive chq in digital chq module and will show bounce percentage of the issuer 
+12- Change Getcount code from report count* to top1 GO live
+
+29-08-2022
+1- NIFT CMS signoff document...
+2- Echeque to IBCS data loading... IMPORTANT//////////////////
+3- Look into MVC core for Portal development... Check with Jamil doing
+4- ePay onboarding and new work from taimoor DFS....GIVE TIMELINE FOR COMPLETION OF WORK.....
+5- Zubair IS discussion further related to L1 L2 L3 list
+6-Create WebAPI that will get path from Reports and then return BYTEARRAY in IBCS....WORKING....TESTING PHASE ON DIFF SERVERS....
+7-Bankemail issue still pending...completed from tabish exe NOW TESTING on IBCS....PENDING ON TABISH END FOR SUBCITY ISSUE....ALMOST DONE
+8-Put complain ibcs code same as ePay cms
+9- Place loader inside inward marking, auth, summary , scoreboard all pages. Dont load gridview if the page is not loaded properly due to connectivity issue.
+10- CHECK ERRORs on IBCS portal through logs and fix the pages (Cityboard page done, editrolehubimage, manage cheqbook request history, complaint page,marking,auth,
+11- Add chq scoreboard and positive chq in digital chq module and will show bounce percentage of the issuer...done ON UAT
+
+30-08-2022 . 31-08-2022 , 01-08-2022
+1- NIFT CMS signoff document... fix new issues and requirements in CMS
+2- Echeque to IBCS data loading... IMPORTANT//////////////////
+3- Look into MVC core for Portal development... Check with Jamil doing
+4- ePay onboarding and new work from taimoor DFS....GIVE TIMELINE FOR COMPLETION OF WORK.....
+5- Zubair IS discussion further related to L1 L2 L3 list
+6-Create WebAPI that will get path from Reports and then return BYTEARRAY in IBCS....WORKING....TESTING PHASE ON DIFF SERVERS....
+7-Bankemail issue still pending...completed from tabish exe NOW TESTING on IBCS....PENDING ON TABISH END FOR SUBCITY ISSUE....ALMOST DONE
+8-Put complain ibcs code same as ePay cms
+9- Place loader inside inward marking, auth, summary , scoreboard all pages. Dont load gridview if the page is not loaded properly due to connectivity issue.
+10- CHECK ERRORs on IBCS portal through logs and fix the pages (Cityboard page done, editrolehubimage, manage cheqbk request.button1, complaint page,unable to caste object error, OEChubdownload binddata,,    at _Inwardmarking.LoadDataFromDB(),     at _Branchboard.LoadDataFromDB(),   at _Cityboard.LoadDataFromDB() ....)
+
+02-09-2022
+1- NIFT CMS signoff document... fix new issues and requirements in CMS
+2- Echeque to IBCS data loading... IMPORTANT//////////////////
+3- Look into MVC core for Portal development... Check with Jamil doing
+4- ePay onboarding and new work from taimoor DFS....GIVE TIMELINE FOR COMPLETION OF WORK.....
+5- Zubair IS discussion further related to L1 L2 L3 list
+6-Create WebAPI that will get path from Reports and then return BYTEARRAY in IBCS....WORKING....TESTING PHASE ON DIFF SERVERS....
+7-Bankemail issue still pending...completed from tabish exe NOW TESTING on IBCS....PENDING ON TABISH END FOR SUBCITY ISSUE....ALMOST DONE
+8-Put complain ibcs code same as ePay cms
+9- Place loader inside inward marking, auth, summary , scoreboard all pages. Dont load gridview if the page is not loaded properly due to connectivity issue.
+10- CHECK ERRORs on IBCS portal through logs and fix the pages (Cityboard page done, editrolehubimage, manage cheqbk request.button1, complaint page,unable to caste object error, OEChubdownload binddata,,    at _Inwardmarking.LoadDataFromDB(),     at _Branchboard.LoadDataFromDB(),   at _Cityboard.LoadDataFromDB() ....)
+11- File Transfer View query changed (Function name: BindGridView2)....done
+12- CRF for new change: city is added while opening cutoff time for return marking, and deffer reason logic is added in return marking process
+
+05-09-2022, 06-09-2022 , 08-09-2022 , 09-09-2022 -----------------
+1- NIFT CMS signoff document... fix new issues and requirements in CMS
+2- Echeque to IBCS data loading... IMPORTANT//////////////////
+3- Look into MVC core for Portal development... Check with Jamil doing
+4- ePay onboarding and new work from taimoor DFS....GIVE TIMELINE FOR COMPLETION OF WORK.....
+5- Zubair IS discussion further related to L1 L2 L3 list
+6-Create WebAPI that will get path from Reports and then return BYTEARRAY in IBCS....WORKING....TESTING PHASE ON DIFF SERVERS....
+7-Bankemail issue still pending...completed from tabish exe NOW TESTING on IBCS....PENDING ON TABISH END FOR SUBCITY ISSUE....ALMOST DONE  Fix bankemail issue by adding city to subcity automatically in Add bank email code IBCS...........to be updated in the next build of IBCS
+8-Put complain ibcs code same as ePay cms
+9- Place loader inside inward marking, auth, summary , scoreboard all pages. Dont load gridview if the page is not loaded properly due to connectivity issue.
+10- CHECK ERRORs on IBCS portal through logs and fix the pages (Cityboard page done, editrolehubimage, manage cheqbk request.button1, complaint page,unable to caste object error, OEChubdownload binddata,,    at _Inwardmarking.LoadDataFromDB(),     at _Branchboard.LoadDataFromDB(),   at _Cityboard.LoadDataFromDB(), Conversion overflow issue in oechubdownload query ....) pending on Yawer and form situations...
+11- File Transfer View query changed (Function name: BindGridView2) , Fileupload changed top5 to top50 also did pagination and inserted date from and date to in query, also added conversion overflow code in query of OEChubdownload page....done 
+12- CRF for new change: city is added while opening cutoff time for return marking, and deffer reason logic is added in return marking process
+13- Get UAT build to LIVE server eCheque....pending on EY testing phase
+14- Update Showclearingcycle on dev PC...done
+15-  Add security code in Report Webapi ask jameel
+16- About Screencast software tell zia Sir
+17- Ask talha and jamil about environment setup document and make a checklist for setting up flutter, android studio paths, postman, APIs
+
+12-09-2022, 13-09-2022,14-09-2022,15-09-2022....
+1- Echeque to IBCS data loading... IMPORTANT//////////////////
+2- NIFT CMS signoff document... fix new issues and requirements in CMS
+3- Bankemail issue still pending...completed from tabish exe NOW TESTING on IBCS....PENDING ON TABISH END FOR SUBCITY ISSUE....ALMOST DONE  Fix bankemail issue by adding city to subcity automatically in Add bank email code IBCS...........to be updated in the next build of IBCS
+4- ePay onboarding and new work from taimoor DFS....GIVE TIMELINE FOR COMPLETION OF WORK.....
+5- Put complain ibcs code same as ePay cms
+6- Create WebAPI that will get path from Reports and then return BYTEARRAY in IBCS....WORKING....TESTING PHASE ON DIFF SERVERS....
+7- CRF for new change: city is added while opening cutoff time for return marking, and deffer reason logic is added in return marking process AND get build to UAT
+8- CHECK ERRORs on IBCS portal through logs and fix the pages (Cityboard page done, editrolehubimage, manage cheqbk request.button1, complaint page,unable to caste object error, OEChubdownload binddata,,    at _Inwardmarking.LoadDataFromDB(),     at _Branchboard.LoadDataFromDB(),   at _Cityboard.LoadDataFromDB(), Conversion overflow issue in oechubdownload query ....) pending on Yawer and form situations...
+9- Look into MVC core for Portal development... Check with Jamil doing
+10- Zubair IS discussion further related to L1 L2 L3 list
+11- Get UAT build to LIVE server eCheque....pending on EY testing phase
+12- Add security code in Report Webapi ask jameel
+13- About Screencast software tell zia Sir...Airdroid Cast is selected...DONE
+14- Ask talha and jamil about environment setup document and make a checklist for setting up flutter, android studio paths, postman, APIs
+15- Cycle is closed msg box is showing on back button click , the view is changed...
+16- Issue with bank email export all emails... issue is with bank code 083 or 83.....DONE
+17- Remove thread was being aborted error from directory logs
+18- Provide test users to EY for CMS epay....done
+
+16-09-2022...
+1- Echeque to IBCS data loading... IMPORTANT//////////////////
+2- NIFT CMS signoff document... fix new issues and requirements in CMS...Final testing phase check other sheet
+3- Bankemail issue still pending...completed from tabish exe NOW TESTING on IBCS....PENDING ON TABISH END FOR SUBCITY ISSUE....ALMOST DONE  Fix bankemail issue by adding city to subcity automatically in Add bank email code IBCS...........to be updated in the next build of IBCS
+4- ePay onboarding and new work from taimoor DFS....GIVE TIMELINE FOR COMPLETION OF WORK.....
+5- Put complain ibcs code same as ePay cms
+6- Create WebAPI that will get path from Reports and then return BYTEARRAY in IBCS....WORKING....TESTING PHASE ON DIFF SERVERS....
+7- CRF for new change: city is added while opening cutoff time for return marking, and deffer reason logic is added in return marking process AND get build to UAT
+8- CHECK ERRORs on IBCS portal through logs and fix the pages (Cityboard page done, editrolehubimage, manage cheqbk request.button1, complaint page,unable to caste object error, OEChubdownload binddata,,    at _Inwardmarking.LoadDataFromDB(),     at _Branchboard.LoadDataFromDB(),   at _Cityboard.LoadDataFromDB(), Conversion overflow issue in oechubdownload query....DONE,  at _Cityboard.btn_export_Click...DONE....) pending on Yawer and form situations...
+9- Look into MVC core for Portal development... Check with Jamil doing
+10- Zubair IS discussion further related to L1 L2 L3 list
+11- Get UAT build to LIVE server eCheque....pending on EY testing phase
+12- Add security code in Report Webapi ask jameel
+13- Ask talha and jamil about environment setup document and make a checklist for setting up flutter, android studio paths, postman, APIs
+14- Cycle is closed msg box is showing on back button click , the view is changed...
+15- Remove thread was being aborted error from directory logs
+16- Take backup of both BMC PCs...done 19-09-22
+17- Add isdeffer and iscycleclose work on UAT server
+
+Dalai Lama
+Do not let the behavior of others destroy your inner peace
+tolerance of different opinions and belief and letting people live their own way
+
+19-09-2022 , 20-09-2022 , 21-09-22....
+1- Echeque to IBCS data loading... IMPORTANT//////////////////
+------2- NIFT CMS signoff document... fix new issues and requirements in CMS...Final testing phase check other sheet
+------3- Bankemail issue still pending...completed from tabish exe NOW TESTING on IBCS....PENDING ON TABISH END FOR SUBCITY ISSUE....ALMOST DONE  Fix bankemail issue by adding city to subcity automatically in Add bank email code IBCS...........to be updated in the next build of IBCS
+4- ePay onboarding and new work from taimoor DFS....GIVE TIMELINE FOR COMPLETION OF WORK.....
+5- Put complain ibcs code same as ePay cms
+6- Create WebAPI that will get path from Reports and then return BYTEARRAY in IBCS....WORKING....TESTING PHASE ON DIFF SERVERS....
+------7- CRF for new change: Fraudulent cheque tag add on marking page, city is added while opening cutoff time for return marking, and deffer reason logic is added in return marking process AND get build to UAT
+8- CHECK ERRORs on IBCS portal through logs and fix the pages (Cityboard page done, editrolehubimage, manage cheqbk request.button1, complaint page,unable to caste object error, OEChubdownload binddata,,    at _Inwardmarking.LoadDataFromDB(),     at _Branchboard.LoadDataFromDB(),   at _Cityboard.LoadDataFromDB(), Conversion overflow issue in oechubdownload query....DONE,  at _Cityboard.btn_export_Click...DONE....) pending on Yawer and form situations...
+9- Look into MVC core for Portal development... Check with Jamil doing
+10- Zubair IS discussion further related to L1 L2 L3 list
+-------11- Get UAT build to LIVE server eCheque....pending on EY testing phase...done
+12- Add security code in Report Webapi ask jameel
+13- Ask talha and jamil about environment setup document and make a checklist for setting up flutter, android studio paths, postman, APIs
+------14- Cycle is closed msg box is showing on back button click , the view is changed...done
+------15- Remove thread was being aborted error from directory logs
+------16- Take backup of both BMC PCs...done
+-------17- Add isdeffer and iscycleclose and fraudelant tag work on UAT server...done
+18- Open live ip of both servers 166,167 on wifiexecutive
+
+22-09-2022, 23-09-2022
+1- Echeque to IBCS data loading... IMPORTANT//////////////////
+------2- NIFT CMS signoff document... fix new issues and requirements in CMS...Final testing phase check other sheet
+------3- Bankemail issue still pending...completed from tabish exe NOW TESTING on IBCS....PENDING ON TABISH END FOR SUBCITY ISSUE....ALMOST DONE  Fix bankemail issue by adding city to subcity automatically in Add bank email code IBCS...........to be updated in the next build of IBCS
+4- ePay onboarding and new work from taimoor DFS....GIVE TIMELINE FOR COMPLETION OF WORK.....
+5- Put complain ibcs code same as ePay cms
+6- Create WebAPI that will get path from Reports and then return BYTEARRAY in IBCS....WORKING....TESTING PHASE ON DIFF SERVERS....
+------7- CRF for new change: Fraudulent cheque tag add on marking page, city is added while opening cutoff time for return marking, and deffer reason logic is added in return marking process AND get build to UAT
+8- CHECK ERRORs on IBCS portal through logs and fix the pages (Cityboard page done, editrolehubimage, manage cheqbk request.button1, complaint page,unable to caste object error, OEChubdownload binddata,,    at _Inwardmarking.LoadDataFromDB(),     at _Branchboard.LoadDataFromDB(),   at _Cityboard.LoadDataFromDB(), Conversion overflow issue in oechubdownload query....DONE,  at _Cityboard.btn_export_Click...DONE....) pending on Yawer and form situations...
+9- Look into MVC core for Portal development... Check with Jamil doing
+10- Zubair IS discussion further related to L1 L2 L3 list
+11- Add security code in Report Webapi ask jameel
+12- Ask talha and jamil about environment setup document and make a checklist for setting up flutter, android studio paths, postman, APIs
+13- Remove thread was being aborted error from directory logs
+14- Open live ip of both servers 166,167 on wifiexecutive
+15- 172.16.1.55 / 172.16.1.56 / 172.16.232.162 Match all tables on these servers with Live (Get CRF done for Wifiexecutive)
+16- Web reports CRF create again and send to IS
+17- Create CRF , CMF of all of new changes on IBCS 
+
+26-09-2022, 27-09-2022
+1- Echeque to IBCS data loading... IMPORTANT//////////////////
+------2- NIFT CMS signoff document... fix new issues and requirements in CMS...Final testing phase check other sheet
+3- Bankemail issue still pending...completed from tabish exe NOW TESTING on IBCS....PENDING ON TABISH END FOR SUBCITY ISSUE....ALMOST DONE  Fix bankemail issue by adding city to subcity automatically in Add bank email code IBCS...........to be updated in the next build of IBCS
+4- ePay onboarding and new work from taimoor DFS....GIVE TIMELINE FOR COMPLETION OF WORK.....
+5- Put complain ibcs code same as ePay cms
+6- Create WebAPI that will get path from Reports and then return BYTEARRAY in IBCS....WORKING....TESTING PHASE ON DIFF SERVERS....
+------7- CRF for new change: Fraudulent cheque tag add on marking page, city is added while opening cutoff time for return marking, and deffer reason logic is added in return marking process AND get build to UAT
+8- CHECK ERRORs on IBCS portal through logs and fix the pages (Cityboard page done, editrolehubimage, manage cheqbk request.button1, complaint page,unable to caste object error, OEChubdownload binddata,,    at _Inwardmarking.LoadDataFromDB(),     at _Branchboard.LoadDataFromDB(),   at _Cityboard.LoadDataFromDB(), Conversion overflow issue in oechubdownload query....DONE,  at _Cityboard.btn_export_Click...DONE....) pending on Yawer and form situations...
+9- Look into MVC core for Portal development... Check with Jamil doing
+10- Zubair IS discussion further related to L1 L2 L3 list
+11- Add security code in Report Webapi ask jameel
+12- Ask talha and jamil about environment setup document and make a checklist for setting up flutter, android studio paths, postman, APIs
+13- Remove thread was being aborted error from directory logs
+-----14- Open live ip of both servers 166,167 on wifiexecutive (CRF required for wifi cofiguration on my laptop and mobile) LONG WORK
+-----15- 172.16.1.55 / 172.16.1.56 / 172.16.232.162 Match all tables on these servers with Live
+16- Web reports CRF create again and send to IS....done
+-----17- Create CRF , CMF of all of new changes on IBCS (Cycle open according to branch,city wise... Deffer cutoff time adition....Fraud cheque tag created and shown in grid)
+18- Drop a mail for socket setup in order to get LAN internet...done
+19- Test TLS1.0 and TLS1.1 on IBCS
+20- Get build to UAT from Jamil PC...done
+21- Open 444 port on eChq UAT server...done
+22- Yawer list for missing and completed emails in Bank email system...done
+YTYNM-MKQRG-VKCDG-MW2V8-RX9KW
+21-3019 Live... dongle testing.....
+
+28-09-2022, 29-09-2022, 30-09-2022....
+1- Echeque to IBCS data loading... IMPORTANT//////////////////
+------2- NIFT CMS signoff document... fix new issues and requirements in CMS...Final testing phase check other sheet....CRF done, testcase done, signoff done, CMF pending.... CMS alert service tested and deployed....done
+3- Bankemail issue still pending...completed from tabish exe NOW TESTING on IBCS....PENDING ON TABISH END FOR SUBCITY ISSUE....ALMOST DONE  Fix bankemail issue by adding city to subcity automatically in Add bank email code IBCS...........to be updated in the next build of IBCS
+4- ePay onboarding and new work from taimoor DFS....GIVE TIMELINE FOR COMPLETION OF WORK.....
+5- Put complain ibcs code same as ePay cms
+6- Create WebAPI that will get path from Reports and then return BYTEARRAY in IBCS....WORKING....TESTING PHASE ON DIFF SERVERS....
+7- CRF for new change: Fraudulent cheque tag add on marking page, city is added while opening cutoff time for return marking, and deffer reason logic is added in return marking process and display City field in cycle time page AND get build to UAT
+8- CHECK ERRORs on IBCS portal through logs and fix the pages (Cityboard page done, editrolehubimage, manage cheqbk request.button1, complaint page,unable to caste object error, OEChubdownload binddata,,    at _Inwardmarking.LoadDataFromDB(),     at _Branchboard.LoadDataFromDB(),   at _Cityboard.LoadDataFromDB(), Conversion overflow issue in oechubdownload query....DONE,  at _Cityboard.btn_export_Click...DONE....  
+at _Branchboard.GridView1_RowCommand(There is no row at position 0)....) pending on Yawer and form situations...
+9- Look into MVC core for Portal development... Check with Jamil doing
+10- Zubair IS discussion further related to L1 L2 L3 list
+11- Add security code in Report Webapi ask jameel
+12- Ask talha and jamil about environment setup document and make a checklist for setting up flutter, android studio paths, postman, APIs
+13- Remove thread was being aborted error from directory logs
+-----14- Open live ip of both servers 166,167 on wifiexecutive (CRF required for wifi cofiguration on my laptop and mobile) LONG WORK
+-----15- 172.16.1.55 / 172.16.1.56 / 172.16.232.162 Match all tables on these servers with Live
+-----16- Create CRF , CMF of all of new changes on IBCS (Cycle open according to branch,city wise... Deffer cutoff time adition....Fraud cheque tag created and shown in grid)
+17- Test TLS1.0 and TLS1.1 on IBCS....done
+18- Port issue on both servers 166 and 167, request taufeeq Sb
+19- Take backup of both BMC pcs
+
+03-10-2022, 04-10-2022, 05-10-2022 , 06-10-2022,07-10-2022
+1- Echeque to IBCS data loading... IMPORTANT//////////////////
+------2- NIFT CMS signoff document... fix new issues and requirements in CMS...Final testing phase check other sheet....CRF done, testcase done, signoff done, CMF pending.... CMS alert service tested and deployed....done
+3- Bankemail issue still pending...completed from tabish exe NOW TESTING on IBCS....PENDING ON TABISH END FOR SUBCITY ISSUE....ALMOST DONE  Fix bankemail issue by adding city to subcity automatically in Add bank email code IBCS...........to be updated in the next build of IBCS
+4- ePay onboarding and new work from taimoor DFS....GIVE TIMELINE FOR COMPLETION OF WORK.....
+5- Put complain ibcs code same as ePay cms
+6- Create WebAPI that will get path from Reports and then return BYTEARRAY in IBCS....WORKING....TESTING PHASE ON DIFF SERVERS....
+7- CRF for new change: Fraudulent cheque tag add on marking page, city is added while opening cutoff time for return marking, and deffer reason logic is added in return marking process and display City field in cycle time page AND get build to UAT
+8- CHECK ERRORs on IBCS portal through logs and fix the pages (Cityboard page done, editrolehubimage, manage cheqbk request.button1, complaint page,unable to caste object error, OEChubdownload binddata,,    at _Inwardmarking.LoadDataFromDB(),     at _Branchboard.LoadDataFromDB(),   at _Cityboard.LoadDataFromDB(), Conversion overflow issue in oechubdownload query....DONE,  at _Cityboard.btn_export_Click...DONE....  
+at _Branchboard.GridView1_RowCommand(There is no row at position 0)....) pending on Yawer and form situations...
+9- Look into MVC core for Portal development... Check with Jamil doing
+10- Zubair IS discussion further related to L1 L2 L3 list
+11- Add security code in Report Webapi ask jameel
+12- Ask talha and jamil about environment setup document and make a checklist for setting up flutter, android studio paths, postman, APIs
+13- Remove thread was being aborted error from directory logs
+-----14- Open live ip of both servers 166,167 on wifiexecutive (CRF required for wifi cofiguration on my laptop and mobile) LONG WORK
+-----15- 172.16.1.55 / 172.16.1.56 / 172.16.232.162 Match all tables on these servers with Live
+-----16- Create CRF , CMF of all of new changes on IBCS (Cycle open according to branch,city wise... Deffer cutoff time adition....Fraud cheque tag created and shown in grid)
+17- Port issue on both servers 166 and 167, request taufeeq Sb
+18- Fix 167 build and give APK of 167...done
+
+10-10-22022 -> 13-10-2022
+1- Echeque to IBCS data loading... IMPORTANT//////////////////
+------2- NIFT CMS signoff document... fix new issues and requirements in CMS...Final testing phase check other sheet....CRF done, testcase done, signoff done, CMF pending.... CMS alert service tested and deployed....done
+3- Bankemail issue still pending...completed from tabish exe NOW TESTING on IBCS....PENDING ON TABISH END FOR SUBCITY ISSUE....ALMOST DONE  Fix bankemail issue by adding city to subcity automatically in Add bank email code IBCS...........to be updated in the next build of IBCS
+4- ePay onboarding and new work from taimoor DFS....GIVE TIMELINE FOR COMPLETION OF WORK.....
+5- Put complain ibcs code same as ePay cms
+6- Create WebAPI that will get path from Reports and then return BYTEARRAY in IBCS....WORKING....TESTING PHASE ON DIFF SERVERS....
+7- CRF for new change: Fraudulent cheque tag add on marking page, city is added while opening cutoff time for return marking, and deffer reason logic is added in return marking process and display City field in cycle time page AND get build to UAT
+8- CHECK ERRORs on IBCS portal through logs and fix the pages (Cityboard page done, editrolehubimage, manage cheqbk request.button1, complaint page,unable to caste object error, OEChubdownload binddata,,    at _Inwardmarking.LoadDataFromDB(),     at _Branchboard.LoadDataFromDB(),   at _Cityboard.LoadDataFromDB(), Conversion overflow issue in oechubdownload query....DONE,  at _Cityboard.btn_export_Click...DONE....  
+at _Branchboard.GridView1_RowCommand(There is no row at position 0)....) pending on Yawer and form situations...
+9- Look into MVC core for Portal development... Check with Jamil doing
+10- Zubair IS discussion further related to L1 L2 L3 list
+11- Add security code in Report Webapi ask jameel
+12- Ask talha and jamil about environment setup document and make a checklist for setting up flutter, android studio paths, postman, APIs
+13- Remove thread was being aborted error from directory logs
+-----14- Open live ip of both servers 166,167 on wifiexecutive (CRF required for wifi cofiguration on my laptop and mobile) LONG WORK
+15- 172.16.1.55 / 172.16.1.56 / 172.16.232.162 Match all tables on these servers with Live...done
+-----16- Create CRF , CMF of all of new changes on IBCS (Cycle open according to branch,city wise... Deffer cutoff time adition....Fraud cheque tag created and shown in grid)
+17- Port issue on both servers 166 and 167, request taufeeq Sb
+18- EY testing help...done
+19- ZTBL data for inward outward items....done
+20- Jameel Issue with AJax JS
+
+14-10-2022., 17-10-2022, 18-10-2022,19-10-2022,20-10-2022, 21-10-2022
+1- Echeque to IBCS data loading... IMPORTANT//////////////////
+------2- NIFT CMS signoff document... fix new issues and requirements in CMS...Final testing phase check other sheet....CRF done, testcase done, signoff done, CMF pending.... CMS alert service tested and deployed....done
+3- Bankemail issue still pending...completed from tabish exe NOW TESTING on IBCS....PENDING ON TABISH END FOR SUBCITY ISSUE....ALMOST DONE  Fix bankemail issue by adding city to subcity automatically in Add bank email code IBCS...........to be updated in the next build of IBCS
+4- ePay onboarding and new work from taimoor DFS....GIVE TIMELINE FOR COMPLETION OF WORK.....
+5- Put complain ibcs code same as ePay cms
+6- Create WebAPI that will get path from Reports and then return BYTEARRAY in IBCS....WORKING....TESTING PHASE ON DIFF SERVERS....
+7- CRF for new change: Fraudulent cheque tag add on marking page, city is added while opening cutoff time for return marking, and deffer reason logic is added in return marking process and display City field in cycle time page AND get build to UAT
+8- CHECK ERRORs on IBCS portal through logs and fix the pages (Cityboard page done, editrolehubimage, manage cheqbk request.button1, complaint page,unable to caste object error, OEChubdownload binddata,,    at _Inwardmarking.LoadDataFromDB(),     at _Branchboard.LoadDataFromDB(),   at _Cityboard.LoadDataFromDB(), Conversion overflow issue in oechubdownload query....DONE,  at _Cityboard.btn_export_Click...DONE....  
+at _Branchboard.GridView1_RowCommand(There is no row at position 0)....) pending on Yawer and form situations...
+9- Look into MVC core for Portal development... Check with Jamil doing
+10- Zubair IS discussion further related to L1 L2 L3 list
+11- Add security code in Report Webapi ask jameel
+12- Ask talha and jamil about environment setup document and make a checklist for setting up flutter, android studio paths, postman, APIs
+13- Remove thread was being aborted error from directory logs
+-----14- Open live ip of both servers 166,167 on wifiexecutive (CRF required for wifi cofiguration on my laptop and mobile) LONG WORK
+-----16- Create CRF , CMF of all of new changes on IBCS (Cycle open according to branch,city wise... Deffer cutoff time adition....Fraud cheque tag created and shown in grid)
+14- Port issue on both servers 166 and 167, request taufeeq Sb
+15- Jameel Issue with AJax JS
+16- UAT of nabila ahnaf sindh bank issue....done
+17- Provide hammad report to yawer and boss
+
+24-10-2022
+1- Echeque to IBCS data loading... IMPORTANT//////////////////
+------2- NIFT CMS signoff document... fix new issues and requirements in CMS...Final testing phase check other sheet....CRF done, testcase done, signoff done, CMF pending.... CMS alert service tested and deployed....done
+3- Bankemail issue still pending...completed from tabish exe NOW TESTING on IBCS....PENDING ON TABISH END FOR SUBCITY ISSUE....ALMOST DONE  Fix bankemail issue by adding city to subcity automatically in Add bank email code IBCS...........to be updated in the next build of IBCS
+4- ePay onboarding and new work from taimoor DFS....GIVE TIMELINE FOR COMPLETION OF WORK.....
+5- Put complain ibcs code same as ePay cms
+6- Create WebAPI that will get path from Reports and then return BYTEARRAY in IBCS....WORKING....TESTING PHASE ON DIFF SERVERS....
+7- CRF for new change: Fraudulent cheque tag add on marking page, city is added while opening cutoff time for return marking, and deffer reason logic is added in return marking process and display City field in cycle time page AND get build to UAT
+8- CHECK ERRORs on IBCS portal through logs and fix the pages (Cityboard page done, editrolehubimage, manage cheqbk request.button1, complaint page,unable to caste object error, OEChubdownload binddata,,    at _Inwardmarking.LoadDataFromDB(),     at _Branchboard.LoadDataFromDB(),   at _Cityboard.LoadDataFromDB(), Conversion overflow issue in oechubdownload query....DONE,  at _Cityboard.btn_export_Click...DONE....  
+at _Branchboard.GridView1_RowCommand(There is no row at position 0)....) pending on Yawer and form situations...
+9- Look into MVC core for Portal development... Check with Jamil doings
+10- Zubair IS discussion further related to L1 L2 L3 list
+11- Add security code in Report Webapi ask jameel
+12- Ask talha and jamil about environment setup document and make a checklist for setting up flutter, android studio paths, postman, APIs
+13- Remove thread was being aborted error from directory logs
+-----14- Open live ip of both servers 166,167 on wifiexecutive (CRF required for wifi cofiguration on my laptop and mobile) LONG WORK
+-----16- Create CRF , CMF of all of new changes on IBCS (Cycle open according to branch,city wise... Deffer cutoff time adition....Fraud cheque tag created and shown in grid)
+14- Port issue on both servers 166 and 167, request taufeeq Sb
+15- Jameel Issue with AJAX Javascript....CHECK jameel code as well
+16- UAT of nabila ahnaf sindh bank issue....done
+17- Provide hammad report to yawer and boss....done
+18- Get IBCS build to live and also change the version and the tables changed in the UAT database
+19- Faraz Sb work get quotation ready for designer
+20- Provide list of NBP bank branch list to Yawer...done
+
+25-10-2022, 26-10-2022 , 27-10-2022, 28-10-2022.......
+1- Echeque to IBCS data loading... IMPORTANT//////////////////
+------2- NIFT CMS signoff document... fix new issues and requirements in CMS...Final testing phase check other sheet....CRF done, testcase done, signoff done, CMF pending.... CMS alert service tested and deployed....done
+3- Bankemail issue still pending...completed from tabish exe NOW TESTING on IBCS....PENDING ON TABISH END FOR SUBCITY ISSUE....ALMOST DONE  Fix bankemail issue by adding city to subcity automatically in Add bank email code IBCS...........to be updated in the next build of IBCS
+4- ePay onboarding and new work from taimoor DFS....GIVE TIMELINE FOR COMPLETION OF WORK.....
+5- Put complain ibcs code same as ePay cms and also complete requests form
+6- Create WebAPI that will get path from Reports and then return BYTEARRAY in IBCS....WORKING....TESTING PHASE ON DIFF SERVERS....
+7- CRF for new change: Fraudulent cheque tag add on marking page, city is added while opening cutoff time for return marking, and deffer reason logic is added in return marking process and display City field in cycle time page AND get build to UAT
+8- CHECK ERRORs on IBCS portal through logs and fix the pages (Cityboard page done, editrolehubimage, manage cheqbk request.button1, complaint page,unable to caste object error, OEChubdownload binddata,,    at _Inwardmarking.LoadDataFromDB(),     at _Branchboard.LoadDataFromDB(),   at _Cityboard.LoadDataFromDB(), Conversion overflow issue in oechubdownload query....DONE,  at _Cityboard.btn_export_Click...DONE....  
+at _Branchboard.GridView1_RowCommand(There is no row at position 0)....) pending on Yawer and form situations...
+9- Look into MVC core for Portal development... Check with Jamil doings
+10- Zubair IS discussion further related to L1 L2 L3 list
+11- Add security code in Report Webapi ask jameel....basically add tokens
+12- Ask talha and jamil about environment setup document and make a checklist for setting up flutter, android studio paths, postman, APIs
+13- Remove thread was being aborted error from directory logs
+-----14- Open live ip of both servers 166,167 on wifiexecutive (CRF required for wifi cofiguration on my laptop and mobile) LONG WORK
+-----16- Create CRF , CMF of all of new changes on IBCS (Cycle open according to branch,city wise(left)... Deffer cutoff time adition(done by tabish)....Fraud cheque tag created and shown in grid(done by tabish))
+14- Port issue on both servers 166 and 167, request taufeeq Sb
+15- Jameel Issue with AJAX Javascript....CHECK jameel code as well....done
+18- Get IBCS build to live and also change the version and the tables changed in the UAT database....done
+19- Faraz Sb work get quotation ready for designer
+
+31-10-2022, 01-11-2022, 02-11-2022, 03-11-2022, 04-11-2022, 07-11-2022,08-11-2022
+1- Echeque to IBCS data loading... IMPORTANT//////////////////
+------2- NIFT CMS signoff document... fix new issues and requirements in CMS...Final testing phase check other sheet....CRF done, testcase done, signoff done, CMF pending.... CMS alert service tested and deployed....done
+3- Bankemail issue still pending...completed from tabish exe NOW TESTING on IBCS....PENDING ON TABISH END FOR SUBCITY ISSUE....ALMOST DONE  Fix bankemail issue by adding city to subcity automatically in Add bank email code IBCS...........to be updated in the next build of IBCS
+4- ePay onboarding and new work from taimoor DFS....GIVE TIMELINE FOR COMPLETION OF WORK.....
+5- Put complain ibcs code same as ePay cms and also complete requests form
+6- Create WebAPI that will get path from Reports and then return BYTEARRAY in IBCS....WORKING....TESTING PHASE ON DIFF SERVERS....
+7- CRF for new change: Fraudulent cheque tag add on marking page...done, city is added while opening cutoff time for return marking, and deffer reason logic is added in return marking process and display City field in cycle time page AND get build to UAT....pending
+8- CHECK ERRORs on IBCS portal through logs and fix the pages (Cityboard page done, editrolehubimage, manage cheqbk request.button1, complaint page,unable to caste object error, OEChubdownload binddata,,    at _Inwardmarking.LoadDataFromDB(),     at _Branchboard.LoadDataFromDB(),   at _Cityboard.LoadDataFromDB(), Conversion overflow issue in oechubdownload query....DONE,  at _Cityboard.btn_export_Click...DONE....  
+at _Branchboard.GridView1_RowCommand(There is no row at position 0)....) pending on Yawer and form situations...
+9- Look into MVC core for Portal development... Check with Jamil doings
+10- Zubair IS discussion further related to L1 L2 L3 list
+11- Add security code in Report Webapi ask jameel....basically add tokens
+12- Ask talha and jamil about environment setup document and make a checklist for setting up flutter, android studio paths, postman, APIs
+13- Remove thread was being aborted error from directory logs
+-----14- Open live ip of both servers 166,167 on wifiexecutive (CRF required for wifi cofiguration on my laptop and mobile) LONG WORK
+-----16- Create CRF , CMF of all of new changes on IBCS (Cycle open according to branch,city wise(left)... Deffer cutoff time adition(done by tabish)....Fraud cheque tag created and shown in grid(done by tabish))
+14- Port issue on both servers 166 and 167, request taufeeq Sb
+15- Faraz Sb work get quotation ready for designer
+16- Changed bankemail max length....done
+
+11-10-2022 ->>> 16-10-2022....
+1- Echeque to IBCS data loading... IMPORTANT//////////////////
+------2- NIFT CMS signoff document... fix new issues and requirements in CMS...Final testing phase check other sheet....CRF done, testcase done, signoff done, CMF pending.... CMS alert service tested and deployed....done
+3- Bankemail issue still pending...completed from tabish exe NOW TESTING on IBCS....PENDING ON TABISH END FOR SUBCITY ISSUE....ALMOST DONE  Fix bankemail issue by adding city to subcity automatically in Add bank email code IBCS...........to be updated in the next build of IBCS
+4- ePay onboarding and new work from taimoor DFS....GIVE TIMELINE FOR COMPLETION OF WORK.....
+5- Put complain ibcs code same as ePay cms and also complete requests form
+6- Create WebAPI that will get path from Reports and then return BYTEARRAY in IBCS....WORKING....TESTING PHASE ON DIFF SERVERS....
+7- CRF for new change: Fraudulent cheque tag add on marking page...done and live, city is added while opening cutoff time for return marking, and deffer reason logic is added in return marking process and display City field in cycle time page AND get build to UAT....pending
+8- CHECK ERRORs on IBCS portal through logs and fix the pages (Cityboard page done, editrolehubimage, manage cheqbk request.button1, complaint page,unable to caste object error, OEChubdownload binddata,,    at _Inwardmarking.LoadDataFromDB(),     at _Branchboard.LoadDataFromDB(),   at _Cityboard.LoadDataFromDB(), Conversion overflow issue in oechubdownload query....DONE,  at _Cityboard.btn_export_Click...DONE....  
+at _Branchboard.GridView1_RowCommand(There is no row at position 0)....done) pending on Yawer and form situations...
+9- Look into MVC core for Portal development... Check with Jamil doings
+10- Zubair IS discussion further related to L1 L2 L3 list
+11- Add security code in Report Webapi ask jameel....basically add tokens
+12- Ask talha and jamil about environment setup document and make a checklist for setting up flutter, android studio paths, postman, APIs
+13- Remove thread was being aborted error from directory logs
+-----14- Open live ip of both servers 166,167 on wifiexecutive (CRF required for wifi cofiguration on my laptop and mobile) LONG WORK
+-----16- Create CRF , CMF of all of new changes on IBCS (Cycle open according to branch,city wise(left)... Deffer cutoff time adition(done by tabish)....Fraud cheque tag created and shown in grid(done by tabish))
+14- Port issue on both servers 166 and 167, request taufeeq Sb
+15- Faraz Sb work get quotation ready for designer....done
+16- prepare test for rija, nbp file.... and and get cms sign off on second half....done
+how to host webpage on github......create account on gitttoo
+17- Faraz Sb work documentation for ePay pages design
+18- COnverting code to .net 7.0 including IBCS
+
+17-11-2022, 18-11-2022...
+1- Echeque to IBCS data loading... IMPORTANT//////////////////
+------2- NIFT CMS signoff document... fix new issues and requirements in CMS...Final testing phase check other sheet....CRF done, testcase done, signoff done, CMF pending.... CMS alert service tested and deployed....done
+3- Bankemail issue still pending...completed from tabish exe NOW TESTING on IBCS....PENDING ON TABISH END FOR SUBCITY ISSUE....ALMOST DONE  Fix bankemail issue by adding city to subcity automatically in Add bank email code IBCS...........to be updated in the next build of IBCS
+4- ePay onboarding and new work from taimoor DFS....GIVE TIMELINE FOR COMPLETION OF WORK.....
+5- Put complain ibcs code same as ePay cms and also complete requests form
+6- Create WebAPI that will get path from Reports and then return BYTEARRAY in IBCS....WORKING....TESTING PHASE ON DIFF SERVERS.... ON HOLD
+7- CRF for new change: Fraudulent cheque tag add on marking page...done and live, city is added while opening cutoff time for return marking, and deffer reason logic is added in return marking process and display City field in cycle time page AND get build to UAT....pending
+8- CHECK ERRORs on IBCS portal through logs and fix the pages (Cityboard page done, editrolehubimage, manage cheqbk request.button1, complaint page,unable to caste object error, OEChubdownload binddata,,    at _Inwardmarking.LoadDataFromDB(),     at _Branchboard.LoadDataFromDB(),   at _Cityboard.LoadDataFromDB(), Conversion overflow issue in oechubdownload query....DONE,  at _Cityboard.btn_export_Click...DONE....  
+chqbk_request submit click (Input string was not in a correct format.)...........
+at _Branchboard.GridView1_RowCommand(There is no row at position 0)....done) pending on Yawer and form situations...
+
+9- Look into MVC core for Portal development... Check with Jamil doings
+10- Zubair IS discussion further related to L1 L2 L3 list.......... ON HOLD
+11- Add security code in Report Webapi ask jameel....basically add tokens.......ON HOLD
+12- Ask talha and jamil about environment setup document and make a checklist for setting up flutter, android studio paths, postman, APIs
+13- Remove thread was being aborted error from directory logs...done
+-----14- Open live ip of both servers 166,167 on wifiexecutive (CRF required for wifi cofiguration on my laptop and mobile) LONG WORK
+-----16- Create CRF , CMF of all of new changes on IBCS (Cycle open according to branch,city wise(left)... Deffer cutoff time adition(done by tabish)....Fraud cheque tag created and shown in grid(done by tabish))
+14- Port issue on both servers 166 and 167, request taufeeq Sb
+15- how to host webpage on github......create account on gitttoo
+16- Faraz Sb work documentation for ePay pages design
+17- Converting code to .net 7.0 including IBCS
+18- Create a banner on IBCS for booth clearing 
+
+21-11-2022, 22-11-2022 >>>>> 25-11-2022......28-11-2022.....29-11-2022
+1- Echeque to IBCS data loading... IMPORTANT//////////////////
+------2- NIFT CMS signoff document... fix new issues and requirements in CMS...Final testing phase check other sheet....CRF done, testcase done, signoff done, CMF pending.... CMS alert service tested and deployed....done
+3- Bankemail issue still pending...completed from tabish exe NOW TESTING on IBCS....PENDING ON TABISH END FOR SUBCITY ISSUE....ALMOST DONE  Fix bankemail issue by adding city to subcity automatically in Add bank email code IBCS...........to be updated in the next build of IBCS
+4- ePay onboarding and new work from taimoor DFS....GIVE TIMELINE FOR COMPLETION OF WORK.....
+5- Put complain ibcs code same as ePay cms and also complete requests form
+6- Create WebAPI that will get path from Reports and then return BYTEARRAY in IBCS....WORKING....TESTING PHASE ON DIFF SERVERS.... ON HOLD >>>>>>>>  Add security code in Report Webapi ask jameel....basically add tokens.......ON HOLD
+7- CRF for new change: Fraudulent cheque tag add on marking page...done and live, city is added while opening cutoff time for return marking, and deffer reason logic is added in return marking process and display City field in cycle time page AND get build to UAT....done
+8- CHECK ERRORs on IBCS portal through logs and fix the pages (Cityboard page done, editrolehubimage, manage cheqbk request.button1, complaint page,unable to caste object error, OEChubdownload binddata,,    at _Inwardmarking.LoadDataFromDB(),     at _Branchboard.LoadDataFromDB(),   at _Cityboard.LoadDataFromDB(), Conversion overflow issue in oechubdownload query....DONE,  at _Cityboard.btn_export_Click...DONE....  
+chqbk_request submit click (Input string was not in a correct format.)...........
+at _Branchboard.GridView1_RowCommand(There is no row at position 0)....done) pending on Yawer and form situations...
+9- Look into MVC core for Portal development... Check with Jamil doings
+10- Zubair IS discussion further related to L1 L2 L3 list.......... ON HOLD
+11- Ask talha and jamil about environment setup document and make a checklist for setting up flutter, android studio paths, postman, APIs
+-----12- Open live ip of both servers 166,167 on wifiexecutive (CRF required for wifi cofiguration on my laptop and mobile) LONG WORK
+13- Port issue on both servers 166 and 167, request taufeeq Sb
+14- how to host webpage on github......create account on gitttoo
+15- Faraz Sb work documentation for ePay pages design
+16- Converting code to .net 7.0 including IBCS
+17- Create a banner on IBCS for booth clearing...done
+18- Create report for yawer bank >> city>>name>> users table.... 27 cities pen pakistan users....done
+
+30-11-2022, 01-12-2022, 02-12-2022......
+1- Echeque to IBCS data loading... IMPORTANT//////////////////
+2- Bankemail issue still pending...completed from tabish exe NOW TESTING on IBCS....PENDING ON TABISH END FOR SUBCITY ISSUE....ALMOST DONE  Fix bankemail issue by adding city to subcity automatically in Add bank email code IBCS...........to be updated in the next build of IBCS
+3- ePay onboarding and new work from taimoor DFS....GIVE TIMELINE FOR COMPLETION OF WORK.....
+4- Put complain ibcs code same as ePay cms and also complete requests form
+5- Create WebAPI that will get path from Reports and then return BYTEARRAY in IBCS....WORKING....TESTING PHASE ON DIFF SERVERS.... ON HOLD >>>>>>>>  Add security code in Report Webapi ask jameel....basically add tokens.......ON HOLD
+6- CHECK ERRORs on IBCS portal through logs and fix the pages (Cityboard page done, (incorrect syntax near =) editrolehubimage, manage cheqbk request.button1, complaint page,unable to caste object error, OEChubdownload binddata,,    at _Inwardmarking.LoadDataFromDB(),     at _Branchboard.LoadDataFromDB(),   at _Cityboard.LoadDataFromDB(), Conversion overflow issue in oechubdownload query....DONE,  at _Cityboard.btn_export_Click...DONE....  
+chqbk_request submit click (Input string was not in a correct format.)...........
+at _Branchboard.GridView1_RowCommand(There is no row at position 0)....done) pending on Yawer and form situations...
+7- Look into MVC core for Portal development... Check with Jamil doings
+8- Zubair IS discussion further related to L1 L2 L3 list.......... ON HOLD
+9- Ask talha and jamil about environment setup document and make a checklist for setting up flutter, android studio paths, postman, APIs
+-----10- Open live ip of both servers 166,167 on wifiexecutive (CRF required for wifi cofiguration on my laptop and mobile) LONG WORK
+11- Port issue on both servers 166 and 167, request taufeeq Sb
+12- how to host webpage on github......create account on gitttoo
+13- Faraz Sb work documentation for ePay pages design....WORKING ON BRD
+14- Converting code to .net 7.0 including IBCS
+15- Check cms vapt report and resolve major issues....WORKING
+16- Get access for VNC replacement that would be remote desktop connection
+17- UV working on IBCS portal....WORKING
+18- Fix the isdeffer working on return marking remove the 900 tag from return reason list once deffer is closed....done
+
+05-12-2022, 06-12-2022 , 07-12-2022,08-12-022,09-12-22
+1- Echeque to IBCS data loading... IMPORTANT//////////////////
+2- Bankemail issue still pending...completed from tabish exe NOW TESTING on IBCS....PENDING ON TABISH END FOR SUBCITY ISSUE....ALMOST DONE  Fix bankemail issue by adding city to subcity automatically in Add bank email code IBCS...........to be updated in the next build of IBCS
+3- ePay onboarding and new work from taimoor DFS....GIVE TIMELINE FOR COMPLETION OF WORK.....
+4- Put complain ibcs code same as ePay cms and also complete requests form
+5- Create WebAPI that will get path from Reports and then return BYTEARRAY in IBCS....WORKING....TESTING PHASE ON DIFF SERVERS.... ON HOLD >>>>>>>>  Add security code in Report Webapi ask jameel....basically add tokens.......ON HOLD
+6- CHECK ERRORs on IBCS portal through logs and fix the pages (Cityboard page done, (incorrect syntax near =) editrolehubimage, manage cheqbk request.button1, complaint page,unable to caste object error, OEChubdownload binddata,,    at _Inwardmarking.LoadDataFromDB(),     at _Branchboard.LoadDataFromDB(),   at _Cityboard.LoadDataFromDB(), Conversion overflow issue in oechubdownload query....DONE,  at _Cityboard.btn_export_Click...DONE....  
+chqbk_request submit click (Input string was not in a correct format.)...........
+at _Branchboard.GridView1_RowCommand(There is no row at position 0)....done) pending on Yawer and form situations...
+7- Look into MVC core for Portal development... Check with Jamil doings
+8- Zubair IS discussion further related to L1 L2 L3 list.......... ON HOLD
+9- Ask talha and jamil about environment setup document and make a checklist for setting up flutter, android studio paths, postman, APIs
+-----10- Open live ip of both servers 166,167 on wifiexecutive (CRF required for wifi cofiguration on my laptop and mobile) LONG WORK
+11- Port issue on both servers 166 and 167, request taufeeq Sb
+12- how to host webpage on github......create account on gitttoo
+13- Faraz Sb work documentation for ePay pages design....WORKING ON BRD
+14- Converting code to .net 7.0 including IBCS
+15- Check cms vapt report and resolve major issues....done
+16- Get access for VNC replacement that would be remote desktop connection
+17- UV working on IBCS portal....done on UAT GO LIVE........
+UV matched tmp
+UV matched %age
+18- Take source code from atif and hussain for NIFT epay and also from navaid and talha PC
+19- Provide reply to kazim for CMS report
+20- NIFT.pk website renewal and design from atif bhai
+21- Edit GIF of nift epay for our ibcs
+22- Get store procedures in CMS epay and create table changes done for merchant(username) and user table
+23- Access server and deploy new epay build for UI UX design
+
+12-12-2022....13-12-2022.....14-12-2022
+1- Echeque to IBCS data loading... IMPORTANT//////////////////
+2- Bankemail issue still pending...completed from tabish exe NOW TESTING on IBCS....PENDING ON TABISH END FOR SUBCITY ISSUE....ALMOST DONE  Fix bankemail issue by adding city to subcity automatically in Add bank email code IBCS...........to be updated in the next build of IBCS
+3- ePay onboarding and new work from taimoor DFS....GIVE TIMELINE FOR COMPLETION OF WORK.....
+4- Put complain ibcs code same as ePay cms and also complete requests form
+5- Create WebAPI that will get path from Reports and then return BYTEARRAY in IBCS....WORKING....TESTING PHASE ON DIFF SERVERS.... ON HOLD >>>>>>>>  Add security code in Report Webapi ask jameel....basically add tokens.......ON HOLD
+6- CHECK ERRORs on IBCS portal through logs and fix the pages (Cityboard page done, (incorrect syntax near =) editrolehubimage, manage cheqbk request.button1, complaint page,unable to caste object error, OEChubdownload binddata,,    at _Inwardmarking.LoadDataFromDB(),     at _Branchboard.LoadDataFromDB(),   at _Cityboard.LoadDataFromDB(), Conversion overflow issue in oechubdownload query....DONE,  at _Cityboard.btn_export_Click...DONE....  
+chqbk_request submit click (Input string was not in a correct format.)...........
+at _Branchboard.GridView1_RowCommand(There is no row at position 0)....done) pending on Yawer and form situations...
+7- Look into MVC core for Portal development... Check with Jamil doings
+8- Zubair IS discussion further related to L1 L2 L3 list.......... ON HOLD
+9- Ask talha and jamil about environment setup document and make a checklist for setting up flutter, android studio paths, postman, APIs
+-----10- Open live ip of both servers 166,167 on wifiexecutive (CRF required for wifi cofiguration on my laptop and mobile) LONG WORK
+11- Port issue on both servers 166 and 167, request taufeeq Sb
+12- how to host webpage on github......create account on gitttoo
+13- Faraz Sb work documentation for ePay pages design....WORKING ON BRD and also create a data flow of the payment pages ePay
+14- Converting code to .net 7.0 including IBCS.....ON HOLD
+16- Get access for VNC replacement that would be remote desktop connection
+17- UV working on IBCS portal....done on UAT GO LIVE........
+UV matched tmp
+UV matched %age
+18- Take source code from atif and hussain for NIFT epay and also from navaid and talha PC....done
+19- Provide reply to kazim for CMS report.....done
+20- NIFT.pk website renewal and design from atif bhai....ATIF bhai working
+21- Edit GIF of nift epay for our ibcs.....ON HOLD
+22- Get store procedures in CMS epay and create table changes done for merchant(username) and user table...ON HOLD
+23- Access server and deploy new epay build for UI UX design....done
+
+15-12-2022 - 20-15-2022
+1- Echeque to IBCS data loading... IMPORTANT//////////////////
+2- Bankemail issue still pending...completed from tabish exe NOW TESTING on IBCS....PENDING ON TABISH END FOR SUBCITY ISSUE....ALMOST DONE  Fix bankemail issue by adding city to subcity automatically in Add bank email code IBCS...........to be updated in the next build of IBCS
+3- ePay onboarding and new work from taimoor DFS....GIVE TIMELINE FOR COMPLETION OF WORK.....
+4- Put complain ibcs code same as ePay cms and also complete requests form
+5- Create WebAPI that will get path from Reports and then return BYTEARRAY in IBCS....WORKING....TESTING PHASE ON DIFF SERVERS.... ON HOLD >>>>>>>>  Add security code in Report Webapi ask jameel....basically add tokens.......ON HOLD
+6- CHECK ERRORs on IBCS portal through logs and fix the pages (Cityboard page done, (incorrect syntax near =) editrolehubimage, manage cheqbk request.button1, complaint page,unable to caste object error, OEChubdownload binddata,,    at _Inwardmarking.LoadDataFromDB(),     at _Branchboard.LoadDataFromDB(),   at _Cityboard.LoadDataFromDB(), Conversion overflow issue in oechubdownload query....DONE,  at _Cityboard.btn_export_Click...DONE....  
+chqbk_request submit click (Input string was not in a correct format.)...........
+at _Branchboard.GridView1_RowCommand(There is no row at position 0)....done) pending on Yawer and form situations...
+7- Look into MVC core for Portal development... Check with Jamil doings
+8- Zubair IS discussion further related to L1 L2 L3 list.......... ON HOLD
+9- Ask talha and jamil about environment setup document and make a checklist for setting up flutter, android studio paths, postman, APIs
+-----10- Open live ip of both servers 166,167 on wifiexecutive (CRF required for wifi cofiguration on my laptop and mobile) LONG WORK
+11- Port issue on both servers 166 and 167, request taufeeq Sb
+12- how to host webpage on github......create account on gitttoo
+13- Faraz Sb work documentation for ePay pages design....WORKING ON BRD and also create a data flow of the payment pages ePay
+14- Converting code to .net 7.0 including IBCS.....ON HOLD
+15- Get access for VNC replacement that would be remote desktop connection
+16- NIFT.pk website renewal and design from atif bhai....ATIF bhai working
+17- Edit GIF of nift epay for our ibcs.....ON HOLD
+18- Get store procedures in CMS epay and create table changes done for merchant(username) and user table...ON HOLD
+
+22-12-2022, 23-12-2022
+1- Echeque to IBCS data loading... IMPORTANT//////////////////
+2- Bankemail issue still pending...completed from tabish exe NOW TESTING on IBCS....PENDING ON TABISH END FOR SUBCITY ISSUE....ALMOST DONE  Fix bankemail issue by adding city to subcity automatically in Add bank email code IBCS...........to be updated in the next build of IBCS
+3- ePay onboarding and new work from taimoor DFS....GIVE TIMELINE FOR COMPLETION OF WORK.....
+4- Put complain ibcs code same as ePay cms and also complete requests form
+5- Create WebAPI that will get path from Reports and then return BYTEARRAY in IBCS....WORKING....TESTING PHASE ON DIFF SERVERS.... ON HOLD >>>>>>>>  Add security code in Report Webapi ask jameel....basically add tokens.......ON HOLD
+6- CHECK ERRORs on IBCS portal through logs and fix the pages (Cityboard page done, (incorrect syntax near =) editrolehubimage, manage cheqbk request.button1, complaint page,unable to caste object error, OEChubdownload binddata,,    at _Inwardmarking.LoadDataFromDB(),     at _Branchboard.LoadDataFromDB(),   at _Cityboard.LoadDataFromDB(), Conversion overflow issue in oechubdownload query....DONE,  at _Cityboard.btn_export_Click...DONE....  
+chqbk_request submit click (Input string was not in a correct format.)...........
+at _Branchboard.GridView1_RowCommand(There is no row at position 0)....done) pending on Yawer and form situations...
+7- Look into MVC core for Portal development... Check with Jamil doings
+8- Zubair IS discussion further related to L1 L2 L3 list.......... ON HOLD
+9- Ask talha and jamil about environment setup document and make a checklist for setting up flutter, android studio paths, postman, APIs
+-----10- Open live ip of both servers 166,167 on wifiexecutive (CRF required for wifi cofiguration on my laptop and mobile) LONG WORK
+11- Port issue on both servers 166 and 167, request taufeeq Sb
+12- how to host webpage on github......create account on gitttoo
+13- Faraz Sb work documentation for ePay pages design....WORKING ON BRD and also create a data flow of the payment pages ePay
+14- Converting code to .net 7.0 including IBCS.....ON HOLD
+15- Get access for VNC replacement that would be remote desktop connection
+16- NIFT.pk website renewal and design from atif bhai....ATIF bhai working
+17- Edit GIF of nift epay for our ibcs.....ON HOLD
+18- Get store procedures in CMS epay and create table changes done for merchant(username) and user table...ON HOLD
+19- Zia Sb requirement for softwares and echeq to ibcs process...done
+20- Yawer data required for bankemail table
+21- Review Digital Cheque design with Boss
+
+26-12-2022,27-12-2022,28-12-2022,29-12-2022, 30-12-2022
+1- Echeque to IBCS data loading... IMPORTANT//////////////////
+2- Bankemail issue still pending...completed from tabish exe NOW TESTING on IBCS....PENDING ON TABISH END FOR SUBCITY ISSUE....ALMOST DONE  Fix bankemail issue by adding city to subcity automatically in Add bank email code IBCS...........to be updated in the next build of IBCS
+3- ePay onboarding and new work from taimoor DFS....GIVE TIMELINE FOR COMPLETION OF WORK.....
+4- Put complain ibcs code same as ePay cms and also complete requests form
+5- Create WebAPI that will get path from Reports and then return BYTEARRAY in IBCS....WORKING....TESTING PHASE ON DIFF SERVERS.... ON HOLD >>>>>>>>  Add security code in Report Webapi ask jameel....basically add tokens.......ON HOLD
+6- CHECK ERRORs on IBCS portal through logs and fix the pages (Cityboard page done, (incorrect syntax near =) editrolehubimage, manage cheqbk request.button1, complaint page,unable to caste object error, OEChubdownload binddata,,    at _Inwardmarking.LoadDataFromDB(),     at _Branchboard.LoadDataFromDB(),   at _Cityboard.LoadDataFromDB(), Conversion overflow issue in oechubdownload query....DONE,  at _Cityboard.btn_export_Click...DONE....  
+chqbk_request submit click (Input string was not in a correct format.)...........
+at _Branchboard.GridView1_RowCommand(There is no row at position 0)....done) pending on Yawer and form situations...
+7- Look into MVC core for Portal development... Check with Jamil doings
+8- Zubair IS discussion further related to L1 L2 L3 list.......... ON HOLD
+9- Ask talha and jamil about environment setup document and make a checklist for setting up flutter, android studio paths, postman, APIs
+-----10- Open live ip of both servers 166,167 on wifiexecutive (CRF required for wifi cofiguration on my laptop and mobile) LONG WORK
+11- Port issue on both servers 166 and 167, request taufeeq Sb
+12- how to host webpage on github......create account on gitttoo
+13- Faraz Sb work documentation for ePay pages design....WORKING ON BRD and also create a data flow of the payment pages ePay
+14- Converting code to .net 7.0 including IBCS.....ON HOLD
+15- Get access for VNC replacement that would be remote desktop connection
+16- NIFT.pk website renewal and design from atif bhai....ATIF bhai working
+17- Edit GIF of nift epay for our ibcs.....ON HOLD
+18- Get store procedures in CMS epay and create table changes done for merchant(username) and user table...ON HOLD
+20- Yawer data required for bankemail table...done
+21- Review Digital Cheque design with Boss...done
+22- NIFT CMS: lastupdated format incorrect in open complaints, Trandate,   done
+       Mention Version number on last final build LEFT
+23- Documentation for UI UX work
+24- CMF form for UV work
+25- Fix IBCS issue in VAPT report
+
+02-01-2023, 03-01-2023, 04-01-2023
+1- Echeque to IBCS data loading... IMPORTANT//////////////////
+2- Bankemail issue still pending...completed from tabish exe NOW TESTING on IBCS....PENDING ON TABISH END FOR SUBCITY ISSUE....ALMOST DONE  Fix bankemail issue by adding city to subcity automatically in Add bank email code IBCS...........to be updated in the next build of IBCS
+3- ePay onboarding and new work from taimoor DFS....GIVE TIMELINE FOR COMPLETION OF WORK.....
+4- Put complain ibcs code same as ePay cms and also complete requests form
+5- Create WebAPI that will get path from Reports and then return BYTEARRAY in IBCS....WORKING....TESTING PHASE ON DIFF SERVERS.... ON HOLD >>>>>>>>  Add security code in Report Webapi ask jameel....basically add tokens.......ON HOLD
+6- CHECK ERRORs on IBCS portal through logs and fix the pages (Cityboard page done, (incorrect syntax near =) editrolehubimage, manage cheqbk request.button1, complaint page,unable to caste object error, OEChubdownload binddata,,    at _Inwardmarking.LoadDataFromDB(),     at _Branchboard.LoadDataFromDB(),   at _Cityboard.LoadDataFromDB(), Conversion overflow issue in oechubdownload query....DONE,  at _Cityboard.btn_export_Click...DONE....  
+chqbk_request submit click (Input string was not in a correct format.)...........
+at _Branchboard.GridView1_RowCommand(There is no row at position 0)....done) pending on Yawer and form situations...
+7- Look into MVC core for Portal development... Check with Jamil doings
+8- Zubair IS discussion further related to L1 L2 L3 list.......... ON HOLD
+9- Ask talha and jamil about environment setup document and make a checklist for setting up flutter, android studio paths, postman, APIs
+-----10- Open live ip of both servers 166,167 on wifiexecutive (CRF required for wifi cofiguration on my laptop and mobile) LONG WORK
+11- Port issue on both servers 166 and 167, request taufeeq Sb
+12- how to host webpage on github......create account on gitttoo
+13- Faraz Sb work documentation for ePay pages design....WORKING ON BRD and also create a data flow of the payment pages ePay
+14- Converting code to .net 7.0 including IBCS.....ON HOLD
+15- Get access for VNC replacement that would be remote desktop connection
+16- NIFT.pk website renewal and design from atif bhai....ATIF bhai working
+17- Edit GIF of nift epay for our ibcs.....ON HOLD
+18- Get store procedures in CMS epay and create table changes done for merchant(username) and user table...ON HOLD
+22- NIFT CMS: lastupdated format incorrect in open complaints, Trandate,   done
+       Mention Version number on last final build LEFT
+23- Documentation for UI UX work
+24- CMF form for UV work...done
+25- Fix IBCS issue in VAPT report
+26- Get SSD from zia Sb and install in my laptop
+27- Arsalan required all SA users to close on UAT and LIVE
+28- Content Management system for NIFTpk site...MOIZ doing
+
+05-01-2023 , 06-01-2023, 09-01-2023, 10-01-2023, 11-01-2023, 12-01-2023
+1- Echeque to IBCS data loading... IMPORTANT//////////////////
+2- Bankemail issue still pending...completed from tabish exe NOW TESTING on IBCS....PENDING ON TABISH END FOR SUBCITY ISSUE....ALMOST DONE  Fix bankemail issue by adding city to subcity automatically in Add bank email code IBCS...........to be updated in the next build of IBCS
+3- ePay onboarding and new work from taimoor DFS....GIVE TIMELINE FOR COMPLETION OF WORK.....
+4- Put complain ibcs code same as ePay cms and also complete requests form
+5- Create WebAPI that will get path from Reports and then return BYTEARRAY in IBCS....WORKING....TESTING PHASE ON DIFF SERVERS.... ON HOLD >>>>>>>>  Add security code in Report Webapi ask jameel....basically add tokens.......ON HOLD
+6- CHECK ERRORs on IBCS portal through logs and fix the pages (Cityboard page done, (incorrect syntax near =) editrolehubimage, manage cheqbk request.button1, complaint page,unable to caste object error, OEChubdownload binddata,,    at _Inwardmarking.LoadDataFromDB(),     at _Branchboard.LoadDataFromDB(),   at _Cityboard.LoadDataFromDB(), Conversion overflow issue in oechubdownload query....DONE,  at _Cityboard.btn_export_Click...DONE....  
+chqbk_request submit click (Input string was not in a correct format.)...........
+at _Branchboard.GridView1_RowCommand(There is no row at position 0)....done) pending on Yawer and form situations...
+7- Look into MVC core for Portal development... Check with Jamil doings
+8- Zubair IS discussion further related to L1 L2 L3 list.......... ON HOLD
+9- Ask talha and jamil about environment setup document and make a checklist for setting up flutter, android studio paths, postman, APIs
+-----10- Open live ip of both servers 166,167 on wifiexecutive (CRF required for wifi cofiguration on my laptop and mobile) LONG WORK
+11- Port issue on both servers 166 and 167, request taufeeq Sb
+12- how to host webpage on github......create account on gitttoo
+13- Faraz Sb work documentation for ePay pages design....WORKING ON BRD and also create a data flow of the payment pages ePay
+14- Converting code to .net 7.0 including IBCS.....ON HOLD
+15- Get access for VNC replacement that would be remote desktop connection
+16- NIFT.pk website renewal and design from atif bhai....ATIF bhai working
+17- Edit GIF of nift epay for our ibcs.....ON HOLD
+18- Get store procedures in CMS epay and create table changes done for merchant(username) and user table...ON HOLD
+19- NIFT CMS: lastupdated format incorrect in open complaints, Trandate,   done
+       Mention Version number on last final build LEFT
+20- Documentation for UI UX work...done
+21- Fix IBCS issue in VAPT report...done
+22- Get SSD from zia Sb and install in my laptop
+23- Arsalan required all SA users to close on UAT and LIVE   SSPI domain level connection string
+24- Content Management system for NIFTpk site...MOIZ doing
+25- Learn landing page code from QALB
+26- SC Bank required data 
+27- Check responsiveness of NIFTdigital chq site and niftpk
+28- Bulb working on inward marking tags
+29-CMS new points closure
+
+16-01-2023...17-01-2023...18-01-2023....19-01-2023....20-01-2023
+1- Echeque to IBCS data loading... IMPORTANT//////////////////
+2- Bankemail issue still pending...completed from tabish exe NOW TESTING on IBCS....PENDING ON TABISH END FOR SUBCITY ISSUE....ALMOST DONE  Fix bankemail issue by adding city to subcity automatically in Add bank email code IBCS...........to be updated in the next build of IBCS
+3- ePay onboarding and new work from taimoor DFS....GIVE TIMELINE FOR COMPLETION OF WORK.....
+4- Put complain ibcs code same as ePay cms and also complete requests form
+5- Create WebAPI that will get path from Reports and then return BYTEARRAY in IBCS....WORKING....TESTING PHASE ON DIFF SERVERS.... ON HOLD >>>>>>>>  Add security code in Report Webapi ask jameel....basically add tokens.......ON HOLD
+6- CHECK ERRORs on IBCS portal through logs and fix the pages (Cityboard page done, (incorrect syntax near =) editrolehubimage, manage cheqbk request.button1, complaint page,unable to caste object error, OEChubdownload binddata,,    at _Inwardmarking.LoadDataFromDB(),     at _Branchboard.LoadDataFromDB(),   at _Cityboard.LoadDataFromDB(), Conversion overflow issue in oechubdownload query....DONE,  at _Cityboard.btn_export_Click...DONE....  
+chqbk_request submit click (Input string was not in a correct format.)...........
+at _Branchboard.GridView1_RowCommand(There is no row at position 0)....done) pending on Yawer and form situations...
+7- Look into MVC core for Portal development... Check with Jamil doings
+8- Zubair IS discussion further related to L1 L2 L3 list.......... ON HOLD
+9- Ask talha and jamil about environment setup document and make a checklist for setting up flutter, android studio paths, postman, APIs
+-----10- Open live ip of both servers 166,167 on wifiexecutive (CRF required for wifi cofiguration on my laptop and mobile) LONG WORK
+11- Port issue on both servers 166 and 167, request taufeeq Sb
+12- how to host webpage on github......create account on gitttoo
+13- Faraz Sb work documentation for ePay pages design....WORKING ON BRD and also create a data flow of the payment pages ePay done
+14- Converting code to .net 7.0 including IBCS.....ON HOLD
+15- Get access for VNC replacement that would be remote desktop connection.... ON HOLD
+16- NIFT.pk website renewal and design from atif bhai....ATIF bhai working (URGENT)
+17- Edit GIF of nift epay for our ibcs.....ON HOLD
+18- Get SSD from zia Sb and install in my laptop
+19- Arsalan required all SA users to close on UAT and LIVE   SSPI domain level connection string (URGENT)
+20- Learn landing page code from QALB (URGENT)
+21- SC Bank required data ...not required
+22- Check responsiveness of NIFTdigital chq site and niftpk (URGENT)
+23- Bulb working on inward marking tags change request (URGENT)
+24-CMS new points closure....done (Mention Version number on last final build LEFT)  (Get store procedures in CMS epay and create table changes done for merchant(username) and user table..) (URGENT)
+25- Create CRF for BULB working and signs...done
+26- Create CMF form for jahanzaib bhai and sign...done
+27- Rate limitation inside CMS portal...done
+
+23-01-2023...
+1- Echeque to IBCS data loading... IMPORTANT//////////////////
+2- Bankemail issue still pending...completed from tabish exe NOW TESTING on IBCS....PENDING ON TABISH END FOR SUBCITY ISSUE....ALMOST DONE  Fix bankemail issue by adding city to subcity automatically in Add bank email code IBCS...........to be updated in the next build of IBCS
+3- ePay onboarding and new work from taimoor DFS....GIVE TIMELINE FOR COMPLETION OF WORK.....
+4- Put complain ibcs code same as ePay cms and also complete requests form
+5- Create WebAPI that will get path from Reports and then return BYTEARRAY in IBCS....WORKING....TESTING PHASE ON DIFF SERVERS.... ON HOLD >>>>>>>>  Add security code in Report Webapi ask jameel....basically add tokens.......ON HOLD
+6- CHECK ERRORs on IBCS portal through logs and fix the pages (Cityboard page done, (incorrect syntax near =) editrolehubimage, manage cheqbk request.button1, complaint page,unable to caste object error, OEChubdownload binddata,,    at _Inwardmarking.LoadDataFromDB(),     at _Branchboard.LoadDataFromDB(),   at _Cityboard.LoadDataFromDB(), Conversion overflow issue in oechubdownload query....DONE,  at _Cityboard.btn_export_Click...DONE....  
+chqbk_request submit click (Input string was not in a correct format.)...........
+at _Branchboard.GridView1_RowCommand(There is no row at position 0)....done) pending on Yawer and form situations...
+7- Look into MVC core for Portal development... Check with Jamil doings
+8- Zubair IS discussion further related to L1 L2 L3 list.......... ON HOLD
+9- Ask talha and jamil about environment setup document and make a checklist for setting up flutter, android studio paths, postman, APIs
+-----10- Open live ip of both servers 166,167 on wifiexecutive (CRF required for wifi cofiguration on my laptop and mobile) LONG WORK
+11- Port issue on both servers 166 and 167, request taufeeq Sb
+12- how to host webpage on github......create account on gitttoo
+14- Converting code to .net 7.0 including IBCS.....ON HOLD
+15- Get access for VNC replacement that would be remote desktop connection.... ON HOLD
+16- NIFT.pk website renewal and design from atif bhai....ATIF bhai working (URGENT)
+17- Edit GIF of nift epay for our ibcs.....ON HOLD
+18- Get SSD from zia Sb and install in my laptop
+19- Arsalan required all SA users to close on UAT and LIVE   SSPI domain level connection string (URGENT)
+20- Learn landing page code from QALB (URGENT)
+22- Check responsiveness of NIFTdigital chq site and niftpk (URGENT)
+23- Bulb working on inward marking tags change request (URGENT)
+24-CMS new points closure....done (Mention Version number on last final build LEFT)  (Get store procedures in CMS epay and create table changes done for merchant(username) and user table..) (URGENT)
+25- Provide screenshots to rehan and hakam
+26- Create dummy data file for SC bank...done
+27- Interview Calls flutter dev
+28- Zia sb document for landing page details...done
+
+24-01-2023, 25-01-2023, 26-01-2023, 27-01-2023,  30-01-2023, 31-01-2023, 01-02-2023
+1- Echeque to IBCS data loading... IMPORTANT//////////////////
+2- Bankemail issue still pending...completed from tabish exe NOW TESTING on IBCS....PENDING ON TABISH END FOR SUBCITY ISSUE....ALMOST DONE  Fix bankemail issue by adding city to subcity automatically in Add bank email code IBCS...........to be updated in the next build of IBCS
+3- ePay onboarding and new work from taimoor DFS....GIVE TIMELINE FOR COMPLETION OF WORK.....
+4- Put complain ibcs code same as ePay cms and also complete requests form
+5- Create WebAPI that will get path from Reports and then return BYTEARRAY in IBCS....WORKING....TESTING PHASE ON DIFF SERVERS.... ON HOLD >>>>>>>>  Add security code in Report Webapi ask jameel....basically add tokens.......ON HOLD
+6- CHECK ERRORs on IBCS portal through logs and fix the pages (Cityboard page done, (incorrect syntax near =) editrolehubimage, manage cheqbk request.button1, complaint page,unable to caste object error, OEChubdownload binddata,,    at _Inwardmarking.LoadDataFromDB(),     at _Branchboard.LoadDataFromDB(),   at _Cityboard.LoadDataFromDB(), Conversion overflow issue in oechubdownload query....DONE,  at _Cityboard.btn_export_Click...DONE....  
+chqbk_request submit click (Input string was not in a correct format.)...........
+at _Branchboard.GridView1_RowCommand(There is no row at position 0)....done) pending on Yawer and form situations...
+7- Look into MVC core for Portal development... Check with Jamil doings
+8- Zubair IS discussion further related to L1 L2 L3 list.......... ON HOLD
+9- Ask talha and jamil about environment setup document and make a checklist for setting up flutter, android studio paths, postman, APIs
+-----10- Open live ip of both servers 166,167 on wifiexecutive (CRF required for wifi cofiguration on my laptop and mobile) LONG WORK
+11- Port issue on both servers 166 and 167, request taufeeq Sb
+12- how to host webpage on github......create account on gitttoo
+14- Converting code to .net 7.0 including IBCS.....ON HOLD
+15- Get access for VNC replacement that would be remote desktop connection.... ON HOLD
+16- NIFT.pk website renewal and design from atif bhai....ATIF bhai working (URGENT)
+17- Edit GIF of nift epay for our ibcs.....ON HOLD
+18- Get SSD from zia Sb and install in my laptop
+19- Arsalan required all SA users to close on UAT and LIVE   SSPI domain level connection string (URGENT)
+20- Learn landing page code from QALB (URGENT)
+22- Check responsiveness of NIFTdigital chq site and niftpk...Doing
+23- Bulb working on inward marking tags change request (URGENT)
+24- CMS new points closure....done (Mention Version number on last final build LEFT)  (Get store procedures in CMS epay and create table changes done for merchant(username) and user table..) (ONHOLD)
+25- Provide screenshots to rehan and hakam...done
+27- Interview Calls flutter dev...doing
+28- CHeck DR site for DR activity...done
+29- IBCS work on cheque score same as in digital cheque , there will be a meter that will display color for priority in the scoreboard table. ONHOLD
+29- Deployment process and rollback process of ePay on production...
+
+02-02-2023 - 06-02-2023 , 07-02-2023
+1- Echeque to IBCS data loading... IMPORTANT//////////////////
+2- Bankemail issue still pending...completed from tabish exe NOW TESTING on IBCS....PENDING ON TABISH END FOR SUBCITY ISSUE....ALMOST DONE  Fix bankemail issue by adding city to subcity automatically in Add bank email code IBCS...........to be updated in the next build of IBCS
+3- ePay onboarding and new work from taimoor DFS....GIVE TIMELINE FOR COMPLETION OF WORK.....ONHOLD
+4- Put complain ibcs code same as ePay cms and also complete requests form
+5- Create WebAPI that will get path from Reports and then return BYTEARRAY in IBCS....WORKING....TESTING PHASE ON DIFF SERVERS.... ON HOLD >>>>>>>>  Add security code in Report Webapi ask jameel....basically add tokens.......ON HOLD
+6- CHECK ERRORs on IBCS portal through logs and fix the pages (Cityboard page done, (incorrect syntax near =) editrolehubimage, manage cheqbk request.button1, complaint page,unable to caste object error, OEChubdownload binddata,,    at _Inwardmarking.LoadDataFromDB(),     at _Branchboard.LoadDataFromDB(),   at _Cityboard.LoadDataFromDB(), Conversion overflow issue in oechubdownload query....DONE,  at _Cityboard.btn_export_Click...DONE....  
+chqbk_request submit click (Input string was not in a correct format.)...........
+at _Branchboard.GridView1_RowCommand(There is no row at position 0)....done) pending on Yawer and form situations...
+7- Look into MVC core for Portal development... Check with Jamil doings
+8- Zubair IS discussion further related to L1 L2 L3 list.......... ON HOLD
+9- Ask talha and jamil about environment setup document and make a checklist for setting up flutter, android studio paths, postman, APIs
+10- Open live ip of both servers 166,167 on wifiexecutive (CRF required for wifi cofiguration on my laptop and mobile) LONG WORK
+11- Port issue on both servers 166 and 167, request taufeeq Sb
+12- how to host webpage on github......create account on gitttoo
+14- Converting code to .net 7.0 including IBCS.....ON HOLD
+15- Get access for VNC replacement that would be remote desktop connection.... ON HOLD
+16- NIFT.pk website renewal and design from atif bhai....ATIF bhai working ...done
+17- Edit GIF of nift epay for our ibcs.....ON HOLD
+18- Get SSD from zia Sb and install in my laptop
+19- Arsalan required all SA users to close on UAT and LIVE   SSPI domain level connection string (URGENT)
+22- Check responsiveness of NIFTdigital chq site and niftpk...Doing
+23- Bulb working on inward marking tags change request (URGENT)
+24- CMS new points closure....done (Mention Version number on last final build LEFT)  (Get store procedures in CMS epay and create table changes done for merchant(username) and user table..) (ONHOLD)
+29- IBCS work on cheque score same as in digital cheque , there will be a meter that will display color for priority in the scoreboard table. ONHOLD
+29- Deployment process and rollback process of ePay on production...
+30- CMF screenshot to kashif qamar and zia Sb for apporved software list...done
+31- Bank alfalah file upload issue checked an tested...done
+32- CMS site down issue fixed
+
+08-02-2023......13-02-2023
+1- Echeque to IBCS data loading... IMPORTANT//////////////////
+2- Bankemail issue still pending...completed from tabish exe NOW TESTING on IBCS....PENDING ON TABISH END FOR SUBCITY ISSUE....ALMOST DONE  Fix bankemail issue by adding city to subcity automatically in Add bank email code IBCS...........to be updated in the next build of IBCS
+3- ePay onboarding and new work from taimoor DFS....GIVE TIMELINE FOR COMPLETION OF WORK.....ONHOLD
+4- Put complain ibcs code same as ePay cms and also complete requests form
+5- Create WebAPI that will get path from Reports and then return BYTEARRAY in IBCS....WORKING....TESTING PHASE ON DIFF SERVERS.... ON HOLD >>>>>>>>  Add security code in Report Webapi ask jameel....basically add tokens.......ON HOLD
+6- CHECK ERRORs on IBCS portal through logs and fix the pages (Cityboard page done, (incorrect syntax near =) editrolehubimage, manage cheqbk request.button1, complaint page,unable to caste object error, OEChubdownload binddata,,    at _Inwardmarking.LoadDataFromDB(),     at _Branchboard.LoadDataFromDB(),   at _Cityboard.LoadDataFromDB(), Conversion overflow issue in oechubdownload query....DONE,  at _Cityboard.btn_export_Click...DONE....  
+chqbk_request submit click (Input string was not in a correct format.)...........
+at _Branchboard.GridView1_RowCommand(There is no row at position 0)....done) pending on Yawer and form situations...
+7- Look into MVC core for Portal development... Check with Jamil doings
+8- Zubair IS discussion further related to L1 L2 L3 list.......... ON HOLD
+9- Ask talha and jamil about environment setup document and make a checklist for setting up flutter, android studio paths, postman, APIs
+10- Open live ip of both servers 166,167 on wifiexecutive (CRF required for wifi cofiguration on my laptop and mobile) LONG WORK
+11- Port issue on both servers 166 and 167, request taufeeq Sb
+12- how to host webpage on github......create account on gitttoo
+14- Converting code to .net 7.0 including IBCS.....ON HOLD
+15- Get access for VNC replacement that would be remote desktop connection.... ON HOLD
+16- NIFT.pk website renewal and design from atif bhai....ATIF bhai working ...done
+17- Edit GIF of nift epay for our ibcs.....ON HOLD
+18- Get SSD from zia Sb and install in my laptop
+19- Arsalan required all SA users to close on UAT and LIVE   SSPI domain level connection string (URGENT)
+20- Bulb working on inward marking tags change request (URGENT)
+21- CMS new points closure....done (Mention Version number on last final build LEFT)  (Get store procedures in CMS epay and create table changes done for merchant(username) and user table..) (ONHOLD)
+22- IBCS work on cheque score same as in digital cheque , there will be a meter that will display color for priority in the scoreboard table. ONHOLD
+23- Deployment process and rollback process of ePay on production...
+
+16-02-2023 - 24-02-2023 - 28-02-2023
+1- Echeque to IBCS data loading... IMPORTANT//////////////////
+2- Bankemail issue still pending...completed from tabish exe NOW TESTING on IBCS....PENDING ON TABISH END FOR SUBCITY ISSUE....ALMOST DONE  Fix bankemail issue by adding city to subcity automatically in Add bank email code IBCS...........to be updated in the next build of IBCS
+3- Put complain ibcs code same as ePay cms and also complete requests form
+4- Create WebAPI that will get path from Reports and then return BYTEARRAY in IBCS....WORKING....TESTING PHASE ON DIFF SERVERS.... ON HOLD >>>>>>>>  Add security code in Report Webapi ask jameel....basically add tokens.......ON HOLD
+5- CHECK ERRORs on IBCS portal through logs and fix the pages (Cityboard page done, (incorrect syntax near =) editrolehubimage, manage cheqbk request.button1, complaint page,unable to caste object error, OEChubdownload binddata,,    at _Inwardmarking.LoadDataFromDB(),     at _Branchboard.LoadDataFromDB(),   at _Cityboard.LoadDataFromDB(), Conversion overflow issue in oechubdownload query....DONE,  at _Cityboard.btn_export_Click...DONE....  
+chqbk_request submit click (Input string was not in a correct format.)...........
+at _Branchboard.GridView1_RowCommand(There is no row at position 0)....done) pending on Yawer and form situations...
+6- how to host webpage on github......create account on gitttoo
+7- Converting code to .net 7.0 including IBCS.....ON HOLD
+8- Get access for VNC replacement that would be remote desktop connection.... ON HOLD
+9- Edit GIF of nift epay for our ibcs.....ON HOLD
+10- Get SSD from zia Sb and install in my laptop...done
+11- Arsalan required all SA users to close on UAT and LIVE   SSPI domain level connection string (URGENT)
+12-  Bulb working on inward marking tags change request. IBCS work on cheque score same as in digital cheque , there will be a meter that will display color 
+for priority in the scoreboard table, HIGH value cheques, Probability to pass.... URGENT
+13- Deployment process and rollback process of ePay on production...
+14- Authorize all logs issue in IBCS
+
+01-02-2023-24-03-2023....
+1- Echeque to IBCS data loading... IMPORTANT//////////////////
+2- Bankemail issue still pending...completed from tabish exe NOW TESTING on IBCS....PENDING ON TABISH END FOR SUBCITY ISSUE....ALMOST DONE  Fix bankemail issue by adding city to subcity automatically in Add bank email code IBCS...........to be updated in the next build of IBCS
+3- Put complain ibcs code same as ePay cms and also complete requests form
+4- Create WebAPI that will get path from Reports and then return BYTEARRAY in IBCS....WORKING....TESTING PHASE ON DIFF SERVERS.... ON HOLD >>>>>>>>  Add security code in Report Webapi ask jameel....basically add tokens.......ON HOLD
+5- CHECK ERRORs on IBCS portal through logs and fix the pages (Cityboard page done, (incorrect syntax near =) editrolehubimage, manage cheqbk request.button1, complaint page,unable to caste object error, OEChubdownload binddata,,    at _Inwardmarking.LoadDataFromDB(),     at _Branchboard.LoadDataFromDB(),   at _Cityboard.LoadDataFromDB(), Conversion overflow issue in oechubdownload query....DONE,  at _Cityboard.btn_export_Click...DONE....  
+chqbk_request submit click (Input string was not in a correct format.)...........
+at _Branchboard.GridView1_RowCommand(There is no row at position 0)....done) pending on Yawer and form situations...
+6- how to host webpage on github......create account on gitttoo
+7- Converting code to .net 7.0 including IBCS.....(It has to be converted to .Net Core first before moving to .Net 7) ON HOLD
+9- Edit GIF of nift epay for our ibcs.....ON HOLD
+11- Arsalan required all SA users to close on UAT and LIVE   SSPI domain level connection string (URGENT)
+12-  Bulb working on inward marking tags change request. IBCS work on cheque score same as in digital cheque , there will be a meter that will display color 
+for priority in the scoreboard table, HIGH value cheques, Probability to pass.... Working
+13- Deployment process and rollback process of ePay on production...
+14- Authorize all logs issue in IBCS ....Working
+15- Convert IBCS to .net 7, CRF for SA user in IBCS web portal, IBCS CMS upgrade, New tags working inside IBCS scoreboard and marking pages
+
+27-03-2023, 28-03-2023, 29-03-2023...
+1- Echeque to IBCS data loading... IMPORTANT//////////////////
+2- Bankemail issue still pending...completed from tabish exe NOW TESTING on IBCS....PENDING ON TABISH END FOR SUBCITY ISSUE....ALMOST DONE  Fix bankemail issue by adding city to subcity automatically in Add bank email co.
+de IBCS...........to be updated in the next build of IBCS
+3- Put complain ibcs code same as ePay cms and also complete requests form
+4- Create WebAPI that will get path from Reports and then return BYTEARRAY in IBCS....WORKING....TESTING PHASE ON DIFF SERVERS.... ON HOLD >>>>>>>>  Add security code in Report Webapi ask jameel....basically add tokens.......ON HOLD
+5- CHECK ERRORs on IBCS portal through logs and fix the pages (Cityboard page done, (incorrect syntax near =) editrolehubimage, manage cheqbk request.button1, complaint page,unable to caste object error, OEChubdownload binddata,,    at _Inwardmarking.LoadDataFromDB(),     at _Branchboard.LoadDataFromDB(),   at _Cityboard.LoadDataFromDB(), Conversion overflow issue in oechubdownload query....DONE,  at _Cityboard.btn_export_Click...DONE....  
+chqbk_request submit click (Input string was not in a correct format.)...........
+at _Branchboard.GridView1_RowCommand(There is no row at position 0)....done) pending on Yawer and form situations...
+6- how to host webpage on github......create account on gitttoo
+7- Converting code to .net 7.0 including IBCS.....(It has to be converted to .Net Core first before moving to .Net 7) ON HOLD
+9- Edit GIF of nift epay for our ibcs.....ON HOLD
+11- Arsalan required all SA users to close on UAT and LIVE   SSPI domain level connection string (URGENT)
+12-  Bulb working on inward marking tags change request. IBCS work on cheque score same as in digital cheque , there will be a meter that will display color 
+for priority in the scoreboard table, HIGH value cheques, Probability to pass.... Working
+13- Deployment process and rollback process of ePay on production...
+14- Authorize all logs issue in IBCS ....Working
+15- Convert IBCS to .net 7, CRF for SA user in IBCS web portal, IBCS CMS upgrade, New tags working inside IBCS scoreboard and marking pages
+
+01-04-2023 - 07-04-2023...
+1- IBCS points - Bvisible tag in hub icl page(done),  authorize all logs(add user, hostid, bank, branch in logs), Remove SA user from auth DB, Alert in table for all banks, high value transaction and probability to bounce option
+2- Create path list of projects, user passwords and access for all things and provide to zia Sb...done
+3- 
+
+3 environments SIT UAT prod
+SIT was tested completely and working fine
+then build was transfered to UAT, issues in deployment because all APIs were changed
+UAT is used by merchants and they were facing a lot of issues in testing the card method
+dependency on APIs so if the APIs are not working then the landing page will not work 
+TPS did this project in old .net and we worked in .net core so there are a lot of things that were changed and needed to be tested which took a lot of time as well.
+
+
+1- ePay issues resolution to go live...
+2- IBCS bulb and checkscore working and now also add filter of red yellow green
+3- eCheque issue for DB updation
+
+Project:
+1- Central Query System (Search and extract record from 10 year previous transaction data)
+2- IBCS Web Portal
+3- NIFT ePay new landing page (Design/API Integration)
+4- NIFT ePay Complaint Management System
+5- NIFT Digital Cheque Back-end
+5- eCheque backend webapis
+6- NIFT.pk new design
+Current Salary 67000
+Expected Salary 120,000
+
+IQA  pass fail
+UV n/a , above ,below
+Duplicate yes no
+FraudHistory  yes no
+MICR >>> pass or fail
+Avg chq amount  >>> avg amount exceeds the daily limit too much...
+
+1st case --->> All pass GREEN<<
+2nd case---->>
+
+muhammadhamzaawan598@gmail.com
+tahseen
+03343787488
+latitude e6530
+echeque, Epay, etrust
+inward marking, outward clearing, inward authorization, 
+
+TASK LIST: Central Query System, Complaint System, 
+1- NIFTePay landing page working/documentation
+2- NIFTPK design with atif
+3- CMS on iBCS
+4- echq to IBCS data loader
+5- WEBAPI for pdf reports loading
+
+bahria uni  - 2020
+sybrid Software Engineer - 1 years
+core flutter dart---
+current salary - 100K
+expect 150K
+notice 1month
+
+
+>>>>> NIFT successfully launched its first same-day cheque clearing booth in North Karachi
+Areas covered: North Karachi town, New Karachi town, Nazimabad town, North Nazimabad town
+Timing defined: 10:45 AM - 3:30 PM
+
+>>>>>>NIFT has successfully launched its first Same-Day Cheque Clearing Sub-center (Booth) in North Nazimabad, Karachi from mid-September 2022.
+
+Areas Covered: North Nazimabad and North Karachi and its adjacent areas like Nazimabad, Shadman Town, Buffer Zone, Surjani, North Karachi Industrial Area and F.B. Area. More than 100+ banks-branches of these areas are now members of same-day cheque clearing.
+
+Outward Cheque Collection Timing: Between 10.30 am – 11.00 am
+Fate to Presenting Banks-Branches: By 3.30 pm
+
+SP_Cycleclose
+SP_Defferclose
+
+string dtt = DateTime.Now.ToString("dd/MM/yyyy HH:mm");
+                DateTime a = Convert.ToDateTime(dtt);
+                DateTime b = Convert.ToDateTime(eTime);
+                double i = b.Subtract(a).TotalMinutes;
+1 >> launched OPEN
+2 >> NIFT assigned to merchant INPROGRESS
+3 >> Merchant replied on comment Pending
+
+5239690014419147
+total  budget 30k
+total kharcha 32500 <<<<<
+LEFT ?>>>> jodiabazar+glasses600+laptop stickers+watch2500+ office table collection+shoes+
+doctor Sab 1200+870 >>> + 1200
+>>>>>>>>>>>>>>>credit card bill3090 + 1100netflix<<<<<<<<<<<<<<<<<<
+ammi : 6000
+faisal bday 1000
+irajparty mug1200+frame500+cake 1200            >>>>>>iraj bday -> Shoes + Cuddling cat + watch 3900 + bouqet 350 + chocolates 1900 + cake 1400 + teddy 900 + gift bag 400
+iraj trip : 7400
+---------------------
+total budget 30K
+Bike 8400 done
+Bike footress urgent 950 done
+insurance 15500 done
+credit card bill 5385 done
+Beenish baji chotu,jawad,akbar - gift 1700 done
+___________
+
+shoes office - card left
+asad choti gift
+glasses 600 left
+Laptop fix important 9400
+helmet, 
+shalwar kameez alteration
+jeans pants
+jodia bazar
+chiropractor junaid
+Doctor hassan
+Momi Shaadi Gift 5000
+Bike things left: tapay,  front wheel balance outl, clutch plates,  meter, horn, white lights, mudguard front
+super mart chakkar - shoeshinner + shamppoo+ vaseline+ toothbrush+ toothpaste 940done......    
+shoeshinner+riggs body spray + Perfume
+
+December.....total 26332rs/-- DONE 1500additional left +
+1377 cake+1880 choc + 1524china grill + 700premium + 1000 petrol+ 1100netlix + 
+5000 mobile +2200 ELO +
+10574+793 Zain >>>>>>>
+
+January....total 19191rs
+ 1000petrol+940supermart+1100netflix+500premium
+4998mobile+10573zain+
+
+
+172.16.225.66
+172.16.4.66
+172.16.250.186
+
+branchboard
+sp_vTransactionwiseInward
+sp_vTransactionwiseOutward
+
+inwardmarking
+SP_TransactionwiseInward_with_Returns
+
+cityboard
+vTransactionwise
+
+ep20545017
+eChq to IBCS process------->
+1- Transaction will be loaded in eCheque table through mobile app or portal
+2- Service will run and check new transaction record in eCheque table (service running time to be decided)
+3- Service will also fetch images from the eCheque server that will either be digital cheque or eCheque
+4- Images will be converted into bin file format
+5- Images will be uploaded to server optima folder in the bin format
+6- Service will add the new eCheque record/transaction in IBCS table and match all the fields available in IBCS/eCheque
+7- Service will also update image path to respective IBCS transaction in the table
+8- eCheque images will be displayed in the current date on IBCS portal
+
+Images Part:
+1- Images will be fetched from eCheque database either it is eCheque or digital cheque
+2- Images will be converted into bin file format
+3- Images will be uploaded to server optima folder
+
+11formula after settlement IBFT tag
+
+govt job
+isb jobs
+dubai job
+KHI job switch with double diff
+irtiza bhai freelancing
+
+2months 40K
+
+Injecting commands via CSV file
+Resolution: We will restrict the user to only enter valid characters in order to search the users in the search bar
+Moreover parameterized SQL commands will be used to check and validate input inside CSV files
+
+rolebank, impact assesment
+Welcome1234
+
+errors:
+no cheque deposit... change error msg NO DATA FOUND...
+dropdown in benef is not showing placeholder...eCheque
+tran id not found in revoke request
+tran id responsiveness
+redirection issue once cheque screen is changed (error msg NO DATA FOUND)
+
+
+
+<!-- <add key="Connectionstring" value="Data Source=ALIRAZA\\SQLEXPRESS;Initial Catalog=LMS;User ID=sa;Password=!Nift1234" /> -->
+    <add key="Server=184.168.118.212;port=3306;Database=LMS;UID=lms_user1;Password=!IRC0987@;" />
+
+
+2035168

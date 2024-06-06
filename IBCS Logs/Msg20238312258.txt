@@ -1,0 +1,10 @@
+Time: 31/08/2023 10:58:28 PM
+Message: Exception on OnGetLoadDT - System.NullReferenceException: Object reference not set to an instance of an object.
+   at IBCS_Core_Web_Portal.Pages.GetProdtModel.OnGetSelectedDt(String dt) in D:\Ali Raza\IBCS Core Web Portal\IBCS Core Web Portal\Pages\GetProdt.cshtml.cs:line 65
+
+Time: 31/08/2023 10:58:45 PM
+Message: Success on Get User Details API
+
+Time: 31/08/2023 10:58:45 PM
+Message: Success on PassCred Code - UserID is : 26887
+

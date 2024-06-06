@@ -1,0 +1,13 @@
+Time: 16/09/2023 02:54:39 PM
+Message: Exception on GetFiles - System.ArgumentException: String '09-10-2020' was not recognized as a valid Boolean.Couldn't store <09-10-2020> in BDownload Column.  Expected type is Boolean.
+ ---> System.FormatException: String '09-10-2020' was not recognized as a valid Boolean.
+   at System.Boolean.Parse(ReadOnlySpan`1 value)
+   at System.String.System.IConvertible.ToBoolean(IFormatProvider provider)
+   at System.Data.Common.BooleanStorage.Set(Int32 record, Object value)
+   at System.Data.DataColumn.set_Item(Int32 record, Object value)
+   --- End of inner exception stack trace ---
+   at System.Data.DataColumn.set_Item(Int32 record, Object value)
+   at System.Data.DataTable.NewRecordFromArray(Object[] value)
+   at System.Data.DataRowCollection.Add(Object[] values)
+   at IBCS_Core_Web_Portal.Pages.Reports.BkHelp.GetFiles() in D:\Ali Raza\IBCS Core Web Portal\IBCS Core Web Portal\Pages\Reports\BkHelp.cshtml.cs:line 73
+

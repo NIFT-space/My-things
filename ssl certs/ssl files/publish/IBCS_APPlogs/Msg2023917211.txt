@@ -1,0 +1,4 @@
+Time: 17/09/2023 09:01:02 PM
+Message: Exception on OnGetCheckImages - System.NullReferenceException: Object reference not set to an instance of an object.
+   at IBCS_Core_Web_Portal.Pages.Marking.CityboardModel.OnGetCheckImages(String hostId) in D:\Ali Raza\IBCS Core Web Portal\IBCS Core Web Portal\Pages\Scoreboard\Cityboard.cshtml.cs:line 605
+

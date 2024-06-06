@@ -1,0 +1,212 @@
+ //////////////////////////////////////////////////////////////////////
+ //For Test with Cert
+ //var Userstore = new X509Store(StoreName.My, StoreLocation.CurrentUser);
+ //Userstore.Open(OpenFlags.ReadOnly);
+ //var selectedCertificate = X509Certificate2UI.SelectFromCollection(
+ //   Userstore.Certificates,
+ //   "IBCS",
+ //   "Certificate-Store",
+ //   X509SelectionFlag.SingleSelection);
+ //X509Certificate2Collection userCertificate = (X509Certificate2Collection)selectedCertificate;
+ //X509Certificate2 objcrt = userCertificate[0];
+ //Userstore.Close();
+ //if (!objcrt.HasPrivateKey)
+ //{
+ //    return;
+ //}
+ //Session["CertExpire"] = objcrt.NotAfter.ToString("dd-MM-yyyy");
+ //if (objcrt.NotAfter < DateTime.Now)
+ //{
+ //    return;
+ //}
+
+
+
+
+ /////////////////////////////////////////////////////////////////////////////////
+ // For Production
+ HttpClientCertificate objcrt = Request.ClientCertificate;
+ if (!objcrt.IsPresent)
+ {
+     return;
+ }
+ if (!objcrt.IsValid)
+ {
+     return;
+ }
+ if (objcrt.Issuer.IndexOf("NIFTECH CA") <= 0)
+ {
+     return;
+ }
+ if ((objcrt.ServerIssuer.IndexOf("VeriSign") >= 0) || (objcrt.ServerIssuer.IndexOf("Symantec") >= 0) || (objcrt.ServerIssuer.IndexOf("DigiCert") >= 0))
+ {
+
+ }
+ else
+ {
+     return;
+ }
+ if (objcrt.ValidUntil < DateTime.Now)
+ {
+     return;
+ }
+ Session["CertExpire"] = objcrt.ValidUntil.ToString("dd-MM-yyyy");
+///////////////////////////////////////////////////////////////////////////////////
+
+
+int strindex = 0;
+char[] delimiterChars = { '/', ',' };
+String BankCode = "", BranchCode = "", EmailAddress = "", SerialNumber = "";
+string[] words = objcrt.Subject.Split(delimiterChars);
+// 0  C=PK
+// 1  L=10
+// 2  O=National Institutional Facilitation Technologies Pvt Ltd
+// 3  OU=Terms of use at www.niftetrust.com
+// 4  rpa (c)14
+// 5  OU=Department
+// 6  CN=Name
+foreach (string s in words)
+{
+    strindex = s.IndexOf("Bank ID");
+    if (strindex >= 0)
+    {
+        BankCode = s.Replace("OU=Bank ID - ", "");
+        strindex = 0;
+    }
+    strindex = s.IndexOf("Branch ID");
+    if (strindex >= 0)
+    {
+        BranchCode = s.Replace("OU=Branch ID - ", "");
+        strindex = 0;
+    }
+    strindex = s.IndexOf("@");
+    if (strindex >= 0)
+    {
+        EmailAddress = s.Replace("E=", "");
+        strindex = 0;
+    }
+}
+SerialNumber = objcrt.SerialNumber.Replace("-", "");
+
+if (BankCode == "")
+    return;
+if (BranchCode == "")
+    return;
+if (EmailAddress == "")
+    return;
+if (SerialNumber == "")
+    return;
+
+string UserName = "";
+string BankName = "";
+bool LoggedIn = false;
+Int64 UserLogID = -1;
+
+Session["UserLogID"] = UserLogID;
+
+Session["BankCode"] = BankCode.Trim();
+Session["BranchCode"] = BranchCode.Trim();
+Session["EmailAddress"] = EmailAddress.Trim();
+
+UserName = GetUserName(BankCode.Trim(), BranchCode.Trim(), EmailAddress.Trim());
+if (UserName == "")
+    return;
+Session["username"] = UserName;
+
+BankName = GetBankName(Session["BankCode"].ToString());
+Session["BankName"] = BankName;
+if (BankName == "")
+    return;
+
+Session["ClientInfo"] = GetClientInfo();
+
+//////
+////// Prevent Simultaneous Logins by a Single User ID 
+//////
+string key = EmailAddress.Trim();
+
+TimeSpan TimeOut = new TimeSpan(0, 0, HttpContext.Current.Session.Timeout, 0, 0);
+
+HttpContext.Current.Cache.Insert(key,
+    Session.SessionID,
+    null,
+    DateTime.MaxValue,
+    TimeOut,
+    System.Web.Caching.CacheItemPriority.NotRemovable,
+    null);
+
+Session["cacheKey"] = key;
+
+//
+// User Certificate Validation at DB
+//
+Int64 userid = -1;
+userid = GetUserID(SerialNumber.Trim(), BankCode.Trim(), BranchCode.Trim(), EmailAddress.Trim());
+if (userid <= 0)
+    return;
+
+Session["myid"] = userid;
+Session["fullname"] = UserData(Convert.ToString(Session["username"]).Trim());
+Session["lastin"] = GetUserLog(Convert.ToString(userid + ""));
+
+string userRole = GetUserRole(userid);
+Session["UserRoleDesc"] = userRole;
+
+if ((LoginUser(SerialNumber.Trim(), BankCode.Trim(), BranchCode.Trim(), EmailAddress.Trim()) == true) && (userid > 0))
+{
+    UserLogID = UserLog(Convert.ToString(userid), BankCode.Trim(), BranchCode.Trim(), LoggedIn);
+
+    if (UserLogID > 0)
+    {
+        Session["UserLogID"] = UserLogID;
+    }
+    else
+    {
+        Session["UserLogID"] = 0;
+    }
+
+    Int64 UIndex = UserData(Convert.ToString(Session["username"]), "admin");
+    LoggedIn = true;
+    // New Code Prevent Simultaneous Logins by a Single User ID
+    //if (userList.Contains(EmailAddress.Trim()))
+    //{
+    //    Response.Redirect("notallowed", true);
+    //}
+    //else
+    //{
+    //    userList.Add(EmailAddress.Trim());
+    //    Application["Users"] = userList;
+    //}
+    // New Code End
+
+    if (UIndex >= 0)
+    {
+        Session["roletype"] = "admin";
+        if (GetLoginCount(Convert.ToString(Session["myid"])) == 0)
+        {
+            Response.Redirect("Home", true);
+        }
+        else
+        {
+            Response.Redirect("Home", true);
+        }
+    }
+    else
+    {
+        Session["roletype"] = "user";
+        if (GetLoginCount(Convert.ToString(Session["myid"])) == 0)
+        {
+            Response.Redirect("Home", true);
+        }
+        else
+        {
+            Response.Redirect("Home", true);
+        }
+    }
+}
+else
+{
+    Response.Clear();
+    Response.Redirect("notallowed", true);
+}
+

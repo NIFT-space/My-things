@@ -1,0 +1,9 @@
+Time: 18/09/2023 05:00:17 PM
+Message: 26896yawer.aijaz@mcb.com.pk62
+
+Time: 18/09/2023 05:00:17 PM
+Message: Success on Get User Details API
+
+Time: 18/09/2023 05:00:18 PM
+Message: Success on PassCred Code - UserID is : 26896
+

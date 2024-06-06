@@ -1,0 +1,6 @@
+Time: 16/09/2023 06:08:56 PM
+Message: Exception on GetFiles - System.FormatException: The input string 'Select Bank' was not in a correct format.
+   at System.Number.ThrowOverflowOrFormatException(ParsingStatus status, ReadOnlySpan`1 value, TypeCode type)
+   at System.Convert.ToInt32(String value)
+   at IBCS_Core_Web_Portal.Pages.Reports.BrTrScModel.GetFiles(String DDL_Bank, String DDL_City, String DDL_Cycle) in D:\Ali Raza\IBCS Core Web Portal\IBCS Core Web Portal\Pages\Reports\BrTrSc.cshtml.cs:line 245
+

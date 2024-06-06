@@ -1,0 +1,9 @@
+Time: 18/09/2023 03:32:32 PM
+Message: CERT KEY - 31C415531C41463CE4A6CBBB389B8D36E07F4890
+
+Time: 18/09/2023 03:32:32 PM
+Message: Certt Subj - C=PK,L=10,O=National Institutional Facilitation Technologies Pvt Ltd,OU=Operations,OU=Terms of use at www.niftetrust.com/rpa (c)14,OU=Branch ID - 0007,OU=Bank ID - 054,CN=Ubaid Hassan,emailAddress=ubaid.hassan@hbl.com
+
+Time: 18/09/2023 03:32:32 PM
+Message: Success on Dongle Code
+

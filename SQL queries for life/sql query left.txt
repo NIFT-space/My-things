@@ -1,0 +1,382 @@
+
+633150
+select distinct us.UserName,pg.title from Page pg, users us, Role_Page rp
+where rp.PageID=pg.PageId
+and --us.IsActive=1 and 
+pg.pageid=124
+124
+
+2524
+39689
+
+select us.UserName,ro.Name,ct.CityName,bb.InstName as BankName,REPLICATE('0',4-LEN(bb.branchid))+ CAST(bb.branchid AS varchar)as BranchCode,
+bb.branch_name as BranchName,pg.title as PageAssigned --, us.CreationDateTime,us.TelNo3 
+from users us,user_role ur,Role_Page rp,page pg, City ct,bankbranch bb
+,Role_City rc,role ro
+where us.UserID=ur.UserID 
+and ur.RoleID=rp.RoleID
+and rp.PageID=pg.PageId
+--and us.Locality = ct.CityID
+and us.InstID=bb.InstID
+and us.BranchID = bb.branchid
+and ur.RoleID=rc.RoleID
+and rc.CityID = ct.CityID
+and ur.RoleID = ro.RoleID
+and us.IsActive=1
+and bb.isopen=1
+and pg.pageid in (123,124)
+and us.InstID != 999
+order by us.UserName asc
+
+select * from 
+
+and us.userid=18
+
+select * from Role_City
+
+select * from IBCSLogs
+order by Updatedatetime desc
+
+update bankemail2 set email1='tba' where regid=14353
+select * from bankemail2 where email1='shafaqat.ali' --BranchCode=0200
+
+select * from EmailLog
+where msg like '%Bank Code 063 Branch Code 0196%'
+select * from bankemail2
+where email1 like '%ahmed.waheed%'
+
+insert into bankemail2
+select '99999','','ABL Ada Jhan khan Branch',	'sadia.masoma',	'abl.com',	'',	'',
+'tba', 	'tba',	'abl.com',	'',	'',	014,	1113,
+093,	getdate(),	0
+
+nusratkhi@hotmail.com
+select * from bankemail2 where email2 like '%mehreen.afzal%'--BankCode=66 and BranchCode=3
+
+
+
+select subjectemail from allbankcert group by subjectemail
+having COUNT(subjectEmail) >1
+
+insert into bankemail2
+select '99999','',username1,email1,
+domain1,mobile2
+,phone2
+, username2 , email2, domain2
+,mobile2
+,phone2,
+bankcode,branchcode,cityid,getdate(),0
+from bankemail2fsd
+
+------------------------------
+select * from bankbranch
+where 
+--InstID not in
+--(select bk.InstID from bankemail2 b2, bankbranch bk
+--where bk.isopen =1
+--and b2.BankCode=bk.InstID
+--and b2.BranchCode=bk.branchid)
+--and 
+branchid not in
+(select bk.branchid from bankemail2 b2, bankbranch bk
+where bk.isopen =1
+and b2.BankCode=bk.InstID
+and b2.BranchCode=bk.branchid)
+
+
+
+select REPLICATE('0',3-LEN(instid))+ CAST(instid AS varchar), instid,branchid from bankbranch
+where 
+REPLICATE('0',3-LEN(instid))+ CAST(instid AS varchar) not in
+(select  REPLICATE('0',3-LEN(BankCode))+ CAST(BankCode AS varchar)as bankcode from bankemail2)
+and
+REPLICATE('0',4-LEN(branchid))+ CAST(branchid AS varchar) not in
+(select  REPLICATE('0',3-LEN(BranchCode))+ CAST(BranchCode AS varchar)as BranchCode from bankemail2)
+and isopen =1
+
+
+select * from bankemail2
+where REPLICATE('0',3-LEN(BankCode))+ CAST(BankCode AS varchar) not in
+(select REPLICATE('0',3-LEN(bk2.BankCode))+ CAST(bk2.BankCode AS varchar) from bankbranch bb,bankemail2 bk2
+where bb.InstID = bk2.BankCode
+and bb.branchid=bk2.BranchCode)
+and REPLICATE('0',3-LEN(BranchCode))+ CAST(BranchCode AS varchar) not in
+(select REPLICATE('0',3-LEN(bk2.BranchCode))+ CAST(bk2.BranchCode AS varchar)  from bankbranch bb,bankemail2 bk2
+where bb.InstID = bk2.BankCode
+and bb.branchid=bk2.BranchCode)
+
+select * from bankbranch bb,bankemail2 bk2
+where bb.InstID = bk2.BankCode
+--and bb.branchid=bk2.BranchCode
+and REPLICATE('0',3-LEN(bb.branchid))+ CAST(bb.branchid AS varchar)  = REPLICATE('0',3-LEN(bk2.BranchCode))+ CAST(bk2.BranchCode AS varchar)
+
+select distinct b2.email1+'@'+b2.Domain1,b2.email2+'@'+b2.Domain2, b2.BankCode,b2.BranchCode,bk.InstID,bk.branchid from bankemail2 b2, bankbranch bk
+where bk.isopen =1
+and b2.BankCode=bk.InstID
+and b2.BranchCode=bk.branchid
+
+select distinct bankcode,branchcode from bankemail2
+order by bankcode
+
+select distinct * from bankbranch where isopen=1
+
+
+select * from bankbranch 
+where 
+instid  in
+(select distinct bankcode from bankemail2)
+and 
+branchid  in 
+(select distinct branchcode from bankemail2)
+and isopen=1
+
+total = 21793
+isopen= 19081
+4849
+
+4156
+
+
+select distinct BankCode,BranchCode from BankEmail2
+where BankCode=
+083 and BranchCode=	713
+
+update bankemail2 set domain1='mcbislamicbank.com' where regid= 14613
+
+insert into bankemail2
+select '99999',	'',	'ThattaSujawalRoadBranch',	'ThattaSujawalRoadBranch',	'jsbl.com',	'','',		'shahnawaz',	'shahnawaz.k',	'jsbl.com',	'','',
+018,	9088,	80,	getdate(),0
+
+update bankemail2 set email1='ishtiaq.hussain',username1='Ishtiaq hussain' where regid=13961
+
+select * from Institution
+
+select * from users where userid=15497
+where InstID=081
+and BranchID=2055
+1971 2055
+
+select * from Institution
+
+select * from UploadICLData
+order by RecDateTime desc
+
+delete from UploadICLData
+where fileid=21069
+
+
+select * from User_Role
+where --userid=2055 and
+roleid= 526
+
+insert into user_role
+select 2055, 91 , getdate()
+
+select * from Role_Page where RoleID=91
+
+insert into role_page
+select 91,	139	,''	,NULL	,0,	getdate()
+
+select * from Page
+
+select * from Role where Description like '%summit%'
+
+select * from HostNIBC_Log
+order by LogDateTime desc
+
+select * from users where userid=2055
+
+select * from IBCSLogs
+order by logID desc
+
+insert into bankemail2
+select '99999','',username1,email1,
+domain1,mobile2
+,phone2
+, username2 , email2, domain2
+,mobile2
+,phone2,
+bankcode,branchcode,cityid,getdate(),0
+from bankemail2pes
+
+
+
+
+------------------------------
+select * from bankbranch
+where 
+--InstID not in
+--(select bk.InstID from bankemail2 b2, bankbranch bk
+--where bk.isopen =1
+--and b2.BankCode=bk.InstID
+--and b2.BranchCode=bk.branchid)
+--and 
+branchid not in
+(select bk.branchid from bankemail2 b2, bankbranch bk
+where bk.isopen =1
+and b2.BankCode=bk.InstID
+and b2.BranchCode=bk.branchid)
+
+
+
+select REPLICATE('0',3-LEN(instid))+ CAST(instid AS varchar), instid,branchid from bankbranch
+where 
+REPLICATE('0',3-LEN(instid))+ CAST(instid AS varchar) not in
+(select  REPLICATE('0',3-LEN(BankCode))+ CAST(BankCode AS varchar)as bankcode from bankemail2)
+and
+REPLICATE('0',4-LEN(branchid))+ CAST(branchid AS varchar) not in
+(select  REPLICATE('0',3-LEN(BranchCode))+ CAST(BranchCode AS varchar)as BranchCode from bankemail2)
+and isopen =1
+
+
+select * from bankemail2
+where REPLICATE('0',3-LEN(BankCode))+ CAST(BankCode AS varchar) not in
+(select REPLICATE('0',3-LEN(bk2.BankCode))+ CAST(bk2.BankCode AS varchar) from bankbranch bb,bankemail2 bk2
+where bb.InstID = bk2.BankCode
+and bb.branchid=bk2.BranchCode)
+and REPLICATE('0',3-LEN(BranchCode))+ CAST(BranchCode AS varchar) not in
+(select REPLICATE('0',3-LEN(bk2.BranchCode))+ CAST(bk2.BranchCode AS varchar)  from bankbranch bb,bankemail2 bk2
+where bb.InstID = bk2.BankCode
+and bb.branchid=bk2.BranchCode)
+
+select * from bankbranch bb,bankemail2 bk2
+where bb.InstID = bk2.BankCode
+--and bb.branchid=bk2.BranchCode
+and REPLICATE('0',3-LEN(bb.branchid))+ CAST(bb.branchid AS varchar)  = REPLICATE('0',3-LEN(bk2.BranchCode))+ CAST(bk2.BranchCode AS varchar)
+
+select distinct b2.email1+'@'+b2.Domain1,b2.email2+'@'+b2.Domain2, b2.BankCode,b2.BranchCode,bk.InstID,bk.branchid from bankemail2 b2, bankbranch bk
+where bk.isopen =1
+and b2.BankCode=bk.InstID
+and b2.BranchCode=bk.branchid
+
+select email1+'@'+domain1 as Email1, email2+'@'+domain2 as Email2 ,
+ REPLICATE('0',3-LEN(BankCode))+ CAST(BankCode AS varchar) as InstCode,bb.InstName, REPLICATE('0',4-LEN(BranchCode))+CAST(BranchCode AS varchar) as BranchCode,bb.branch_name,
+ct.CityName from bankemail2,city ct ,bankbranch bb
+where bankemail2.CityID=ct.CityID and bb.InstID=BankEmail2.BankCode and bankemail2.BranchCode=bb.branchid and domain1 not like '%nift%' and domain2 not like '%nift%'
+and bb.isopen=1
+
+select distinct * from bankbranch where isopen=1 and InstID!=999
+isopen = 19092
+
+select distinct bankcode+'-'+BranchCode from bankemail2 
+total = 5743
+5028
+
+
+select InstName, REPLICATE('0',3-LEN(instid))+ CAST(instid AS varchar) as InstCode, branch_name as BranchName,REPLICATE('0',4-LEN(branchid))+CAST(branchid AS varchar) as BranchCode,
+ct.CityName
+from bankbranch ,City ct
+where bankbranch.cityid= ct.CityID
+and REPLICATE('0',3-LEN(instid))+ CAST(instid AS varchar)+'-'+ REPLICATE('0',4-LEN(branchid))++CAST(branchid AS varchar)
+ not in
+(select distinct bankcode+'-'+BranchCode from bankemail2)
+--and 
+--branchid  in 
+--(select distinct bankcode,BranchCode from bankemail2)
+and isopen=1 and InstID!=999
+
+find = 2159
+not found = 16933
+
+total = 21793
+isopen= 19081
+4849
+
+4156
+
+
+
+
+
+-----------------------------------------------------
+
+
+
+
+------------------------------
+select * from bankbranch
+where 
+--InstID not in
+--(select bk.InstID from bankemail2 b2, bankbranch bk
+--where bk.isopen =1
+--and b2.BankCode=bk.InstID
+--and b2.BranchCode=bk.branchid)
+--and 
+branchid not in
+(select bk.branchid from bankemail2 b2, bankbranch bk
+where bk.isopen =1
+and b2.BankCode=bk.InstID
+and b2.BranchCode=bk.branchid)
+
+
+
+select REPLICATE('0',3-LEN(instid))+ CAST(instid AS varchar), instid,branchid from bankbranch
+where 
+REPLICATE('0',3-LEN(instid))+ CAST(instid AS varchar) not in
+(select  REPLICATE('0',3-LEN(BankCode))+ CAST(BankCode AS varchar)as bankcode from bankemail2)
+and
+REPLICATE('0',4-LEN(branchid))+ CAST(branchid AS varchar) not in
+(select  REPLICATE('0',3-LEN(BranchCode))+ CAST(BranchCode AS varchar)as BranchCode from bankemail2)
+and isopen =1
+
+
+select * from bankemail2
+where REPLICATE('0',3-LEN(BankCode))+ CAST(BankCode AS varchar) not in
+(select REPLICATE('0',3-LEN(bk2.BankCode))+ CAST(bk2.BankCode AS varchar) from bankbranch bb,bankemail2 bk2
+where bb.InstID = bk2.BankCode
+and bb.branchid=bk2.BranchCode)
+and REPLICATE('0',3-LEN(BranchCode))+ CAST(BranchCode AS varchar) not in
+(select REPLICATE('0',3-LEN(bk2.BranchCode))+ CAST(bk2.BranchCode AS varchar)  from bankbranch bb,bankemail2 bk2
+where bb.InstID = bk2.BankCode
+and bb.branchid=bk2.BranchCode)
+
+select * from bankbranch bb,bankemail2 bk2
+where bb.InstID = bk2.BankCode
+--and bb.branchid=bk2.BranchCode
+and REPLICATE('0',3-LEN(bb.branchid))+ CAST(bb.branchid AS varchar)  = REPLICATE('0',3-LEN(bk2.BranchCode))+ CAST(bk2.BranchCode AS varchar)
+
+select distinct b2.email1+'@'+b2.Domain1,b2.email2+'@'+b2.Domain2, b2.BankCode,b2.BranchCode,bk.InstID,bk.branchid from bankemail2 b2, bankbranch bk
+where bk.isopen =1
+and b2.BankCode=bk.InstID
+and b2.BranchCode=bk.branchid
+
+select email1+'@'+domain1 as Email1, email2+'@'+domain2 as Email2 ,
+ REPLICATE('0',3-LEN(BankCode))+ CAST(BankCode AS varchar) as InstCode,bb.InstName, REPLICATE('0',4-LEN(BranchCode))+CAST(BranchCode AS varchar) as BranchCode,bb.branch_name,
+ct.CityName from bankemail2,city ct ,bankbranch bb
+where bankemail2.CityID=ct.CityID and bb.InstID=BankEmail2.BankCode and bankemail2.BranchCode=bb.branchid and domain1 not like '%nift%' and domain2 not like '%nift%'
+and bb.isopen=1
+
+select distinct * from bankbranch where isopen=1 and InstID!=999
+isopen = 19092
+
+select distinct bankcode+'-'+BranchCode from bankemail2 
+total = 5743
+5028
+
+
+select InstName, REPLICATE('0',3-LEN(instid))+ CAST(instid AS varchar) as InstCode, branch_name as BranchName,REPLICATE('0',4-LEN(branchid))+CAST(branchid AS varchar) as BranchCode,
+ct.CityName
+from bankbranch ,City ct
+where bankbranch.cityid= ct.CityID
+and REPLICATE('0',3-LEN(instid))+ CAST(instid AS varchar)+'-'+ REPLICATE('0',4-LEN(branchid))++CAST(branchid AS varchar)
+ not in
+(select distinct bankcode+'-'+BranchCode from bankemail2)
+--and 
+--branchid  in 
+--(select distinct bankcode,BranchCode from bankemail2)
+and isopen=1 and InstID!=999
+
+find = 2159
+not found = 16933
+
+total = 21793
+isopen= 19081
+4849
+
+4156
+
+select * from bankemail2 where BankCode=42 a
+
+
+select * from IBCSLogs
+order by logid desc

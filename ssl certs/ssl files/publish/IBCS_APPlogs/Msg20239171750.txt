@@ -1,0 +1,9 @@
+Time: 17/09/2023 05:50:11 PM
+Message: 1nift.cops@nift.pk999
+
+Time: 17/09/2023 05:50:11 PM
+Message: Success on Get User Details API
+
+Time: 17/09/2023 05:50:11 PM
+Message: Success on PassCred Code - UserID is : 1
+

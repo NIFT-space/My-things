@@ -1,0 +1,9 @@
+Time: 17/09/2023 06:23:31 PM
+Message: A column named 'hostID' already belongs to this DataTable.
+Source: System.Data.Common
+Stack:    at System.Data.DataColumnCollection.RegisterColumnName(String name, DataColumn column)
+   at System.Data.DataColumnCollection.BaseAdd(DataColumn column)
+   at System.Data.DataColumnCollection.AddAt(Int32 index, DataColumn column)
+   at System.Data.DataColumnCollection.Add(String columnName, Type type)
+   at IBCS_Core_Web_Portal.Pages.Marking.InwardmarkingModel.GetFiles(String DDL_Bank, String DDL_City, String DDL_Cycle, String DDL_Branch) in D:\Ali Raza\IBCS Core Web Portal\IBCS Core Web Portal\Pages\Marking\Inwardmarking.cshtml.cs:line 611
+

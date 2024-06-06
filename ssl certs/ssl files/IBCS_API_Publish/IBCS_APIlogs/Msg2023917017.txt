@@ -1,0 +1,45 @@
+Time: 17/09/2023 12:17:21 AM
+Message: Image ID is  :744805
+
+Time: 17/09/2023 12:17:21 AM
+Message: Image file details  :/home/H/Optima/Optimanew/Panini_20230915_210.bin - 604275969 - 46701
+
+Time: 17/09/2023 12:17:21 AM
+Message: Image to be opened
+
+Time: 17/09/2023 12:17:21 AM
+Message: Image : -- /home/H/Optima/Optimanew/Panini_20230915_210.bin
+
+Time: 17/09/2023 12:17:21 AM
+Message: Image opened successfully/home/H/Optima/Optimanew/Panini_20230915_210.bin
+
+Time: 17/09/2023 12:17:21 AM
+Message: Image ID is  :744805
+
+Time: 17/09/2023 12:17:21 AM
+Message: Image file details  :/home/H/Optima/Optimanew/Panini_20230915_210.bin - 604322670 - 27307
+
+Time: 17/09/2023 12:17:21 AM
+Message: Image to be opened
+
+Time: 17/09/2023 12:17:21 AM
+Message: Image : -- /home/H/Optima/Optimanew/Panini_20230915_210.bin
+
+Time: 17/09/2023 12:17:21 AM
+Message: Image opened successfully/home/H/Optima/Optimanew/Panini_20230915_210.bin
+
+Time: 17/09/2023 12:17:21 AM
+Message: Image ID is  :744805
+
+Time: 17/09/2023 12:17:21 AM
+Message: Image file details  :/home/H/Optima/Optimanew/Panini_20230915_210.bin - 604349977 - 37838
+
+Time: 17/09/2023 12:17:21 AM
+Message: Image to be opened
+
+Time: 17/09/2023 12:17:21 AM
+Message: Image : -- /home/H/Optima/Optimanew/Panini_20230915_210.bin
+
+Time: 17/09/2023 12:17:21 AM
+Message: Image opened successfully/home/H/Optima/Optimanew/Panini_20230915_210.bin
+

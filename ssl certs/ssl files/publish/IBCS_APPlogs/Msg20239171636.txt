@@ -1,0 +1,27 @@
+Time: 17/09/2023 04:36:19 PM
+Message: CERT KEY - 1E8941E5E6AF69B0BB51EF255E84BA0A2F78D6F5
+
+Time: 17/09/2023 04:36:19 PM
+Message: Certt Subj - C=PK,L=10,O=National Institutional Facilitation Technologies Pvt Ltd,OU=Operations,OU=Terms of use at www.niftetrust.com/rpa (c)14,OU=Branch ID - 0001,OU=Bank ID - 062,CN=Muhammad Ali Tayyab,emailAddress=ali.tayyab@mcb.com.pk
+
+Time: 17/09/2023 04:36:19 PM
+Message: Success on Dongle Code
+
+Time: 17/09/2023 04:36:34 PM
+Message: 26894ali.tayyab@mcb.com.pk62
+
+Time: 17/09/2023 04:36:34 PM
+Message: Success on Get User Details API
+
+Time: 17/09/2023 04:36:34 PM
+Message: Success on PassCred Code - UserID is : 26894
+
+Time: 17/09/2023 04:36:42 PM
+Message: 26894ali.tayyab@mcb.com.pk62
+
+Time: 17/09/2023 04:36:42 PM
+Message: Success on Get User Details API
+
+Time: 17/09/2023 04:36:42 PM
+Message: Success on PassCred Code - UserID is : 26894
+

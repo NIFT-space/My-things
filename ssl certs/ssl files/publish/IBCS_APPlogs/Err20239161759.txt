@@ -1,0 +1,128 @@
+Time: 16/09/2023 05:59:27 PM
+Message: A column named 'InstId' already belongs to this DataTable.
+Source: System.Data.Common
+Stack:    at System.Data.DataColumnCollection.RegisterColumnName(String name, DataColumn column)
+   at System.Data.DataColumnCollection.BaseAdd(DataColumn column)
+   at System.Data.DataColumnCollection.AddAt(Int32 index, DataColumn column)
+   at IBCS_Core_Web_Portal.Pages.IBCSHomeModel.GetCount_Img(String cycno) in D:\Ali Raza\IBCS Core Web Portal\IBCS Core Web Portal\Pages\IBCSHome.cshtml.cs:line 402
+
+Time: 16/09/2023 05:59:28 PM
+Message: A column named 'InstId' already belongs to this DataTable.
+Source: System.Data.Common
+Stack:    at System.Data.DataColumnCollection.RegisterColumnName(String name, DataColumn column)
+   at System.Data.DataColumnCollection.BaseAdd(DataColumn column)
+   at System.Data.DataColumnCollection.AddAt(Int32 index, DataColumn column)
+   at IBCS_Core_Web_Portal.Pages.IBCSHomeModel.GetCount_Img(String cycno) in D:\Ali Raza\IBCS Core Web Portal\IBCS Core Web Portal\Pages\IBCSHome.cshtml.cs:line 402
+
+Time: 16/09/2023 05:59:29 PM
+Message: A column named 'InstId' already belongs to this DataTable.
+Source: System.Data.Common
+Stack:    at System.Data.DataColumnCollection.RegisterColumnName(String name, DataColumn column)
+   at System.Data.DataColumnCollection.BaseAdd(DataColumn column)
+   at System.Data.DataColumnCollection.AddAt(Int32 index, DataColumn column)
+   at IBCS_Core_Web_Portal.Pages.IBCSHomeModel.GetCount_Img(String cycno) in D:\Ali Raza\IBCS Core Web Portal\IBCS Core Web Portal\Pages\IBCSHome.cshtml.cs:line 402
+
+Time: 16/09/2023 05:59:31 PM
+Message: A column named 'InstId' already belongs to this DataTable.
+Source: System.Data.Common
+Stack:    at System.Data.DataColumnCollection.RegisterColumnName(String name, DataColumn column)
+   at System.Data.DataColumnCollection.BaseAdd(DataColumn column)
+   at System.Data.DataColumnCollection.AddAt(Int32 index, DataColumn column)
+   at IBCS_Core_Web_Portal.Pages.IBCSHomeModel.GetCount_Img(String cycno) in D:\Ali Raza\IBCS Core Web Portal\IBCS Core Web Portal\Pages\IBCSHome.cshtml.cs:line 402
+
+Time: 16/09/2023 05:59:32 PM
+Message: A column named 'InstId' already belongs to this DataTable.
+Source: System.Data.Common
+Stack:    at System.Data.DataColumnCollection.RegisterColumnName(String name, DataColumn column)
+   at System.Data.DataColumnCollection.BaseAdd(DataColumn column)
+   at System.Data.DataColumnCollection.AddAt(Int32 index, DataColumn column)
+   at IBCS_Core_Web_Portal.Pages.IBCSHomeModel.GetCount_Img(String cycno) in D:\Ali Raza\IBCS Core Web Portal\IBCS Core Web Portal\Pages\IBCSHome.cshtml.cs:line 402
+
+Time: 16/09/2023 05:59:33 PM
+Message: A column named 'InstId' already belongs to this DataTable.
+Source: System.Data.Common
+Stack:    at System.Data.DataColumnCollection.RegisterColumnName(String name, DataColumn column)
+   at System.Data.DataColumnCollection.BaseAdd(DataColumn column)
+   at System.Data.DataColumnCollection.AddAt(Int32 index, DataColumn column)
+   at IBCS_Core_Web_Portal.Pages.IBCSHomeModel.GetCount_Img(String cycno) in D:\Ali Raza\IBCS Core Web Portal\IBCS Core Web Portal\Pages\IBCSHome.cshtml.cs:line 402
+
+Time: 16/09/2023 05:59:35 PM
+Message: A column named 'InstId' already belongs to this DataTable.
+Source: System.Data.Common
+Stack:    at System.Data.DataColumnCollection.RegisterColumnName(String name, DataColumn column)
+   at System.Data.DataColumnCollection.BaseAdd(DataColumn column)
+   at System.Data.DataColumnCollection.AddAt(Int32 index, DataColumn column)
+   at IBCS_Core_Web_Portal.Pages.IBCSHomeModel.GetCount_Img(String cycno) in D:\Ali Raza\IBCS Core Web Portal\IBCS Core Web Portal\Pages\IBCSHome.cshtml.cs:line 402
+
+Time: 16/09/2023 05:59:36 PM
+Message: A column named 'InstId' already belongs to this DataTable.
+Source: System.Data.Common
+Stack:    at System.Data.DataColumnCollection.RegisterColumnName(String name, DataColumn column)
+   at System.Data.DataColumnCollection.BaseAdd(DataColumn column)
+   at System.Data.DataColumnCollection.AddAt(Int32 index, DataColumn column)
+   at IBCS_Core_Web_Portal.Pages.IBCSHomeModel.GetCount_Img(String cycno) in D:\Ali Raza\IBCS Core Web Portal\IBCS Core Web Portal\Pages\IBCSHome.cshtml.cs:line 402
+
+Time: 16/09/2023 05:59:37 PM
+Message: A column named 'InstId' already belongs to this DataTable.
+Source: System.Data.Common
+Stack:    at System.Data.DataColumnCollection.RegisterColumnName(String name, DataColumn column)
+   at System.Data.DataColumnCollection.BaseAdd(DataColumn column)
+   at System.Data.DataColumnCollection.AddAt(Int32 index, DataColumn column)
+   at IBCS_Core_Web_Portal.Pages.IBCSHomeModel.GetCount_Rep(String cycno) in D:\Ali Raza\IBCS Core Web Portal\IBCS Core Web Portal\Pages\IBCSHome.cshtml.cs:line 473
+
+Time: 16/09/2023 05:59:38 PM
+Message: A column named 'InstId' already belongs to this DataTable.
+Source: System.Data.Common
+Stack:    at System.Data.DataColumnCollection.RegisterColumnName(String name, DataColumn column)
+   at System.Data.DataColumnCollection.BaseAdd(DataColumn column)
+   at System.Data.DataColumnCollection.AddAt(Int32 index, DataColumn column)
+   at IBCS_Core_Web_Portal.Pages.IBCSHomeModel.GetCount_Rep(String cycno) in D:\Ali Raza\IBCS Core Web Portal\IBCS Core Web Portal\Pages\IBCSHome.cshtml.cs:line 473
+
+Time: 16/09/2023 05:59:39 PM
+Message: A column named 'InstId' already belongs to this DataTable.
+Source: System.Data.Common
+Stack:    at System.Data.DataColumnCollection.RegisterColumnName(String name, DataColumn column)
+   at System.Data.DataColumnCollection.BaseAdd(DataColumn column)
+   at System.Data.DataColumnCollection.AddAt(Int32 index, DataColumn column)
+   at IBCS_Core_Web_Portal.Pages.IBCSHomeModel.GetCount_Rep(String cycno) in D:\Ali Raza\IBCS Core Web Portal\IBCS Core Web Portal\Pages\IBCSHome.cshtml.cs:line 473
+
+Time: 16/09/2023 05:59:41 PM
+Message: A column named 'InstId' already belongs to this DataTable.
+Source: System.Data.Common
+Stack:    at System.Data.DataColumnCollection.RegisterColumnName(String name, DataColumn column)
+   at System.Data.DataColumnCollection.BaseAdd(DataColumn column)
+   at System.Data.DataColumnCollection.AddAt(Int32 index, DataColumn column)
+   at IBCS_Core_Web_Portal.Pages.IBCSHomeModel.GetCount_Rep(String cycno) in D:\Ali Raza\IBCS Core Web Portal\IBCS Core Web Portal\Pages\IBCSHome.cshtml.cs:line 473
+
+Time: 16/09/2023 05:59:42 PM
+Message: A column named 'InstId' already belongs to this DataTable.
+Source: System.Data.Common
+Stack:    at System.Data.DataColumnCollection.RegisterColumnName(String name, DataColumn column)
+   at System.Data.DataColumnCollection.BaseAdd(DataColumn column)
+   at System.Data.DataColumnCollection.AddAt(Int32 index, DataColumn column)
+   at IBCS_Core_Web_Portal.Pages.IBCSHomeModel.GetCount_Rep(String cycno) in D:\Ali Raza\IBCS Core Web Portal\IBCS Core Web Portal\Pages\IBCSHome.cshtml.cs:line 473
+
+Time: 16/09/2023 05:59:43 PM
+Message: A column named 'InstId' already belongs to this DataTable.
+Source: System.Data.Common
+Stack:    at System.Data.DataColumnCollection.RegisterColumnName(String name, DataColumn column)
+   at System.Data.DataColumnCollection.BaseAdd(DataColumn column)
+   at System.Data.DataColumnCollection.AddAt(Int32 index, DataColumn column)
+   at IBCS_Core_Web_Portal.Pages.IBCSHomeModel.GetCount_Rep(String cycno) in D:\Ali Raza\IBCS Core Web Portal\IBCS Core Web Portal\Pages\IBCSHome.cshtml.cs:line 473
+
+Time: 16/09/2023 05:59:45 PM
+Message: A column named 'InstId' already belongs to this DataTable.
+Source: System.Data.Common
+Stack:    at System.Data.DataColumnCollection.RegisterColumnName(String name, DataColumn column)
+   at System.Data.DataColumnCollection.BaseAdd(DataColumn column)
+   at System.Data.DataColumnCollection.AddAt(Int32 index, DataColumn column)
+   at IBCS_Core_Web_Portal.Pages.IBCSHomeModel.GetCount_Rep(String cycno) in D:\Ali Raza\IBCS Core Web Portal\IBCS Core Web Portal\Pages\IBCSHome.cshtml.cs:line 473
+
+Time: 16/09/2023 05:59:46 PM
+Message: A column named 'InstId' already belongs to this DataTable.
+Source: System.Data.Common
+Stack:    at System.Data.DataColumnCollection.RegisterColumnName(String name, DataColumn column)
+   at System.Data.DataColumnCollection.BaseAdd(DataColumn column)
+   at System.Data.DataColumnCollection.AddAt(Int32 index, DataColumn column)
+   at IBCS_Core_Web_Portal.Pages.IBCSHomeModel.GetCount_Rep(String cycno) in D:\Ali Raza\IBCS Core Web Portal\IBCS Core Web Portal\Pages\IBCSHome.cshtml.cs:line 473
+

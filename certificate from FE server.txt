@@ -1,0 +1,18 @@
+Certt Subj - C=PK,L=10,O=National Institutional Facilitation Technologies Pvt Ltd, OU=Operations, OU=Terms of use at www.niftetrust.com/rpa (c)14,OU=Branch ID - 0001,OU=Bank ID - 062,CN=Yawer Aijaz,emailAddress=yawer.aijaz@mcb.com.pk
+
+
+$("#UnderInstrument").text(underSizeImage);
+$("#FdCorners").text(folderOrTornDocumentCorners);
+$("#FdEdges").text(foldedOrTornDocumentEdges);
+$("#FramingError").text(framingError);
+$("#DocumentSkew").text(documentSkew);
+$("#OSInstrument").text(overSizeImage);
+$("#PiggyBack").text(piggyBack);
+$("#ImageTooLight").text(imageTooLight);
+$("#ImageTooDark").text(imageTooDark);
+$("#HorizontalStreaks").text(horizontalStreaks);
+$("#BMCISize").text(belowMinimumCompressedImageSize);
+$("#AMCISize").text(aboveMaximumCompressedImageSize);
+$("#FRDMismatch").text(frontRearDimensionMismatch);
+$("#CarbonStrip").text(carbonStrip);
+$("#OutofFocus").text(outOfFocus);

@@ -1,0 +1,36 @@
+Time: 17/09/2023 02:11:36 PM
+Message: CERT KEY - 60C1F960D6BB22359345581102CB165AB5DF3C25
+
+Time: 17/09/2023 02:11:36 PM
+Message: Certt Subj - C=PK,L=10,O=National Institutional Facilitation Technologies Pvt Ltd,OU=Operations,OU=Terms of use at www.niftetrust.com/rpa (c)14,OU=Branch ID - 0999,OU=Bank ID - 999,CN=Nift Cops,emailAddress=nift.cops@nift.pk
+
+Time: 17/09/2023 02:11:36 PM
+Message: Success on Dongle Code
+
+Time: 17/09/2023 02:11:36 PM
+Message: CERT KEY - 60C1F960D6BB22359345581102CB165AB5DF3C25
+
+Time: 17/09/2023 02:11:36 PM
+Message: Certt Subj - C=PK,L=10,O=National Institutional Facilitation Technologies Pvt Ltd,OU=Operations,OU=Terms of use at www.niftetrust.com/rpa (c)14,OU=Branch ID - 0999,OU=Bank ID - 999,CN=Nift Cops,emailAddress=nift.cops@nift.pk
+
+Time: 17/09/2023 02:11:36 PM
+Message: Success on Dongle Code
+
+Time: 17/09/2023 02:11:46 PM
+Message: 26894ali.tayyab@mcb.com.pk62
+
+Time: 17/09/2023 02:11:46 PM
+Message: Success on Get User Details API
+
+Time: 17/09/2023 02:11:46 PM
+Message: Failed on Dongle bank Code- dong_BankCode999 - udv instID: 62
+
+Time: 17/09/2023 02:11:55 PM
+Message: 26894ali.tayyab@mcb.com.pk62
+
+Time: 17/09/2023 02:11:55 PM
+Message: Success on Get User Details API
+
+Time: 17/09/2023 02:11:55 PM
+Message: Failed on Dongle bank Code- dong_BankCode999 - udv instID: 62
+

@@ -1,0 +1,9 @@
+Time: 18/09/2023 04:59:48 PM
+Message: CERT KEY - 1134DE2F34684E4A868FD8E6602E341BAF056FA5
+
+Time: 18/09/2023 04:59:48 PM
+Message: Certt Subj - C=PK,L=10,O=National Institutional Facilitation Technologies Pvt Ltd,OU=Operations,OU=Terms of use at www.niftetrust.com/rpa (c)14,OU=Branch ID - 0001,OU=Bank ID - 062,CN=Yawer Aijaz,emailAddress=yawer.aijaz@mcb.com.pk
+
+Time: 18/09/2023 04:59:48 PM
+Message: Success on Dongle Code
+

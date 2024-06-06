@@ -1,0 +1,18 @@
+Time: 17/09/2023 02:08:02 PM
+Message: 26894ali.tayyab@mcb.com.pk62
+
+Time: 17/09/2023 02:08:02 PM
+Message: Success on Get User Details API
+
+Time: 17/09/2023 02:08:02 PM
+Message: Failed on Dongle bank Code- dong_BankCode999 - udv instID: 62
+
+Time: 17/09/2023 02:08:11 PM
+Message: 26894ali.tayyab@mcb.com.pk62
+
+Time: 17/09/2023 02:08:11 PM
+Message: Success on Get User Details API
+
+Time: 17/09/2023 02:08:11 PM
+Message: Failed on Dongle bank Code- dong_BankCode999 - udv instID: 62
+

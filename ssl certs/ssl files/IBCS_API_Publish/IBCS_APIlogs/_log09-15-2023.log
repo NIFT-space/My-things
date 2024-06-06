@@ -1,0 +1,4 @@
+09/15/2023 11:10:54 :|Exception in getUserLoggedIn :: : error Exception : System.IndexOutOfRangeException: There is no row at position 0.
+   at System.Data.RBTree`1.GetNodeByIndex(Int32 userIndex)
+   at System.Data.DataRowCollection.get_Item(Int32 index)
+   at IBCS_API.DAL.DBFactoryAdmin.getUserLoggedIn(String req) in D:\Ali Raza\Marium\IBCS\IBCS portal 28062023\IBCS Portal\IBCS_API\IBCS_API\DAL\DBFactoryAdmin.cs:line 70

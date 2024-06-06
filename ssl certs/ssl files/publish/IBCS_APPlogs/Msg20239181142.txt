@@ -1,0 +1,72 @@
+Time: 18/09/2023 11:42:07 AM
+Message: CERT KEY - 1134DE2F34684E4A868FD8E6602E341BAF056FA5
+
+Time: 18/09/2023 11:42:07 AM
+Message: Certt Subj - C=PK,L=10,O=National Institutional Facilitation Technologies Pvt Ltd,OU=Operations,OU=Terms of use at www.niftetrust.com/rpa (c)14,OU=Branch ID - 0001,OU=Bank ID - 062,CN=Yawer Aijaz,emailAddress=yawer.aijaz@mcb.com.pk
+
+Time: 18/09/2023 11:42:07 AM
+Message: Success on Dongle Code
+
+Time: 18/09/2023 11:42:09 AM
+Message: CERT KEY - 60C1F960D6BB22359345581102CB165AB5DF3C25
+
+Time: 18/09/2023 11:42:09 AM
+Message: Certt Subj - C=PK,L=10,O=National Institutional Facilitation Technologies Pvt Ltd,OU=Operations,OU=Terms of use at www.niftetrust.com/rpa (c)14,OU=Branch ID - 0999,OU=Bank ID - 999,CN=Nift Cops,emailAddress=nift.cops@nift.pk
+
+Time: 18/09/2023 11:42:09 AM
+Message: Success on Dongle Code
+
+Time: 18/09/2023 11:42:12 AM
+Message: CERT KEY - 60C1F960D6BB22359345581102CB165AB5DF3C25
+
+Time: 18/09/2023 11:42:12 AM
+Message: Certt Subj - C=PK,L=10,O=National Institutional Facilitation Technologies Pvt Ltd,OU=Operations,OU=Terms of use at www.niftetrust.com/rpa (c)14,OU=Branch ID - 0999,OU=Bank ID - 999,CN=Nift Cops,emailAddress=nift.cops@nift.pk
+
+Time: 18/09/2023 11:42:12 AM
+Message: Success on Dongle Code
+
+Time: 18/09/2023 11:42:13 AM
+Message: CERT KEY - 60C1F960D6BB22359345581102CB165AB5DF3C25
+
+Time: 18/09/2023 11:42:13 AM
+Message: Certt Subj - C=PK,L=10,O=National Institutional Facilitation Technologies Pvt Ltd,OU=Operations,OU=Terms of use at www.niftetrust.com/rpa (c)14,OU=Branch ID - 0999,OU=Bank ID - 999,CN=Nift Cops,emailAddress=nift.cops@nift.pk
+
+Time: 18/09/2023 11:42:13 AM
+Message: Success on Dongle Code
+
+Time: 18/09/2023 11:42:14 AM
+Message: CERT KEY - 60C1F960D6BB22359345581102CB165AB5DF3C25
+
+Time: 18/09/2023 11:42:14 AM
+Message: Certt Subj - C=PK,L=10,O=National Institutional Facilitation Technologies Pvt Ltd,OU=Operations,OU=Terms of use at www.niftetrust.com/rpa (c)14,OU=Branch ID - 0999,OU=Bank ID - 999,CN=Nift Cops,emailAddress=nift.cops@nift.pk
+
+Time: 18/09/2023 11:42:14 AM
+Message: Success on Dongle Code
+
+Time: 18/09/2023 11:42:14 AM
+Message: CERT KEY - 60C1F960D6BB22359345581102CB165AB5DF3C25
+
+Time: 18/09/2023 11:42:14 AM
+Message: Certt Subj - C=PK,L=10,O=National Institutional Facilitation Technologies Pvt Ltd,OU=Operations,OU=Terms of use at www.niftetrust.com/rpa (c)14,OU=Branch ID - 0999,OU=Bank ID - 999,CN=Nift Cops,emailAddress=nift.cops@nift.pk
+
+Time: 18/09/2023 11:42:14 AM
+Message: Success on Dongle Code
+
+Time: 18/09/2023 11:42:15 AM
+Message: CERT KEY - 60C1F960D6BB22359345581102CB165AB5DF3C25
+
+Time: 18/09/2023 11:42:15 AM
+Message: Certt Subj - C=PK,L=10,O=National Institutional Facilitation Technologies Pvt Ltd,OU=Operations,OU=Terms of use at www.niftetrust.com/rpa (c)14,OU=Branch ID - 0999,OU=Bank ID - 999,CN=Nift Cops,emailAddress=nift.cops@nift.pk
+
+Time: 18/09/2023 11:42:15 AM
+Message: Success on Dongle Code
+
+Time: 18/09/2023 11:42:38 AM
+Message: CERT KEY - 60C1F960D6BB22359345581102CB165AB5DF3C25
+
+Time: 18/09/2023 11:42:38 AM
+Message: Certt Subj - C=PK,L=10,O=National Institutional Facilitation Technologies Pvt Ltd,OU=Operations,OU=Terms of use at www.niftetrust.com/rpa (c)14,OU=Branch ID - 0999,OU=Bank ID - 999,CN=Nift Cops,emailAddress=nift.cops@nift.pk
+
+Time: 18/09/2023 11:42:38 AM
+Message: Success on Dongle Code
+
